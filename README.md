@@ -22,10 +22,10 @@ Conteúdo do módulo:
 - `function chapters(): string[]` &mdash; obtém códigos do capítulos da CIF;
 - `function groups(): string[]` &mdash; obtém códigos dos agrupamentos da CIF;
 
-- `function categories(): string[]` &mdash; obtém códigos das categirias da CIF
+- `function categories(): string[]` &mdash; obtém códigos das categorias da CIF
   que possuem subcategorias;
 
-- `function subcategories(): string[]` &mdash; obtém códigos das categirias da
+- `function subcategories(): string[]` &mdash; obtém códigos das categorias da
   CIF que não possuem subcategorias; e
 
 - `function codes(): { [code: string]: { title: string, ...} }` &mdash; obtém o
