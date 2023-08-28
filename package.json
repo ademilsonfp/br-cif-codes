@@ -1,6 +1,6 @@
 {
   "name": "br-cif-codes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Códigos da CIF (OMS) em formato reutilizável (YAML)",
   "author": "BR-CIF-Codes contributors",
   "license": "LGPL-3.0-or-later",
