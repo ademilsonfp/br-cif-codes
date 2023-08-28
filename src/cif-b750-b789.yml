@@ -1,0 +1,266 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+b750:
+  title: Funções relacionadas ao reflexo motor
+
+  description: >
+    Funções de contração involuntária dos músculos induzida automaticamente por
+    estímulos específicos.
+
+  includes: >
+    Inclui: funções relacionadas ao reflexo motor de extensão, reflexo
+    automático de articulação local, reflexos gerados por estímulos nocivos e
+    outros estímulos exteroceptivos; reflexo de retirada, reflexo bicipital,
+    reflexo radial, reflexo do quadríceps, reflexo patelar, reflexo do
+    tornozelo.
+
+  groups:
+    b7500:
+      title: Reflexo de extensão motora
+
+      description: >
+        Funções de contrações involuntárias dos músculos automaticamente
+        induzidas pelo estiramento.
+
+    b7501:
+      title: Reflexos gerados por estímulos nocivos
+
+      description: >
+        Funções de contrações involuntárias dos músculos automaticamente
+        induzidas por estímulos dolorosos ou outros nocivos.
+
+      includes: >
+        Inclui: reflexo de retirada.
+
+    b7502:
+      title: Reflexos gerados por outros estímulos exteroceptivos
+
+      description: >
+        Funções de contrações involuntárias dos músculos automaticamente
+        induzidas por estímulos externos que não estímulos nocivos.
+
+    b7508:
+      title: Funções relacionadas ao reflexo motor, outras especificadas
+
+    b7509:
+      title: Funções relacionadas ao reflexo motor, não especificadas
+
+b755:
+  title: Funções relacionadas aos reflexos de movimentos involuntários
+
+  description: >
+    Funções de contrações involuntárias de grandes músculos ou de todo o corpo
+    induzidas pela posição do corpo, equilíbrio e estímulos ameaçadores.
+
+  includes: >
+    Inclui: funções de reações posturais, reação de endireitar o corpo, reações
+    de adaptação do corpo, reações de equilíbrio, reações de apoio, reações de
+    defesa.
+
+  excludes: >
+    Exclui: funções relacionadas ao reflexo motor (b750).
+
+b760:
+  title: Funções relacionadas ao controle dos movimentos voluntários
+
+  description: >
+    Funções associadas ao controle sobre os movimentos voluntários e à
+    coordenação dos mesmos.
+
+  includes: >
+    Inclui: funções de controle de movimentos voluntários simples e de
+    movimentos voluntários complexos, coordenação de movimentos voluntários,
+    funções de apoio de braço ou perna, coordenação motora direita-esquerda,
+    coordenação olho-mão, coordenação olho-pé; deficiências como problemas de
+    controle e coordenação, e.g., disdiadococinesia.
+
+  excludes: >
+    Exclui: funções relacionadas à força muscular (b730); funções relacionadas aos movimentos involuntários (b765); funções relacionadas ao padrão da marcha (b770).
+
+  groups:
+    b7600:
+      title: Controle de movimentos voluntários simples
+
+      description: >
+        Funções associadas ao controle e à coordenação dos movimentos
+        voluntários simples ou isolados.
+
+    b7601:
+      title: Controle dos movimentos voluntários complexos
+
+      description: >
+        Funções associadas ao controle e à coordenação dos movimentos
+        voluntários complexos.
+
+    b7602:
+      title: Coordenação dos movimentos voluntários
+
+      description: >
+        Funções associadas à coordenação dos movimentos voluntários simples e
+        complexos, realizando movimentos em uma seqüência ordenada.
+
+      includes: >
+        Inclui: coordenação direita-esquerda, coordenação de movimentos
+        dirigidos visualmente, como coordenação olho-mão e coordenação olho-pé;
+        deficiências como disdiadococinesia.
+
+    b7603:
+      title: Funções de apoio do braço ou perna
+
+      description: >
+        Funções associadas ao controle e coordenação dos movimentos voluntários
+        quando se colocam pesos sobre os braços (cotovelos ou mãos) ou sobre as
+        pernas (joelhos ou pés).
+
+    b7608:
+      title: Funções relacionadas ao controle dos movimentos voluntários, outras
+             especificadas
+
+    b7609:
+      title: Funções relacionadas ao controle dos movimentos voluntários, não
+             especificadas
+
+b765:
+  title: Funções relacionadas aos movimentos involuntários
+
+  description: >
+    Funções de contrações involuntárias, não ou semi-intencionais de um músculo
+    ou grupo de músculos.
+
+  includes: >
+    Inclui: contrações involuntárias dos músculos; deficiências como tremores,
+    tiques, maneirismos, estereótipos, perseveração motora, coréia, atetose,
+    tiques vocais, movimentos distônicos e discinesia.
+
+  excludes: >
+    Exclui: funções relacionadas ao controle dos movimentos voluntários (b760);
+    funções relacionadas ao padrão da marcha (b770).
+
+  groups:
+    b7650:
+      title: Contração involuntária dos músculos
+
+      description: >
+        Funções de contração involuntária, não ou semi-intencional de um músculo
+        ou grupo de músculos, como aqueles envolvidos em parte de uma disfunção
+        psicológica.
+
+      includes: >
+        Inclui: deficiências como movimentos coreicos e atetósicos; desordens de
+        movimento relacionado ao sono.
+
+    b7651:
+      title: Tremor
+
+      description: >
+        Funções de alternância de contração e relaxamento de um grupo de
+        músculos em torno de uma articulação, resultando em agitação.
+
+    b7652:
+      title: Tiques e maneirismos
+
+      description: >
+        Funções de contrações repetitivas, quase intencionais e involuntárias de
+        um grupo de músculos.
+
+      includes: >
+        Inclui: deficiências como tiques vocais, coprolalia e bruxismo.
+
+    b7653:
+      title: Estereótipos e perseverância motora
+
+      description: >
+        Funções de movimentos espontâneos, não intencionais como balançar
+        repetitivamente para frente e para trás e inclinar ou sacudir a cabeça.
+
+    b7658:
+      title: Funções relacionadas aos movimentos involuntários, outras
+             especificadas
+
+    b7659:
+      title: Funções relacionadas aos movimentos involuntários, não
+             especificadas
+
+b770:
+  title: Funções relacionadas ao padrão da marcha
+
+  description: >
+    Funções relacionadas aos padrões de movimento como andar, correr ou outros
+    movimentos do corpo inteiro.
+
+  includes: >
+    Inclui: padrões para andar e correr; deficiências como marcha espástica,
+    marcha hemiplégica, marcha paraplégica, marcha assimétrica, claudicação e
+    padrão de marcha rígida.
+
+  excludes: >
+    Exclui: funções relacionadas à força muscular (b730); funções relacionadas
+    ao tônus muscular (b735); funções relacionadas ao controle dos movimentos
+    voluntários (b760); funções relacionadas aos movimentos involuntários
+    (b765).
+
+b780:
+  title: Sensações relacionadas aos músculos e funções de movimento
+
+  description: >
+    Sensações associadas aos músculos ou grupos de músculos do corpo e seu
+    movimento.
+
+  includes: >
+    Inclui: sensações de rigidez e tensão dos músculos, espasmo ou contratura
+    muscular e peso dos músculos.
+
+  excludes: >
+    Exclui: sensação de dor (b280).
+
+  groups:
+    b7800:
+      title: Sensação de rigidez muscular
+
+      description: >
+        Sensação de tensão ou rigidez muscular.
+
+    b7801:
+      title: Sensação de espasmo muscular
+
+      description: >
+        Sensação de contração involuntária de um músculo ou grupo de músculos.
+
+    b7808:
+      title: Sensações relacionadas aos músculos e funções de movimento, outras
+             especificadas
+
+    b7809:
+      title: Sensações relacionadas aos músculos e funções de movimento, não
+             especificadas
+
+b789:
+  title: Funções do movimento, outras especificadas e não especificadas

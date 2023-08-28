@@ -1,0 +1,7 @@
+
+/node_modules
+/lib
+/docs
+/package-lock.json
+/*.tgz
+/ts/index.ts

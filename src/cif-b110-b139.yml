@@ -1,0 +1,375 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+b110:
+  title: Funções da consciência
+
+  description: >
+    Funções mentais gerais do estado de alerta e de consciência, incluindo a
+    clareza e continuidade do estado de vigília.
+
+  includes: >
+    Inclui: funções do estado, continuidade e qualidade da consciência, perda de
+    consciência, coma, estados vegetativos, fugas, estados de transe, estados de
+    possessão, alteração da consciência induzida por medicamentos, delírio,
+    estupor.
+
+  excludes: >
+    Exclui: funções da orientação (b114), funções da energia e de impulsos
+    (b130), funções do sono (b134).
+
+  groups:
+    b1100:
+      title: Nível de consciência
+
+      description: >
+        Funções mentais que, quando alteradas, produzem estados como obnubilação
+        mental, estupor ou coma.
+
+    b1101:
+      title: Continuidade da consciência
+
+      description: >
+        Funções mentais que produzem um estado contínuo de vigília, e que quando
+        alterado, pode produzir fuga, transe ou outros estados similares.
+
+    b1102:
+      title: Qualidade da consciência
+
+      description: >
+        Funções mentais que, quando se alteram, produzem mudanças no estado da
+        vigília, de alerta e do sentido da consciência, como estados de
+        alteração da consciência induzidos por medicamentos ou delírio.
+
+    b1108:
+      title: Funções da consciência, outras especificadas
+
+    b1109:
+      title: Funções da consciência, não especificadas
+
+b114:
+  title: Funções da orientação
+
+  description: >
+    Funções mentais gerais relacionadas ao conhecimento e determinação da
+    relação da pessoa consigo própria, com outras pessoas, com o tempo e com o
+    ambiente.
+
+  includes: >
+    Inclui: funções da orientação em relação ao tempo, lugar e pessoa,
+    orientação em relação a si próprio e aos outros; desorientação em relação a
+    tempo, lugar e pessoa.
+
+  excludes: >
+    Exclui: funções da consciência (b110), funções da atenção (b140), funções da
+    memória (b144).
+
+  groups:
+    b1140:
+      title: Orientação em relação ao tempo
+
+      description: >
+        Funções mentais que produzem consciência do dia, data, mês e ano.
+
+    b1141:
+      title: Orientação em relação ao lugar
+
+      description: >
+        Funções mentais que produzem consciência da localização da pessoa, em
+        relação ao ambiente imediato, à sua cidade ou ao país.
+
+    b1142:
+      title: Orientação em relação à pessoa
+
+      description: >
+        Funções mentais que produzem consciência da própria identidade e da dos
+        indivíduos no seu ambiente imediato.
+
+      groups:
+        b11420:
+          title: Orientação em relação a si próprio
+
+          description: >
+            Funções mentais que implicam na consciência da própria identidade.
+
+        b11421:
+          title: Orientação em relação a outros
+
+          description: >
+            Funções mentais que produzem consciência da identidade dos outros
+            indivíduos no ambiente imediato da pessoa.
+
+        b11428:
+          title: Orientação em relação à pessoa, outra especificada
+
+        b11429:
+          title: Orientação em relação à pessoa, não especificada
+
+    b1148:
+      title: Funções da orientação, outras especificadas
+
+    b1149:
+      title: Funções da orientação, não especificadas
+
+b117:
+  title: Funções intelectuais
+
+  description: >
+    Funções mentais gerais, necessárias para compreender e integrar de forma
+    construtiva as diferentes funções mentais, incluindo todas as funções
+    cognitivas e seu desenvolvimento ao longo da vida.
+
+  includes: >
+    Inclui: funções de desenvolvimento intelectual, retardo intelectual, retardo
+    mental, demência.
+
+  excludes: >
+    Exclui: funções da memória (b144), funções do pensamento (b160), funções
+    cognitivas superiores (b164).
+
+b122:
+  title: Funções psicossociais globais
+
+  description: >
+    Funções mentais gerais, como elas se desenvolvem ao longo da vida,
+    necessárias para compreender e integrar construtivamente as funções mentais
+    que levam à formação das habilidades interpessoais necessárias para o
+    estabelecimento de interações sociais recíprocas, tanto em termos de
+    significado como de objetivo.
+
+  includes: >
+    Inclui: autismo.
+
+b126:
+  title: Funções do temperamento e da personalidade
+
+  description: >
+    Funções mentais gerais relacionadas com um temperamento que faz o indivíduo
+    reagir de uma determinada maneira a situações, incluindo o conjunto de
+    características mentais que diferenciam esse indivíduo das outras pessoas.
+
+  includes: >
+    Inclui: funções de extroversão, introversão, amabilidade, responsabilidade,
+    estabilidade psíquica e emocional, capacidade de abrir-se para experiências;
+    otimismo; busca de experiências novas; segurança; confiabilidade.
+
+  excludes: >
+    Exclui: funções intelectuais (b117); funções da energia e de impulsos
+    (b130); funções psicomotoras (b147); funções emocionais (b152).
+
+  groups:
+    b1260:
+      title: Extroversão
+
+      description: >
+        Funções mentais que produzem um temperamento expansivo, sociável e
+        expressivo, em contraste com temperamento tímido, reservado e inibido.
+
+    b1261:
+      title: Amabilidade
+
+      description: >
+        Funções mentais que produzem um temperamento cooperante, amigável e
+        prestimoso, em contraste com temperamento pouco amigável, negativista e
+        desafiador.
+
+    b1262:
+      title: Responsabilidade
+
+      description: >
+        Funções mentais que produzem um temperamento trabalhador, metódico e
+        escrupuloso, em contraste com temperamento preguiçoso, não confiável e
+        irresponsável.
+
+    b1263:
+      title: Estabilidade psíquica
+
+      description: >
+        Funções mentais que produzem um temperamento pessoal equilibrado, calmo
+        e sossegado, em contraste com temperamento irritável, preocupado,
+        inconstante e genioso.
+
+    b1264:
+      title: Disposição de viver novas experiências
+
+      description: >
+        Funções mentais que produzem um temperamento pessoal curioso,
+        imaginativo, inquisitivo e pronto para novas experiências, em contraste
+        com temperamento inativo, desatento e emocionalmente inexpressivo.
+
+    b1265:
+      title: Otimismo
+
+      description: >
+        Funções mentais que produzem um temperamento alegre, animado e
+        esperançoso, em contraste com temperamento desanimado, triste e sem
+        esperança.
+
+    b1266:
+      title: Confiança
+
+      description: >
+        Funções mentais que produzem um temperamento pessoal seguro, ousado e
+        assertivo, em contraste com temperamento tímido, inseguro e humilde.
+
+    b1267:
+      title: Confiabilidade
+
+      description: >
+        Funções mentais que produzem um temperamento pessoal de respeito aos
+        princípios éticos e no qual se pode confiar, em contraste com ser falso
+        e de temperamento anti-social.
+
+    b1268:
+      title: Funções do temperamento e da personalidade, outras especificadas
+
+    b1269:
+      title: Funções do temperamento e da personalidade, não especificadas
+
+b130:
+  title: Funções da energia e de impulsos
+
+  description: >
+    Funções mentais gerais dos mecanismos fisiológicos e psicológicos que
+    estimulam o indivíduo a agir de modo persistente para satisfazer suas
+    necessidades específicas e seus objetivos.
+
+  includes: >
+    Inclui: função do nível de energia, motivação, apetite, desejo (incluindo
+    desejo por substância que produzem dependência) e controle de impulsos.
+
+  excludes: >
+    Exclui: funções da consciência (b110); funções do temperamento e da
+    personalidade (b126); funções do sono (b134); funções psicomotoras (b147);
+    funções emocionais (b152).
+
+  groups:
+    b1300:
+      title: Nível de energia
+
+      description: >
+        Funções mentais que produzem vigor e resistência.
+
+    b1301:
+      title: Motivação
+
+      description: >
+        Funções mentais que produzem os incentivos para agir; o impulso
+        consciente ou inconsciente para a ação.
+
+    b1302:
+      title: Apetite
+
+      description: >
+        Funções mentais que produzem um desejo natural, especialmente o desejo
+        natural e recorrente de comer e beber.
+
+    b1303:
+      title: Ânsia
+
+      description: >
+        Funções mentais que produzem o desejo intenso de consumir substâncias,
+        incluindo aquelas que podem levar a excesso de consumo, abuso ou
+        dependência.
+
+    b1304:
+      title: Controle dos impulsos
+
+      description: >
+        Funções mentais que regulam e resistem a impulsos súbitos e intensos de
+        fazer alguma coisa.
+
+    b1308:
+      title: Funções de energia e de impulsos, outras especificas
+
+    b1309:
+      title: Funções de energia e de impulsos, não especificadas
+
+b134:
+  title: Funções do sono
+
+  description: >
+    Funções mentais gerais de desconexão física e mental do ambiente imediato,
+    de caráter periódica, reversível e seletiva, acompanhada por mudanças
+    fisiológicas características.
+
+  includes: >
+    Inclui: funções da quantidade, início, manutenção e qualidade do sono;
+    funções relacionadas ao ciclo do sono, como insônia, hipersonia e
+    narcolepsia.
+
+  excludes: >
+    Exclui: funções da consciência (b110); funções da energia e de impulsos
+    (b130); funções da atenção (b140); funções psicomotoras (b147).
+
+  groups:
+    b1340:
+      title: Quantidade de sono
+
+      description: >
+        Funções mentais relacionadas ao tempo gasto no estado de sono no ciclo
+        diurno ou no ritmo circadiano.
+
+    b1341:
+      title: Início do sono
+
+      description: >
+        Funções mentais que produzem a transição entre a vigília e o sono.
+
+    b1342:
+      title: Manutenção do sono
+
+      description: >
+        Funções mentais que sustentam o estado de estar adormecido.
+
+    b1343:
+      title: Qualidade do sono
+
+      description: >
+        Funções mentais que produzem o sono natural levando a um descanso e
+        relaxamento físico e mental ideais.
+
+    b1344:
+      title: Funções que envolvem o ciclo do sono
+
+      description: >
+        Funções mentais que produzem o sono com movimento rápido dos olhos (REM)
+        (associado com o sonhar) e o sono sem movimento rápido dos olhos (Não
+        REM) (caracterizado pelo conceito tradicional de sono como um momento de
+        redução da atividade fisiológica e psicológica).
+
+    b1348:
+      title: Funções do sono, outras especificadas
+
+    b1349:
+      title: Funções do sono, não especificadas
+
+b139:
+  title: Funções globais mentais, outras especificadas e não especificadas

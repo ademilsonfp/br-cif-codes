@@ -1,0 +1,239 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+d430:
+  title: Levantar e carregar objetos
+
+  description: >
+    Levantar um objeto ou mover algo de um lugar para outro, como levantar uma
+    xícara ou carregar uma criança de um local para outro.
+
+  includes: >
+    Inclui: levantar objetos, carregar nas mãos ou nos braços ou sobre os
+    ombros, quadril, costas ou cabeça; abaixar objetos.
+
+  groups:
+    d4300:
+      title: Levantar objetos
+
+      description: >
+        Levantar um objeto para movê-lo de um nível mais baixo para um nível
+        mais alto, como levantar um copo da mesa.
+
+    d4301:
+      title: Carregar nas mãos
+
+      description: >
+        Pegar ou transportar um objeto de um lugar para outro utilizando as
+        mãos, como carregar um copo ou uma mala.
+
+    d4302:
+      title: Carregar nos braços
+
+      description: >
+        Pegar ou transportar um objeto de um lugar para outro utilizando os braços
+        e mãos, como carregar uma criança.
+
+    d4303:
+      title: Carregar nos ombros, quadris e costas
+
+      description: >
+        Pegar ou transportar um objeto de um lugar para outro usando os ombros,
+        quadris ou costas, ou vários desses membros juntos, como carregar um
+        grande pacote.
+
+    d4304:
+      title: Carregar na cabeça
+
+      description: >
+        Pegar ou transportar um objeto de um lugar para outro usando a cabeça,
+        como carregar um recipiente de água na cabeça.
+
+    d4305:
+      title: Abaixar objetos
+
+      description: >
+        Utilizar as mãos, braços ou outras partes do corpo para colocar um
+        objeto em uma superfície ou lugar, como colocar um recipiente de água no
+        chão.
+
+    d4308:
+      title: Levantar e carregar, outras especificadas
+
+    d4309:
+      title: Levantar e carregar, outras não especificadas
+
+d435:
+  title: Mover objetos com as extremidades inferiores
+
+  description: >
+    Realizar ações coordenadas com o objetivo de mover um objeto utilizando
+    pernas e pés, como ao chutar uma bola ou pedalar.
+
+  includes: >
+    Inclui: empurrar com as extremidades inferiores; chutar.
+
+  groups:
+    d4350:
+      title: Empurrar com as extremidades inferiores
+
+      description: >
+        Utilizar as pernas e pés para exercer uma força sobre um objeto, para
+        movê-lo do lugar, como empurrar uma cadeira com um pé.
+
+    d4351:
+      title: Chutar
+
+      description: >
+        Utilizar as pernas e os pés para impulsionar algo para longe, como
+        chutar uma bola.
+
+    d4358:
+      title: Mover objetos com as extremidades inferiores, outras especificadas
+
+    d4359:
+      title: Mover objetos com as extremidades inferiores, não especificadas
+
+d440:
+  title: Uso fino da mão
+
+  description: >
+    Realizar as ações coordenadas de manusear objetos, levantá-los, manipulá-los
+    e soltá-los utilizando as mãos, dedos e polegar, como necessário para pegar
+    moedas de uma mesa ou girar um botão ou maçaneta.
+
+  includes: >
+    Inclui: pegar, segurar, manipular e soltar.
+
+  excludes: >
+    Exclui: levantar e carregar objetos (d430).
+
+  groups:
+    d4400:
+      title: Pegar
+
+      description: >
+        Levantar ou erguer um pequeno objeto com as mãos e dedos, como levantar
+        um lápis.
+
+    d4401:
+      title: Agarrar
+
+      description: >
+        Utilizar uma ou ambas as mãos para agarrar e segurar algo, como agarrar
+        uma ferramenta ou uma maçaneta de porta.
+
+    d4402:
+      title: Manipular
+
+      description: >
+        Usar dedos e as mãos para controlar, dirigir ou guiar algum objeto, como
+        manusear moedas ou outros pequenos objetos.
+
+    d4403:
+      title: Soltar
+
+      description: >
+        Usar os dedos e as mãos para soltar ou largar algum objeto de maneira
+        que ele caia ou mude de posição, como deixar cair uma peça de roupa.
+
+    d4408:
+      title: Uso fino da mão, outro especificado
+
+    d4409:
+      title: Uso fino da mão, não especificado
+
+d445:
+  title: Uso da mão e do braço
+
+  description: >
+    Realizar as ações coordenadas necessárias para mover objetos ou manipulá-los
+    utilizando as mãos e os braços, como virar maçanetas de portas ou jogar ou
+    apanhar um objeto.
+
+  includes: >
+    Inclui: puxar ou empurrar objetos; alcançar; virar ou torcer as mãos ou os
+    braços; jogar; apanhar um objeto em movimento.
+
+  excludes: >
+    Exclui: uso fino da mão (d440).
+
+  groups:
+    d4450:
+      title: Puxar
+
+      description: >
+        Usar os dedos, as mãos e os braços para aproximar um objeto, ou movê-lo
+        de um lugar para outro, como fechar uma porta.
+
+    d4451:
+      title: Empurrar
+
+      description: >
+        Usar os dedos, as mãos e os braços para mover algo para longe, ou para
+        movê-lo de um lugar para outro, como empurrar um animal para longe.
+
+    d4452:
+      title: Alcançar
+
+      description: >
+        Usar as mãos e os braços para se esticar e tocar ou agarrar algo, como
+        estender os braços por cima de uma mesa ou carteira para pegar um livro.
+
+    d4453:
+      title: Girar ou torcer as mãos ou os braços
+
+      description: >
+        Usar os dedos, as mãos e os braços para girar, virar ou dobrar um
+        objeto, como necessário no uso de ferramentas ou utensílios.
+
+    d4454:
+      title: Jogar
+
+      description: >
+        Usar os dedos, as mãos e os braços para levantar algo e jogá-lo com
+        alguma força através do ar, como arremessar uma bola.
+
+    d4455:
+      title: Apanhar
+
+      description: >
+        Usar os dedos, as mãos e os braços para agarrar um objeto em movimento
+        para pará-lo ou segurá-lo, como apanhar uma bola.
+
+    d4458:
+      title: Uso da mão e do braço, outro especificado
+
+    d4459:
+      title: Uso da mão e do braço, não especificado
+
+d449:
+  title: Carregar, mover e manusear objetos, outro especificado e não
+         especificado

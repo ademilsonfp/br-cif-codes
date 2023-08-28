@@ -1,0 +1,51 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+b850:
+  title: Funções dos pêlos
+
+  description: >
+    Funções dos pêlos como proteção, coloração e aparência.
+
+  includes: >
+    Inclui: funções de crescimento dos pêlos, pigmentação e localização dos
+    pêlos; deficiências como perda de pêlos, cabelo ou alopecia.
+
+b860:
+  title: Funções das unhas
+
+  description: >
+    Funções das unhas como de proteção, aparência e possibilidade de arranhar.
+
+  includes: >
+    Inclui: crescimento e pigmentação das unhas, qualidade das unhas.
+
+b869:
+  title: Funções dos pêlos e das unhas, outras especificadas e não especificadas

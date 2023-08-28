@@ -1,0 +1,194 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+b310:
+  title: Funções da voz
+
+  description: >
+    Funções da produção de vários sons pela passagem de ar através da laringe.
+
+  includes: >
+    Inclui: funções de produção e qualidade da voz; funções de fonação, tom,
+    volume e outras qualidades da voz; deficiências como afonia, disfonia,
+    rouquidão, hipernasalidade e hiponasalidade.
+
+  excludes: >
+    Exclui: funções mentais da linguagem (b167); funções da articulação (b320).
+
+  groups:
+    b3100:
+      title: Produção da voz
+
+      description: >
+        Funções da produção de sons feita por meio da coordenação da laringe e
+        dos músculos adjacentes com o sistema respiratório.
+
+      includes: >
+        Inclui: funções de fonação, volume; deficiências como a afonia.
+
+    b3101:
+      title: Qualidade da voz
+
+      description: >
+        Funções da produção das características da voz incluindo tom,
+        ressonância e outros aspectos.
+
+      includes: >
+        Inclui: funções de volume alto ou baixo; deficiências como
+        hipernasalidade, hiponasalidade, disfonia, rouquidão ou aspereza.
+
+    b3108:
+      title: Funções da voz, outras especificadas
+
+    b3109:
+      title: Funções da voz, não especificadas
+
+b320:
+  title: Funções da articulação
+
+  description: >
+    Função da produção de sons da fala.
+
+  includes: >
+    Inclui: funções de enunciação, articulação de fonemas; disartria espástica,
+    atáxica e flácida; anartria.
+
+  excludes: >
+    Inclui: funções de enunciação, articulação de fonemas; disartria espástica,
+    atáxica e flácida; anartria.
+
+b330:
+  title: Funções da fluência e ritmo da fala
+
+  description: >
+    Funções da produção do fluxo e ritmo da fala.
+
+  includes: >
+    Inclui: funções de fluência, ritmo, velocidade e melodia da fala; prosódia e
+    entonação; deficiências como tartamudez (gagueira), verborréia, bradilalia e
+    taquilalia.
+
+  excludes: >
+    Exclui: funções mentais da linguagem (b167); funções da voz (b310); funções
+    da articulação (b320).
+
+  groups:
+    b3300:
+      title: Fluência da fala
+
+      description: >
+        Funções da produção de fluxo da fala uniforme e ininterrupto.
+
+      includes: >
+        Inclui: funções de conexão uniforme da fala; deficiências como
+        tartamudez, verborréia, balbucio, alteração na fluência, repetição de
+        sons, palavras ou parte de palavras e pausas irregulares na fala.
+
+    b3301:
+      title: Ritmo da fala
+
+      description: >
+        Funções dos padrões de modulação, ritmo e entonação da fala.
+
+      includes: >
+        Inclui: deficiências da fala tais como cadência repetitiva ou
+        estereotipada.
+
+    b3302:
+      title: Velocidade da fala
+
+      description: >
+        Funções da velocidade da produção da fala.
+
+      includes: >
+        Inclui: deficiências como bradilalia e taquilalia.
+
+    b3303:
+      title: Melodia da fala
+
+      description: >
+        Funções de modulação dos padrões de tom da fala.
+
+      includes: >
+        Inclui: prosódia da fala, entonação, melodia da fala; deficiências como
+        fala monótona.
+
+    b3308:
+      title: Funções da fluência e ritmo da fala, outras especificadas
+
+    b3309:
+      title: Funções da fluência e ritmo da fala, não especificadas
+
+b340:
+  title: Funções alternativas de vocalização
+
+  description: >
+    Funções da produção de outras formas de vocalização.
+
+  includes: >
+    Inclui: funções da produção de notas e classes de sons, como em cantos,
+    cânticos, balbucios e murmúrios; chorar alto e gritar.
+
+  excludes: >
+    Exclui: funções mentais da linguagem (b167); funções da voz (b310); funções
+    da articulação (b320); funções da fluência e ritmo da fala (b330).
+
+  groups:
+    b3400:
+      title: Produção de notas
+
+      description: >
+        Funções da produção de sons vocais musicais.
+
+      includes: >
+        Inclui: sustentar, modular e terminar a produção de vocalizações
+        individuais ou conectadas com variação de tom ou intensidade como em
+        canções, murmúrios ou cânticos.
+
+    b3401:
+      title: Produção de uma variedade de sons
+
+      description: >
+        Funções da produção de uma ampla gama de vocalizações.
+
+      includes: >
+        Inclui: funções de balbucio das crianças.
+
+    b3408:
+      title: Funções alternativas de vocalização, outras especificadas
+
+    b3409:
+      title: Funções alternativas de vocalização, não especificadas
+
+b398:
+  title: Funções da voz e da fala, outras especificadas
+
+b399:
+  title: Funções da voz e da fala, não especificadas

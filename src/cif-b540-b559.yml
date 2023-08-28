@@ -1,0 +1,218 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+b540:
+  title: Funções metabólicas gerais
+
+  description: >
+    Funções de regulação dos componentes essenciais do corpo como carboidratos,
+    proteínas e gorduras, a conversão de um em outro e sua transformação em
+    energia.
+
+  includes: >
+    Inclui: função do metabolismo, taxa de metabolismo basal, metabolismo dos
+    carboidratos, proteínas e gorduras, catabolismo, anabolismo, produção de
+    energia no corpo; aumento ou diminuição da taxa metabólica.
+
+  excludes: >
+    Exclui: funções de assimilação (b520); funções de manutenção do peso (b530);
+    funções de equilíbrio hídrico, mineral e eletrolítico (b545); funções
+    termorreguladoras (b550); funções das glândulas endócrinas (b555).
+
+  groups:
+    b5400:
+      title: Taxa de metabolismo basal
+
+      description: >
+        Funções envolvidas no consumo de oxigênio no corpo em condições
+        específicas de repouso e temperatura.
+
+      includes: >
+        Inclui: aumento ou diminuição da taxa de metabolismo basal; deficiências
+        como hipertireoidismo e hipotireoidismo.
+
+    b5401:
+      title: Metabolismo dos carboidratos
+
+      description: >
+        Funções envolvidas no processo por meio do qual os carboidratos
+        ingeridos são armazenados e decompostos em glicose e, posteriormente, em
+        dióxido de carbono e água.
+
+    b5402:
+      title: Metabolismo das proteínas
+
+      description: >
+        Funções envolvidas no processo por meio do qual as proteínas ingeridas
+        são convertidas em aminoácidos e posteriormente decompostas no
+        organismo.
+
+    b5403:
+      title: Metabolismo das gorduras
+
+      description: >
+        Funções envolvidas no processo por meio do qual a gordura ingerida é
+        armazenada e decomposta no corpo.
+
+    b5408: 
+      title: Funções metabólicas gerais, outras especificadas
+
+    b5409:
+      title: Funções metabólicas gerais, não especificadas
+
+b545:
+  title: Funções de equilíbrio hídrico, mineral e eletrolítico
+
+  description: >
+    Funções de regulação da água, minerais e eletrólitos no corpo.
+
+  includes: >
+    Inclui: funções de equilíbrio hídrico, equilíbrio de minerais como cálcio,
+    zinco e ferro, e equilíbrio de eletrólitos como sódio e potássio;
+    deficiências como retenção de água, desidratação, hipercalcemia,
+    hipocalcemia, deficiência de ferro, hipernatremia, hiponatremia,
+    hiperpotassemia e hipopotassemia.
+
+  excludes: >
+    Exclui: funções do sistema hematológico (b430); funções metabólicas gerais
+    (b540); funções das glândulas endócrinas (b555).
+
+  groups:
+    b5450:
+      title: Equilíbrio hídrico
+
+      description: >
+        Funções envolvidas no nível ou quantidade de água no corpo.
+
+      includes: >
+        Inclui: deficiências como desidratação e rehidratação.
+
+      groups:
+        b54500:
+          title: Retenção de água
+
+          description: >
+            Funções envolvidas na retenção da água no corpo.
+
+        b54501:
+          title: Manutenção do equilíbrio hídrico
+
+          description: >
+            Funções envolvidas na manutenção da quantidade ideal de água no
+            corpo.
+
+        b54508:
+          title: Funções de equilíbrio hídrico, outras especificadas
+
+        b54509:
+          title: Funções de equilíbrio hídrico, não especificadas
+
+    b5451:
+      title: Equilíbrio mineral
+
+      description: >
+        Funções envolvidas na manutenção de um equilíbrio entre a ingestão,
+        armazenamento, utilização e excreção dos minerais no corpo.
+
+    b5452:
+      title: Equilíbrio eletrolítico
+
+      description: >
+        Funções envolvidas na manutenção de um equilíbrio entre ingestão,
+        armazenamento, utilização e excreção dos eletrólitos no corpo.
+
+    b5458:
+      title: Funções de equilíbrio hídrico, mineral e eletrolítico, outras
+             especificadas
+
+    b5459:
+      title: Funções de equilíbrio hídrico, mineral e eletrolítico, não
+             especificadas
+
+b550:
+  title: Funções termorreguladoras
+
+  description: >
+    Funções da regulação da temperatura do corpo.
+
+  includes: >
+    Inclui; funções de manutenção da temperatura do corpo; deficiências como
+    hipotermia, hipertermia.
+
+  excludes: >
+    Exclui: funções metabólicas gerais (b540); funções das glândulas endócrinas
+    (b555).
+
+  groups:
+    b5500:
+      title: Temperatura do corpo
+
+      description: >
+        Funções envolvidas na regulação da temperatura central do corpo.
+
+      includes: >
+        Inclui: deficiências como hipertermia ou hipotermia.
+
+    b5501:
+      title: Manutenção da temperatura do corpo
+
+      description: >
+        Funções envolvidas na manutenção da temperatura ideal do corpo com a
+        mudança da temperatura ambiental.
+
+      includes: >
+        Inclui: tolerância ao calor ou frio
+
+    b5508:
+      title: Funções termorreguladoras, outras especificadas
+
+    b5509:
+      title: Funções termorreguladoras, não especificadas
+
+b555:
+  title: Funções das glândulas endócrinas
+
+  description: >
+    Funções de produção e regulação dos níveis hormonais no corpo, incluindo
+    mudanças cíclicas.
+
+  includes: >
+    Inclui: funções de equilíbrio hormonal; hipopituitarismo, hiperpituitarismo,
+    hipertieroidismo, hipotireoidismo, hiperadrenalismo, hipoadrenalismo,
+    hiperparatireoidismo, hipoparatireoidismo, hipergonadismo, hipogonadismo.
+
+  excludes: >
+    Exclui: funções metabólicas gerais (b540); funções de equilíbrio hídrico,
+    mineral e eletrolítico (b545); funções termorreguladoras (b550); funções
+    sexuais (b640); funções da menstruação (b650).
+
+b559:
+  title: Funções relacionadas aos sistemas metabólico e endócrino, outras
+         especificadas e não especificadas

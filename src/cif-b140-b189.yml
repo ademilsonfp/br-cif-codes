@@ -1,0 +1,645 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+b140:
+  title: Funções da atenção
+
+  description: >
+    Funções mentais específicas de concentração em um estímulo externo ou
+    experiência interna pelo período de tempo necessário.
+
+  includes: >
+    Inclui: funções de manutenção da atenção, de mudança da atenção, de divisão
+    da atenção, de compartilhar a atenção; concentração; distração.
+
+  excludes: >
+    Exclui: funções da consciência (b110); funções da energia e de impulsos
+    (b130); funções do sono (b134); funções da memória (b144); funções
+    psicomotoras (b147); funções da percepção (b156).
+
+  groups:
+    b1400:
+      title: Manutenção da atenção
+
+      description: >
+        Funções mentais que produzem concentração pelo período de tempo
+        necessário.
+
+    b1401:
+      title: Mudança da atenção
+
+      description: >
+        Funções mentais que permitem mudar a concentração de um estímulo para
+        outro.
+
+    b1402:
+      title: Divisão da atenção
+
+      description: >
+        Funções mentais que permitem concentrar-se em dois ou mais estímulos ao
+        mesmo tempo.
+
+    b1403:
+      title: Compartilhar a atenção
+
+      description: >
+        Funções mentais que permitem que duas ou mais pessoas se concentrem no
+        mesmo estímulo, como uma criança e a pessoa que a cuida concentrando-se
+        em um brinquedo.
+
+    b1408:
+      title: Funções da atenção, outras especificadas
+
+    b1409:
+      title: Funções da atenção, não especificadas
+
+b144:
+  title: Funções da memória
+
+  description: >
+    Funções mentais específicas de registro e armazenamento de informações e sua
+    recuperação quando necessário.
+
+  includes: >
+    Inclui: funções da memória de curto e longo prazos, memória imediata,
+    recente e remota, duração da memória; recuperação da memória, lembrar-se;
+    funções utilizadas na memória e no aprendizado como na amnésia nominal,
+    seletiva e dissociativa.
+
+  excludes: >
+    Exclui: funções da consciência (b110); funções da orientação (b114);
+    funções intelectuais (b117); funções da atenção (b140); funções da percepção
+    (b156); funções do pensamento (b160); funções cognitivas superiores (b164);
+    funções mentais da linguagem (b167); funções de cálculo (b172).
+
+  groups:
+    b1440:
+      title: Memória de curto prazo
+
+      description: >
+        Funções mentais responsáveis pelo armazenamento temporário e frágil de
+        informações na memória, de cerca de 30 segundos de duração, após os
+        quais as informações são perdidas se não consolidadas na memória de
+        longo prazo.
+
+    b1441:
+      title: Memória de longo prazo
+
+      description: >
+        Funções mentais responsáveis pelo sistema de memória que permite o
+        armazenamento de informações por longo prazo, proveniente da memória de
+        curto prazo e da memória autobiográfica dos eventos passados e da
+        memória semântica para linguagem e fatos.
+
+    b1442:
+      title: Recuperação da memória
+
+      description: >
+        Funções mentais específicas que permitem recordar informações
+        armazenadas na memória de longo prazo e trazê-las à consciência.
+
+    b1448:
+      title: Funções da memória, outras especificadas
+
+    b1449:
+      title: Funções da memória, não especificadas
+
+b147:
+  title: Funções psicomotoras
+
+  description: >
+    Funções mentais específicas de controle dos eventos motores e psicológicos
+    em nível corporal.
+
+  includes: >
+    Inclui: funções de controle psicomotor, como no atraso psicomotor, excitação
+    e agitação, postura, catatonia, negativismo, ambivalência, ecopraxia e
+    ecolalia; qualidade da função psicomotora.
+
+  excludes: >
+    Exclui: funções da consciência (b110); funções da orientação (b114); funções
+    intelectuais (b117); funções da energia e de impulsos (b130); funções da
+    atenção (b140); funções mentais da linguagem (b167); funções mentais do
+    seqüenciamento de movimentos complexos (b176).
+
+  groups:
+    b1470:
+      title: Controle psicomotor
+
+      description: >
+        Funções mentais que regulam a velocidade da reação ou tempo de resposta
+        que envolve componentes motores e psicológicos, como em alterações do
+        controle que produzem atraso psicomotor (mover-se e falar lentamente,
+        diminuição da gesticulação e espontaneidade) ou excitação psicomotora
+        (atividade comportamental e cognitiva excessiva, em geral não produtiva
+        e em resposta à tensão interna como tamborilar com os dedos, apertar as
+        mãos, agitação e inquietude).
+
+    b1471:
+      title: Qualidade das funções psicomotoras
+
+      description: >
+        Funções mentais que produzem comportamento não verbal na seqüência
+        adequada à natureza dos seus sub-componentes, como a coordenação
+        mão-olho, ou marcha.
+
+    b1478:
+      title: Funções psicomotoras, outras especificadas
+
+    b1479:
+      title: Funções psicomotoras, não especificadas
+
+b152:
+  title: Funções emocionais
+
+  description: >
+    Funções mentais específicas relacionadas ao sentimento e aos componentes
+    afetivos dos processos mentais.
+
+  includes: >
+    Inclui: funções de adequação da emoção, regulação e faixa de emoções, afeto,
+    tristeza, felicidade, amor, medo, raiva, ódio, tensão, ansiedade, alegria,
+    pesar, labilidade emocional, apatia afetiva.
+
+  excludes: >
+    Exclui: funções do temperamento e da personalidade (b126); funções da
+    energia e de impulsos (b130).
+
+  groups:
+    b1520:
+      title: Adequação da emoção
+
+      description: >
+        Funções mentais que produzem congruência entre o sentimento ou afeto e a
+        situação, como alegria ao receber boas notícias.
+
+    b1521:
+      title: Regulação da emoção
+
+      description: >
+        Funções mentais que controlam a experiência e a demonstração de afeto.
+
+    b1522:
+      title: Faixa de emoções
+
+      description: >
+        Funções mentais que produzem o espectro das experiências relacionadas ao
+        surgimento do afeto ou de sentimentos como amor, ódio, ansiedade, pesar,
+        satisfação, medo e raiva.
+
+    b1528:
+      title: Funções emocionais, outras especificadas
+
+    b1529:
+      title: Funções emocionais, não especificadas
+
+b156:
+  title: Funções da percepção
+
+  description: >
+    Funções mentais específicas relacionadas com o reconhecimento e
+    interpretação dos estímulos sensoriais.
+
+  includes: >
+    Inclui: funções de percepção auditiva, visual, olfativa, gustativa, tátil e
+    visioespacial, como em alucinações ou ilusões
+
+  excludes: >
+    Exclui: funções da consciência (b110); funções da orientação (b114); funções
+    da atenção (b140); funções da memória (b144); funções mentais da linguagem
+    (b167); visão e funções relacionadas (b210-b229); funções auditivas e
+    vestibulares (b230-b249); funções sensoriais adicionais (b250-b279).
+
+  groups:
+    b1560:
+      title: Percepção auditiva
+
+      description: >
+        Funções mentais envolvidas na discriminação de sons, tons, intensidade e
+        outros estímulos acústicos.
+
+    b1561:
+      title: Percepção visual
+
+      description: >
+        Funções mentais envolvidas na discriminação da forma, tamanho, cor e
+        outros estímulos oculares.
+
+    b1562:
+      title: Percepção olfativa
+
+      description: >
+        Funções mentais envolvidas na diferenciação de odores.
+
+    b1563:
+      title: Percepção gustativa
+
+      description: >
+        Funções mentais envolvidas na diferenciação de sabores, como estímulos
+        doces, azedos, salgados e amargos, detectados pela língua.
+
+    b1564:
+      title: Percepção tátil
+
+      description: >
+        Funções mentais envolvidas na diferenciação de texturas, como estímulos
+        ásperos ou lisos, detectados pelo tato.
+
+    b1565:
+      title: Percepção visioespacial
+
+      description: >
+        Funções mentais envolvidas na distinção, por meio da visão da posição
+        relativa dos objetos no ambiente ou em relação a si próprio.
+
+    b1568:
+      title: Funções da percepção, outras especificadas
+
+    b1569:
+      title: Funções da percepção, não especificadas
+
+b160:
+  title: Funções do pensamento
+
+  description: >
+    Funções mentais específicas relacionadas ao componente ideativo da mente.
+
+  includes: >
+    Inclui: funções do fluxo, forma, controle e conteúdo do pensamento; funções
+    do pensamento direcionadas para metas, funções do pensamento não
+    direcionadas para metas; funções do pensamento lógico, como na pressão do
+    pensamento, fuga de idéias, bloqueio do pensamento, incoerência do
+    pensamento, tangencialidade, circunstancialidade, delírios, obsessões e
+    compulsões.
+
+  excludes: >
+    Exclui: funções intelectuais (b117); funções da memória (b144); funções
+    psicomotoras (b147); funções da percepção (b156); funções cognitivas
+    superiores (b164); funções mentais da linguagem (b167); funções de cálculo
+    (b172).
+
+  groups:
+    b1600:
+      title: Fluxo do pensamento
+
+      description: >
+        Funções mentais que determinam a velocidade do processo de pensamento.
+
+    b1601:
+      title: Forma do pensamento
+
+      description: >
+        Funções mentais que organizam o processo do pensamento em relação à
+        coerência e à lógica.
+
+      includes: >
+        Inclui: deficiências de perseveração ideacional, tangencialidade e
+        circunstancialidade.
+
+    b1602:
+      title: Conteúdo do pensamento
+
+      description: >
+        Funções mentais relacionadas com a presença de idéias no processo de
+        pensamento e do que está sendo conceitualizado.
+
+      includes: >
+        Inclui: deficiências com delírios, idéias supervalorizadas e
+        somatização.
+
+    b1603:
+      title: Controle do pensamento
+
+      description: >
+        Funções mentais que permitem o controle volitivo do pensamento e
+        reconhecidas como tal pela pessoa.
+
+      includes: >
+        Inclui: deficiências de ruminação, obsessão, transmissão e inserção de
+        pensamentos.
+
+    b1608:
+      title: Funções do pensamento, outras especificadas
+
+    b1609:
+      title: Funções do pensamento, não especificadas
+
+b164:
+  title: Funções cognitivas superiores
+
+  description: >
+    Funções mentais específicas especialmente dependentes dos lobos frontais do
+    cérebro, incluindo comportamentos complexos direcionados para metas, como
+    tomada de decisão, pensamento abstrato, planejamento e execução de planos,
+    flexibilidade mental e decisão sobre quais os comportamentos adequados em
+    circunstâncias específicas; chamadas com freqüência funções executivas.
+
+  includes: >
+    Inclui: função de abstração e organização de idéias, gerenciamento do tempo,
+    auto-conhecimento (“insight”) e julgamento, formação de conceito,
+    categorização e flexibilidade cognitiva.
+
+  excludes: >
+    Exclui: funções da memória (b144); funções do pensamento (b160); funções
+    mentais da linguagem (b167); funções de cálculo (b172).
+
+  groups:
+    b1640:
+      title: Abstração
+
+      description: >
+        Funções mentais que permitem criar idéias gerais, qualidades ou
+        características fora da, ou diferente de, realidades concretas, objetos
+        específicos ou situações reais.
+
+    b1641:
+      title: Organização e planejamento
+
+      description: >
+        Funções mentais que permitem coordenar partes em um todo, de
+        sistematizar; a função mental envolvida no desenvolvimento de um método
+        de procedimento ou ação.
+
+    b1642:
+      title: Gerenciamento do tempo
+
+      description: >
+        Funções mentais que permitem ordenar eventos em seqüência cronológica,
+        alocando períodos de tempo para eventos e atividades.
+
+    b1643:
+      title: Flexibilidade cognitiva
+
+      description: >
+        Funções mentais que permitem mudar estratégias, alterar cenários
+        mentais, especialmente as envolvidas na solução de problemas.
+
+    b1644:
+      title: Auto-conhecimento (insight)
+
+      description: >
+        Funções mentais de consciência e compreensão de si próprio e do seu
+        comportamento.
+
+    b1645:
+      title: Julgamento
+
+      description: >
+        Funções mentais envolvidas na discriminação entre e avaliação de
+        diferentes opções, como aquelas envolvidas na formação de uma opinião.
+
+    b1646:
+      title: Resolução de problemas
+
+      description: >
+        Funções mentais de identificação, análise e integração de informações
+        incongruentes ou conflitantes em uma solução.
+
+    b1648:
+      title: Funções cognitivas superiores, outras especificadas
+
+    b1649:
+      title: Funções cognitivas superiores, não especificadas
+
+b167:
+  title: Funções mentais da linguagem
+
+  description: >
+    Funções mentais específicas de reconhecimento e utilização de sinais,
+    símbolos e outros componentes de uma linguagem.
+
+  includes: >
+    Inclui: funções de recepção e decifração da linguagem oral, escrita ou
+    outras formas de linguagem como linguagem de sinais; funções de expressão da
+    linguagem oral, escrita e de outras formas de linguagem; funções
+    integrativas da linguagem oral e escrita como aquelas envolvidas na afasia
+    receptiva, expressiva, afasia de Broca, de Wernicke e de condução.
+
+  excludes: >
+    Exclui: funções da atenção (b140); funções da memória (b144), funções da
+    percepção (b156); funções do pensamento (b160); funções cognitivas
+    superiores (b164); funções de cálculo (b172); funções mentais de
+    seqüenciamento de movimentos complexos (b176); Capítulo 2 -- Funções
+    sensoriais e dor; Capítulo 3 -- Funções da voz e da fala.
+
+  groups:
+    b1670:
+      title: Recepção da linguagem
+
+      description: >
+        Funções mentais específicas de decodificação das mensagens em linguagem
+        oral, escrita ou outra como linguagem de sinais, para obter seu
+        significado.
+
+      groups:
+        b16700:
+          title: Recepção da linguagem oral
+
+          description: >
+            Funções mentais de decodificação das mensagens orais para obter seu
+            significado.
+
+        b16701:
+          title: Recepção de linguagem escrita
+
+          description: >
+            Funções mentais para decodificação de mensagens escritas para obter
+            seu significado.
+
+        b16702:
+          title: Recepção da linguagem de sinais
+
+          description: >
+            Funções mentais de decodificação das mensagens em linguagens que
+            utilizam sinais feitos pelas mãos e outros movimentos, para obter
+            seu significado.
+
+        b16708:
+          title: Recepção da linguagem, outra especificada
+
+        b16709:
+          title: Recepção da linguagem, não especificada
+
+    b1671:
+      title: Expressão da linguagem
+
+      description: >
+        Funções mentais específicas necessárias para produzir mensagens
+        significativas expressas na forma oral, escrita, através de sinais ou
+        outras formas de linguagem.
+
+      groups:
+        b16710:
+          title: Expressão da linguagem oral
+
+          description: >
+            Funções mentais necessárias para produzir mensagens orais
+            significativas.
+
+        b16711:
+          title: Expressão da linguagem escrita
+
+          description: >
+            Funções mentais necessárias para produzir mensagens escritas
+            significativas.
+
+        b16712:
+          title: Expressão da linguagem de sinais
+
+          description: >
+            Funções mentais necessárias para produzir mensagens significativas
+            em linguagens que utilizam sinais feitos pelas mãos e outros
+            movimentos.
+
+        b16718:
+          title: Expressão da linguagem, outra especificada
+
+        b16719:
+          title: Expressão da linguagem, não especificada
+
+    b1672:
+      title: Funções integradoras da linguagem
+
+      description: >
+        Funções mentais que organizam o significado semântico e simbólico, a
+        estrutura gramatical e as idéias para a produção de mensagens em forma
+        de linguagem oral, escrita ou de qualquer outra forma.
+
+    b1678:
+      title: Funções mentais da linguagem, outras especificadas
+
+    b1679:
+      title: Funções mentais da linguagem, não especificadas
+
+b172:
+  title: Funções de cálculo
+
+  description: >
+    Funções mentais específicas de determinação, aproximação e manipulação de
+    símbolos e processos matemáticos.
+
+  includes: >
+    Inclui: funções de adição, subtração e outros cálculos matemáticos simples;
+    funções de operações matemáticas complexas.
+
+  excludes: >
+    Exclui: funções da atenção (b140); funções da memória (b144); funções do
+    pensamento (b160); funções cognitivas superiores (b164); funções mentais da
+    linguagem (b167).
+
+  groups:
+    b1720:
+      title: Cálculo simples
+
+      description: >
+        Funções mentais de computação com números, como adição, subtração,
+        multiplicação e divisão.
+
+    b1721:
+      title: Cálculo complexo
+
+      description: >
+        Funções mentais de tradução de problemas formulados verbalmente em
+        procedimentos aritméticos, tradução de fórmulas matemáticas em
+        procedimentos aritméticos e outras manipulações complexas que envolvem
+        números.
+
+    b1728:
+      title: Funções de cálculo, outras especificadas
+
+    b1729:
+      title: Funções de cálculo, não especificadas
+
+b176:
+  title: Funções mentais de seqüenciamento de movimentos complexos
+
+  description: >
+    Funções mentais específicas de seqüenciamento e coordenação de movimentos
+    complexos e com finalidade determinada.
+
+  includes: >
+    Inclui: deficiências como apraxia ideacional, ideomotora, oculomotora, da
+    fala e do vestir.
+
+  excludes: >
+    Exclui: funções psicomotoras (b147); funções cognitivas superiores (b164);
+    Capítulo 7 -- Funções neuromusculoesqueléticas e relacionadas aos
+    movimentos.
+
+b180:
+  title: Funções de experiência pessoal e do tempo
+
+  description: >
+    Funções mentais específicas relacionadas à consciência da própria
+    identidade, do próprio corpo, da sua postura em seu ambiente e no tempo.
+
+  includes: >
+    Inclui: funções de experiência pessoal, da imagem do corpo e do tempo.
+
+  groups:
+    b1800:
+      title: Experiência pessoal
+
+      description: >
+        Funções mentais específicas de conscientização da própria identidade e
+        da própria posição na realidade do ambiente que circunda a pessoa.
+
+      includes: >
+        Inclui: deficiências como despersonalização e desrealização.
+
+    b1801:
+      title: Imagem do corpo
+
+      description: >
+        Funções mentais específicas relacionadas à representação e à consciência
+        do próprio corpo.
+
+      includes: >
+        Inclui: deficiências como membro-fantasma e sentir-se muito gordo ou
+        muito magro.
+
+    b1802:
+      title: Experiência do tempo
+
+      description: >
+        Funções mentais específicas das experiências subjetivas relacionada à
+        duração e à passagem de tempo.
+
+      includes: >
+        Inclui: deficiências como jamais vu e déjà vu.
+
+    b1808:
+      title: Funções de experiência pessoal e do tempo, outras especificadas
+
+    b1809:
+      title: Funções de experiência pessoal e do tempo, não especificadas
+
+b189:
+  title: Funções mentais específicas, outras especificadas e não especificadas

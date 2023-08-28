@@ -1,0 +1,191 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+b410:
+  title: Funções do coração
+
+  description: >
+    Funções relacionadas ao bombeamento de sangue em quantidade e pressão
+    adequadas ou necessárias para o corpo.
+
+  includes: >
+    Inclui: funções da freqüência, ritmo e débito cardíacos; força de contração
+    dos músculos ventriculares; funções das válvulas cardíacas; bombeamento do
+    sangue através do circuito pulmonar; dinâmicas da circulação cardíaca;
+    deficiências como taquicardia, bradicardia e alterações do ritmo cardíaco,
+    insuficiência cardíaca, cardiomiopatia, miocardite, insuficiência coronária.
+
+  excludes: >
+    Exclui: funções dos vasos sangüíneos (b415); funções da pressão sangüínea
+    (b420); funções de tolerância a exercícios (b455).
+
+  groups:
+    b4100:
+      title: Freqüência cardíaca
+
+      description: >
+        Funções relacionadas ao número de vezes em que o coração se contrai por
+        minuto.
+
+      includes: >
+        Inclui: deficiências como freqüências muito altas (taquicardia) ou muito
+        baixas (bradicardia).
+
+    b4101:
+      title: Ritmo cardíaco
+
+      description: >
+        Funções relacionada à regularidade da freqüência cardíaca.
+
+      includes: >
+        Inclui: deficiências como arritmias
+
+    b4102:
+      title: Força de contração dos músculos ventriculares
+
+      description: >
+        Funções relacionadas à quantidade de sangue bombeada pelos músculos
+        ventriculares durante cada batimento.
+
+      includes: >
+        Inclui: deficiências como débito cardíaco diminuído.
+
+    b4103:
+      title:  Fornecimento de sangue ao coração
+
+      description: >
+        Funções relacionadas ao volume de sangue disponível para o músculo
+        cardíaco.
+
+      includes: >
+        Inclui: deficiência como isquemia coronária.
+
+    b4108:
+      title: Funções do coração, outras especificadas
+
+    b4109:
+      title: Funções do coração, não especificadas
+
+b415:
+  title: Funções dos vasos sangüíneos
+
+  description: >
+    Funções de transporte do sangue através do corpo.
+
+  includes: >
+    Inclui: funções das artérias, capilares e veias; funções vasomotoras;
+    funções das artérias, capilares e veias pulmonares; funções das válvulas
+    venosas; deficiências como bloqueio ou constrição das artérias;
+    aterosclerose, arteriosclerose, tromboembolia e veias varicosas.
+
+  excludes: >
+    Exclui: funções do coração (b410); funções da pressão sangüínea (b420);
+    funções do sistema hematológico (b430); funções de tolerância a exercícios
+    (b455).
+
+  groups:
+    b4150:
+      title: Funções das artérias
+
+      description: >
+        Funções relacionadas ao fluxo sangüíneo nas artérias.
+
+      includes: >
+        Inclui: deficiência como dilatação arterial; constrição arterial como em
+        claudicação intermitente.
+
+    b4151:
+      title: Funções dos capilares
+
+      description: >
+        Funções relacionadas ao fluxo sangüíneo nos capilares.
+
+    b4152:
+      title: Funções das veias
+
+      description: >
+        Funções relacionadas ao fluxo de sangue nas veias e funções das válvulas
+        venosas.
+
+      includes: >
+        Inclui: deficiências como dilatação venosa; constrição venosa;
+        fechamento insuficiente das válvulas como em veias varicosas.
+
+    b4158:
+      title: Funções dos vasos sangüíneos, outras especificadas
+
+    b4159:
+      title: Funções dos vasos sangüíneos, não especificadas
+
+b420:
+  title: Funções da pressão sangüínea
+
+  description: >
+    Funções de manutenção da pressão sangüínea nas artérias.
+
+  includes: >
+    Inclui: funções de manutenção da pressão sangüínea; pressão sangüínea alta
+    ou baixa; deficiências como hipotensão, hipertensão e hipotensão postural.
+
+  excludes: >
+    Exclui: funções do coração (b410); funções dos vasos sangüíneos (b415);
+    funções de tolerância a exercícios (b455).
+
+  groups:
+    b4200:
+      title: Aumento da pressão sangüínea
+
+      description: >
+        Funções relacionadas a um aumento da pressão sangüínea sistólica ou
+        diastólica acima do normal para a idade.
+
+    b4201:
+      title: Diminuição da pressão sangüínea
+
+      description: >
+        Funções relacionadas a uma queda da pressão sangüínea sistólica ou
+        diastólica abaixo do normal para a idade.
+
+    b4202:
+      title: Manutenção da pressão sangüínea
+
+      description: >
+        Funções relacionadas à manutenção da pressão sangüínea adequada em
+        resposta a mudanças no corpo.
+
+    b4208:
+      title: Funções da pressão sangüínea, outras especificadas
+
+    b4209:
+      title: Funções da pressão sangüínea, não especificadas
+
+b429:
+  title: Funções do sistema cardiovascular, outras especificadas e não
+         especificadas

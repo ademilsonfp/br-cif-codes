@@ -1,0 +1,212 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+d910:
+  title: Vida comunitária
+
+  description: >
+    Participar de todos os aspectos da vida social comunitária, como participar
+    de organizações beneficentes, de clubes de serviços ou de organizações
+    sociais profissionais.
+
+  includes: >
+    Inclui: associações formais e informais; cerimônias.
+
+  excludes: >
+    Exclui: trabalho não remunerado (d855); recreação e lazer (d920); religião e
+    espiritualidade (d930), vida política e cidadania (d950).
+
+  groups:
+    d9100:
+      title: Associações informais
+
+      description: >
+        Participar de associações sociais ou comunitárias organizadas por
+        pessoas com interesses comuns, como clubes sociais locais ou grupos
+        étnicos.
+
+    d9101:
+      title: Associações formais
+
+      description: >
+        Participar de grupos sociais profissionais ou outros grupos exclusivos,
+        como associações de advogados, médicos ou acadêmicos.
+
+    d9102:
+      title: Cerimônias
+
+      description: >
+        Participar de ritos não religiosos ou cerimônias sociais, como
+        casamentos, funerais ou cerimônias de iniciação.
+
+    d9108:
+      title: Vida comunitária, outra especificada
+
+    d9109:
+      title: Vida comunitária, não especificada
+
+d920:
+  title: Recreação e lazer
+
+  description: >
+    Participar de qualquer forma de jogo, atividade recreativa ou de lazer, como
+    jogo ou esportes informais ou organizados, programas de exercício físico,
+    relaxamento, diversão, ir a galerias de arte, museus, cinema ou teatro,
+    participar de trabalhos artesanais ou “hobbies”, ler por prazer, tocar
+    instrumentos musicais, fazer excursões, turismo ou viajar por prazer.
+
+  includes: >
+    Inclui: jogo, esportes, arte e cultura, artesanato, hobbies e socialização.
+
+  excludes: >
+    Exclui: religião e espiritualidade (d930); vida política e cidadania (d950);
+    trabalho remunerado e não remunerado (d850 e d855); montar animais para
+    transporte (d480).
+
+  groups:
+    d9200:
+      title: Jogar
+
+      description: >
+        Participar de jogos com regras ou jogos não estruturados ou não
+        organizados e recreação espontânea, como jogar xadrez ou cartas ou
+        brincadeiras de criança.
+
+    d9201:
+      title: Praticar esportes
+
+      description: >
+        Participar de jogos ou eventos competitivos de atletismo, organizados
+        informal ou formalmente, sozinho ou em grupo, como boliche, ginástica ou
+        futebol.
+
+    d9202:
+      title: Arte e cultura
+
+      description: >
+        Participar das belas artes ou eventos culturais e apreciá-los, como ir
+        ao teatro, cinema, museu ou galeria de arte, ou participar de uma peça,
+        ler por prazer ou tocar um instrumento musical.
+
+    d9203:
+      title: Artesanato
+
+      description: >
+        Fazer atividades manuais como artesanato, cerâmica ou tricô.
+
+    d9204:
+      title: Hobbies
+
+      description: >
+        Participar de atividades de passatempo, como colecionar selos, moedas ou
+        antigüidades.
+
+    d9205:
+      title: Socialização
+
+      description: >
+        Participar de encontros informais ou casuais com outros, como visitar
+        amigos ou parentes e encontros informais em locais públicos.
+
+    d9208:
+      title: Recreação e lazer, outros especificados
+
+    d9209:
+      title: Recreação e lazer, não especificados
+
+d930:
+  title: Religião e espiritualidade
+
+  description: >
+    Participar de atividades, organizações ou práticas religiosas ou
+    espirituais, com propósito de satisfação pessoal, para encontrar um
+    significado, um valor religioso ou espiritual e estabelecer conexão com um
+    poder divino, como freqüentar igreja, templo, mesquita ou sinagoga, rezando
+    ou cantando para um propósito religioso e contemplação espiritual.
+
+  includes: >
+    Inclui: religião e espiritualidade organizadas.
+
+  groups:
+    d9300:
+      title: Religião organizada
+
+      description: >
+        Participar de cerimônias, atividades e eventos religiosos organizados.
+
+    d9301:
+      title: Espiritualidade
+
+      description: >
+        Participar de atividades ou eventos espirituais, fora de uma religião
+        organizada.
+
+    d9308:
+      title: Religião e espiritualidade, outra especificada
+
+    d9309:
+      title: Religião e espiritualidade, não especificada
+
+d940:
+  title: Direitos Humanos
+
+  description: >
+    Desfrutar de todos os direitos nacional e internacionalmente reconhecidos
+    que são atribuídos às pessoas pelo simples fato da sua condição humana, como
+    os direitos humanos reconhecidos pela Declaração Universal dos Direitos
+    Humanos das Nações Unidas (1948) e as Regras Padronizadas para a Igualdade
+    de Oportunidades para as Pessoas com Deficiências (1993); o direito à
+    autodeterminação ou autonomia; e o direito de controlar o próprio destino.
+
+  excludes: >
+    Exclui: Vida política e cidadania (d950).
+
+d950:
+  title: Vida política e cidadania
+
+  description: >
+    Participar da vida social, política e governamental de um cidadão, ter o
+    status legal de cidadão e desfrutar dos direitos, proteções, privilégios e
+    deveres associados a este papel, como o direito ao voto e à candidatura a um
+    cargo político, a formar associações políticas; desfrutar os direitos e as
+    liberdades associadas à cidadania (e.g., os direito da liberdade de
+    expressão, associação, religião, proteção contra a busca e apreensão não
+    justificada, o direito a um defensor público, a um julgamento e outros
+    direitos legais e proteção contra discriminação); e ter posição legal como
+    cidadão.
+
+  excludes: >
+    Exclui: direitos humanos (d940).
+
+d998:
+  title: Vida comunitária, social e cívica, outra especificada
+
+d999:
+  title: Vida comunitária, social e cívica, não especificada

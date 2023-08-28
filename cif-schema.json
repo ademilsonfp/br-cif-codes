@@ -1,0 +1,407 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/CifDefinition",
+  "definitions": {
+    "CifDefinition": {
+      "anyOf": [
+        {
+          "$ref": "#/definitions/Cif"
+        },
+        {
+          "$ref": "#/definitions/CifGroups"
+        }
+      ],
+      "description": "Tipo auxiliar para arquivo de definições da CIF"
+    },
+    "Cif": {
+      "type": "object",
+      "properties": {
+        "part1": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/definitions/CifComponent"
+          },
+          "propertyNames": {
+            "description": "Regra genérica para código de componente da CIF (b, s, d, e)",
+            "pattern": "^[bsde]$"
+          },
+          "description": "Definições de códigos e componentes da parte 1 da CIF"
+        },
+        "part2": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/definitions/CifComponent"
+          },
+          "propertyNames": {
+            "description": "Regra genérica para código de componente da CIF (b, s, d, e)",
+            "pattern": "^[bsde]$"
+          },
+          "description": "Definições de códigos e componentes da parte 2 da CIF"
+        }
+      },
+      "required": [
+        "part1",
+        "part2"
+      ],
+      "additionalProperties": false,
+      "description": "Definição de índice da CIF com parte 1 e 2"
+    },
+    "CifComponent": {
+      "type": "object",
+      "properties": {
+        "means": {
+          "type": "string",
+          "enum": [
+            "body",
+            "structure",
+            "domain",
+            "environment"
+          ],
+          "description": "Significado do código da definição"
+        },
+        "title": {
+          "type": "string",
+          "description": "Título da definição"
+        },
+        "definitions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Definições do componente"
+        },
+        "qualifiers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/CifQualifier"
+          },
+          "description": "Qualificadores da definição"
+        },
+        "chapters": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/definitions/CifChapter"
+          },
+          "propertyNames": {
+            "description": "Regra genérica para código de capítulo da CIF (prefixo + dígito)",
+            "pattern": "^[bsde]\\d$"
+          },
+          "description": "Definições de códigos e capítulos do componente"
+        }
+      },
+      "required": [
+        "means",
+        "title",
+        "definitions",
+        "qualifiers",
+        "chapters"
+      ],
+      "additionalProperties": false,
+      "description": "Definição genérica de componente da CIF (primeiro nível das partes 1 e 2)"
+    },
+    "CifQualifier": {
+      "anyOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "negative": {
+              "type": "object",
+              "additionalProperties": {
+                "$ref": "#/definitions/CifQualifierValue"
+              },
+              "propertyNames": {
+                "description": "Regra genérica para digítos qualificadores",
+                "pattern": "^\\d$"
+              },
+              "description": "Qualificador negativo com prefixo `.`"
+            },
+            "positive": {
+              "type": "object",
+              "additionalProperties": {
+                "$ref": "#/definitions/CifQualifierValue"
+              },
+              "propertyNames": {
+                "description": "Regra genérica para digítos qualificadores",
+                "pattern": "^\\d$"
+              },
+              "description": "Qualificador positivo com prefixo `+`"
+            },
+            "title": {
+              "type": "string",
+              "description": "Título da definição"
+            },
+            "description": {
+              "type": "string",
+              "description": "Descrição da definição"
+            }
+          },
+          "required": [
+            "negative",
+            "title"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "nature": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "string"
+              },
+              "propertyNames": {
+                "description": "Regra genérica para digítos qualificadores",
+                "pattern": "^\\d$"
+              },
+              "description": "Qualificador de natureza da deficiência"
+            },
+            "title": {
+              "type": "string",
+              "description": "Título da definição"
+            },
+            "description": {
+              "type": "string",
+              "description": "Descrição da definição"
+            }
+          },
+          "required": [
+            "title"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "location": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "string"
+              },
+              "propertyNames": {
+                "description": "Regra genérica para digítos qualificadores",
+                "pattern": "^\\d$"
+              },
+              "description": "Qualificador de localização da deficiência"
+            },
+            "title": {
+              "type": "string",
+              "description": "Título da definição"
+            },
+            "description": {
+              "type": "string",
+              "description": "Descrição da definição"
+            }
+          },
+          "required": [
+            "title"
+          ]
+        }
+      ],
+      "description": "Definição genérica de qualificador da CIF"
+    },
+    "CifQualifierValue": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "type": "string",
+          "description": "Valor da definição"
+        },
+        "title": {
+          "type": "string",
+          "description": "Título da definição"
+        },
+        "description": {
+          "type": "string",
+          "description": "Descrição da definição"
+        }
+      },
+      "required": [
+        "title"
+      ],
+      "description": "Definição genérica de valor de qualificador da CIF"
+    },
+    "CifChapter": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "groups": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/CifPath"
+            },
+            {
+              "type": "object",
+              "additionalProperties": {
+                "$ref": "#/definitions/CifChapterGroup"
+              },
+              "propertyNames": {
+                "description": "Regra genérica para os códigos de agrupamentos da CIF (com suporte a intervalo)",
+                "pattern": "^[bsde]\\d{3}(:?-[bsde]\\d{3})?$"
+              }
+            }
+          ],
+          "description": "Definição de códigos, agrupamentos e categorias do capítulo ou caminho de arquivo com as definições YAML para inclusão"
+        },
+        "title": {
+          "type": "string",
+          "description": "Título da definição"
+        },
+        "description": {
+          "type": "string",
+          "description": "Descrição da definição"
+        }
+      },
+      "required": [
+        "groups",
+        "title"
+      ],
+      "description": "Definição de capítulo da CIF"
+    },
+    "CifPath": {
+      "type": "string",
+      "description": "Regra genérica para inclusão de definições de outro arquivo YAML",
+      "pattern": "^file://.+\\.yml$"
+    },
+    "CifChapterGroup": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "groups": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/CifPath"
+            },
+            {
+              "type": "object",
+              "additionalProperties": {
+                "anyOf": [
+                  {
+                    "$ref": "#/definitions/CifCategory"
+                  },
+                  {
+                    "$ref": "#/definitions/CifGroup"
+                  }
+                ]
+              },
+              "propertyNames": {
+                "description": "Regra genérica para os demais códigos da CIF (composto pelo prefixo do componente, seguido de três dígitos ou mais)",
+                "pattern": "^[bsde]\\d{3,}$"
+              }
+            }
+          ],
+          "description": "Definição de códigos e subcategorias da categoria ou caminho de arquivo com as definições YAML para inclusão"
+        },
+        "title": {
+          "type": "string",
+          "description": "Título da definição"
+        },
+        "description": {
+          "type": "string",
+          "description": "Descrição da definição"
+        }
+      },
+      "required": [
+        "title"
+      ],
+      "description": "Definição de grupo de primeiro nível da CIF"
+    },
+    "CifCategory": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "includes": {
+          "type": "string",
+          "description": "Termos de inclusão da definição de categoria"
+        },
+        "excludes": {
+          "type": "string",
+          "description": "Termos de exclusão da definição de categoria"
+        },
+        "title": {
+          "type": "string",
+          "description": "Título da definição"
+        },
+        "description": {
+          "type": "string",
+          "description": "Descrição da definição"
+        }
+      },
+      "required": [
+        "title"
+      ],
+      "description": "Definição de categoria da CIF"
+    },
+    "CifGroup": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "groups": {
+          "type": "object",
+          "additionalProperties": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/CifCategory"
+              },
+              {
+                "$ref": "#/definitions/CifGroup"
+              }
+            ]
+          },
+          "propertyNames": {
+            "description": "Regra genérica para os demais códigos da CIF (composto pelo prefixo do componente, seguido de três dígitos ou mais)",
+            "pattern": "^[bsde]\\d{3,}$"
+          },
+          "description": "Códigos e subcategorias da definição de categoria"
+        },
+        "includes": {
+          "type": "string",
+          "description": "Termos de inclusão da definição de categoria"
+        },
+        "excludes": {
+          "type": "string",
+          "description": "Termos de exclusão da definição de categoria"
+        },
+        "title": {
+          "type": "string",
+          "description": "Título da definição"
+        },
+        "description": {
+          "type": "string",
+          "description": "Descrição da definição"
+        }
+      },
+      "required": [
+        "groups",
+        "title"
+      ],
+      "description": "Definição de grupo da CIF"
+    },
+    "CifGroups": {
+      "anyOf": [
+        {
+          "$ref": "#/definitions/CifPath"
+        },
+        {
+          "type": "object",
+          "additionalProperties": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/CifCategory"
+              },
+              {
+                "$ref": "#/definitions/CifGroup"
+              }
+            ]
+          },
+          "propertyNames": {
+            "description": "Regra genérica para os demais códigos da CIF (composto pelo prefixo do componente, seguido de três dígitos ou mais)",
+            "pattern": "^[bsde]\\d{3,}$"
+          }
+        }
+      ],
+      "description": "Definições de códigos e categorias da CIF"
+    }
+  }
+}

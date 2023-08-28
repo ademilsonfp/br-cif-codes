@@ -1,0 +1,100 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+d310:
+  title: "Comunicação \u2014 recepção de mensagens orais"
+
+  description: >
+    Compreender os significados literal e implícito das mensagens em linguagem
+    oral, como distinguir se uma frase tem um significado literal ou é uma
+    expressão idiomática.
+
+d315:
+  title: "Comunicação \u2014 recepção de mensagens não verbais"
+
+  description: >
+    Compreender os significados literal e implícito das mensagens transmitidas
+    por gestos, símbolos e desenhos, como perceber que uma criança está cansada
+    quando ela esfrega os olhos ou que um alarme significa que há incêndio.
+
+  includes: >
+    Inclui: comunicação e recepção de gestos corporais, sinais e símbolos
+    gerais, desenhos e fotografias.
+
+  groups:
+    d3150:
+      title: "Comunicação \u2014 recepção de gestos corporais"
+
+      description: >
+        Compreender o significado transmitido pelas expressões faciais,
+        movimentos das mãos ou sinais, posturas corporais e outras formas de
+        linguagem corporal.
+
+    d3151:
+      title: "Comunicação \u2014 recepção de sinais e símbolos gerais"
+
+      description: >
+        Compreender o significado dos sinais e símbolos públicos, como placas de
+        trânsito, símbolos de alerta, notas musicais ou científicas e ícones.
+
+    d3152:
+      title: "Comunicação \u2014 recepção de desenhos e fotografias"
+
+      description: >
+        Compreender o significado representado por desenhos (e.g., desenhos
+        lineares, desenhos gráficos, pinturas, representações tridimensionais),
+        gráficos, diagramas e fotografias, como entender que uma linha crescente
+        em um gráfico de estatura significa que a criança está crescendo.
+
+    d3158:
+      title: Comunicação -- recepção de mensagens não verbais, outra
+             especificada
+
+    d3159:
+      title: Comunicação -- recepção de mensagens não verbais, não especificada
+
+d320:
+  title: Comunicação -- recepção de mensagens na linguagem de sinais
+         convencionais
+
+  description: >
+    Receber e compreender mensagens na linguagem de sinais convencionais com
+    significado literal e implícito.
+
+d325:
+  title: "Comunicação \u2014 recepção de mensagens escritas"
+
+  description: >
+    Compreender os significados literal e implícito das mensagens transmitidas
+    por meio da linguagem escrita (incluindo braile), como acompanhar os eventos
+    políticos no jornal diário ou compreender a mensagem de um texto religioso.
+
+d329:
+  title: "Comunicação \u2014 recepção, outras especificadas e não especificadas"

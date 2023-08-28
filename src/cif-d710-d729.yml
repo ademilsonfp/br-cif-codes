@@ -1,0 +1,159 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+d710:
+  title: Interações interpessoais básicas
+
+  description: >
+    Interagir com as pessoas de maneira contextual e socialmente adequada, como
+    mostrar consideração e estima quando apropriado ou reagir aos sentimentos
+    dos outros.
+
+  includes: >
+    Inclui: mostrar respeito, calor, apreciação e tolerância nos
+    relacionamentos; reagir à crítica e às insinuações sociais nos
+    relacionamentos; e utilizar contato físico apropriado nos relacionamentos.
+
+  groups:
+    d7100:
+      title: Respeito e afeto nos relacionamentos
+
+      description: >
+        Mostrar consideração e estima e reagir a esses sentimentos de maneira
+        contextual e socialmente adequada.
+
+    d7101:
+      title: Apreciação nos relacionamentos
+
+      description: >
+        Mostrar satisfação e gratidão e reagir a esses sentimentos de maneira
+        contextual e socialmente apropriada.
+
+    d7102:
+      title: Tolerância nos relacionamentos
+
+      description: >
+        Mostrar compreensão e aceitação de comportamento e reagir a essas
+        atitudes de maneira contextual e socialmente apropriada.
+
+    d7103:
+      title: Atitude crítica nos relacionamentos
+
+      description: >
+        Explicitar diferenças de opinião, implícitas e explícitas, ou desacordo
+        e reagir a elas de maneira contextual e socialmente apropriada.
+
+    d7104:
+      title: Insinuações sociais nos relacionamentos
+
+      description: >
+        Fazer sinais e insinuações que ocorrem nas interações sociais e reagir a
+        eles adequadamente.
+
+    d7105:
+      title: Contato físico nos relacionamentos
+
+      description: >
+        Estabelecer contato físico com os outros e reagir a esse contato de
+        maneira contextual e socialmente apropriada.
+
+    d7108:
+      title: Interações interpessoais básicas, outras especificadas
+
+    d7109:
+      title: Interações interpessoais básicas, não especificadas
+
+d720:
+  title: Interações interpessoais complexas
+
+  description: >
+    Manter e controlar as interações com outras pessoas, de maneira contextual e
+    socialmente apropriada, como controlar emoções e impulsos, controlar a
+    agressão verbal e física, agir de maneira independente nas interações
+    sociais e agir de acordo com as regras e convenções sociais.
+
+  includes: >
+    Inclui: iniciar e terminar relações; controlar comportamentos dentro das
+    interações; interagir de acordo com regras sociais; e manter o espaço
+    social.
+
+  groups:
+    d7200:
+      title: Iniciar relações
+
+      description: >
+        Iniciar e manter relações com outros por um período de tempo curto ou
+        longo, de maneira contextual e socialmente apropriada, como
+        apresentar-se a outra pessoa, encontrar e estabelecer amizades e
+        relações profissionais, iniciar um relacionamento que pode se tornar
+        permanente, romântico ou íntimo.
+
+    d7201:
+      title: Terminar uma relação
+
+      description: >
+        Terminar interações, de maneira contextual e socialmente apropriada,
+        como terminar relacionamentos temporários ao final de uma visita,
+        terminar relacionamento duradouros com amigos quando ocorre uma mudança
+        para uma nova cidade ou terminar relacionamentos com colegas de
+        trabalho, colegas profissionais e prestadores de serviço e terminar
+        relacionamentos românticos ou íntimos.
+
+    d7202:
+      title: Regulação dos comportamentos nas interações
+
+      description: >
+        Controlar emoções e impulsos, agressão verbal e física nas interações
+        com os outros, de maneira contextual e socialmente apropriada.
+
+    d7203:
+      title: Interagir de acordo com as regras sociais
+
+      description: >
+        Agir independentemente nas interações sociais e adaptar-se às convenções
+        sociais que regem o papel, posição ou status social da pessoa nas
+        interações com os outros.
+
+    d7204:
+      title: Manter o espaço social
+
+      description: >
+        Estar consciente da necessidade de manter a distância entre si próprio e
+        outros de maneira contextual, social e culturalmente apropriada.
+
+    d7208:
+      title: Interações interpessoais complexas, outras especificadas
+
+    d7209:
+      title: Interações interpessoais complexas, não especificadas
+
+d729:
+  title: Interações interpessoais gerais, outras especificadas e não
+         especificadas

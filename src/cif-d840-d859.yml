@@ -1,0 +1,154 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+d840:
+  title: Estágio (preparação para o trabalho)
+
+  description: >
+    Participar de programas relacionados à preparação para emprego, como
+    realizar as tarefas necessárias de um estágio, residência, contrato de
+    aprendizado e treinamento no serviço.
+
+  excludes: >
+    Exclui: treinamento profissional (d825).
+
+d845:
+  title: Conseguir, manter e sair de um emprego
+
+  description: >
+    Procurar, encontrar e escolher um emprego, ser contratado e aceitar o
+    emprego, manter e progredir no trabalho, negócio, ocupação ou profissão e
+    sair de um emprego de maneira apropriada.
+
+  includes: >
+    Inclui: procurar emprego; preparar um currículo; contatar empregadores e
+    preparar entrevistas; manter um emprego; monitorar o próprio desempenho
+    profissional; dar aviso prévio; e sair de um emprego.
+
+  groups:
+    d8450:
+      title: Procurar emprego
+
+      description:
+        Localizar e escolher um emprego em um negócio, profissão ou outro tipo
+        de emprego e realizar as tarefas necessárias para ser contratado, como
+        comparecer ao local de trabalho ou participar de uma entrevista de
+        emprego.
+
+    d8451:
+      title: Manter um emprego
+
+      description:
+        Realizar as tarefas relacionadas ao trabalho para manter uma ocupação,
+        negócio, profissão ou outra forma de emprego e conseguir promoção e
+        outros progressos no emprego.
+
+    d8452:
+      title: Sair de um emprego
+
+      description:
+        Sair ou demitir-se de um trabalho de maneira apropriada.
+
+    d8458:
+      title: Conseguir, manter e sair de um emprego, outro especificado
+
+    d8459:
+      title: Conseguir, manter e sair de um emprego, não especificado
+
+d850:
+  title: Trabalho remunerado
+
+  description: >
+    Participar de todos os aspectos do trabalho, como uma ocupação, negócio,
+    profissão ou outra forma de emprego, em troca de pagamento, como empregado,
+    em tempo integral ou parcial, ou como autônomo, como procurar trabalho e
+    conseguir um emprego, realizar as tarefas necessárias do trabalho, chegar
+    pontualmente ao trabalho, supervisionar outros empregados ou ser
+    supervisionado e realizar as tarefas necessárias sozinho ou em grupo.
+
+  includes: >
+    Inclui: trabalho autônomo, trabalho em tempo integral ou parcial.
+
+  groups:
+    d8500:
+      title: Trabalho autônomo
+
+      description: >
+        Participar de trabalho remunerado procurado ou gerado pelo indivíduo ou
+        contratado por outros sem uma relação de emprego formal, como trabalho
+        agrícola migratório, trabalhar como escritor ou consultor autônomo,
+        contrato de trabalho temporário, trabalhar como artista ou artesão, ter
+        ou gerenciar uma loja ou outro negócio.
+
+      excludes: >
+        Exclui: trabalho em tempo parcial e integral (d8501 e d8502).
+
+    d8501:
+      title: Trabalho em tempo parcial
+
+      description: >
+        Participar de todos os aspectos do trabalho para pagamento com base em
+        tempo parcial, como um empregado: procurar trabalho e conseguir emprego,
+        fazer as tarefas necessárias do trabalho, chegar ao trabalho
+        pontualmente, supervisionar outros empregados ou ser supervisionado e
+        realizar as tarefas necessárias sozinho ou em grupos.
+
+    d8502:
+      title: Trabalho em tempo integral
+
+      description: >
+        Participar de todos os aspectos do trabalho para pagamento com base em
+        tempo integral, como um empregado: procurar trabalho e conseguir um
+        emprego, realizar as tarefas necessárias do trabalho, chegar ao trabalho
+        pontualmente, supervisionar outros empregados ou ser supervisionado e
+        realizar as tarefas necessárias sozinho ou em grupos.
+
+    d8508:
+      title: Trabalho remunerado, outro especificado
+
+    d8509:
+      title: Trabalho remunerado, não especificado
+
+d855:
+  title: Trabalho não remunerado
+
+  description: >
+    Participar de todos os aspectos do trabalho sem pagamento, em tempo parcial
+    ou integral, incluindo organizar as atividades de trabalho, realizar as
+    tarefas necessárias do trabalho, chegar pontualmente ao trabalho,
+    supervisionar outros trabalhadores ou ser supervisionado e realizar as
+    tarefas necessárias sozinho ou em grupo, como trabalho voluntário, trabalho
+    beneficente, trabalho não remunerado para uma comunidade ou grupo religioso,
+    trabalhar em casa sem remuneração.
+
+  excludes: "Exclui: Capítulo 6 \u2014 Vida Doméstica"
+
+d859:
+  title: Trabalho e emprego, outros especificados e não especificados

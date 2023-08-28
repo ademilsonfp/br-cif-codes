@@ -1,0 +1,145 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+s410:
+  title: Estrutura do sistema cardiovascular
+
+  groups:
+    s4100:
+      title: Coração
+
+      groups:
+        s41000:
+          title: Átrios
+
+        s41001:
+          title: Ventrículos
+
+        s41008:
+          title: Estrutura do coração, outra especificada
+
+        s41009:
+          title: Estrutura do coração, não especificada
+
+    s4101:
+      title: Artérias
+
+    s4102:
+      title: Veias
+
+    s4103:
+      title: Capilares
+
+    s4108:
+      title: Estrutura do sistema cardiovascular, outra especificada
+
+    s4109:
+      title: Estrutura do sistema cardiovascular, não especificada
+
+s420:
+  title: Estrutura do sistema imunológico
+
+  groups:
+    s4200:
+      title: Vasos linfáticos
+
+    s4201:
+      title: Linfonodos
+
+    s4202:
+      title: Timo
+
+    s4203:
+      title: Baço
+
+    s4204:
+      title: Medula óssea
+
+    s4208:
+      title: Estrutura do sistema imunológico, outra especificada
+
+    s4209:
+      title: Estrutura do sistema imunológico, não especificada
+
+s430:
+  title: Estrutura do sistema respiratório
+
+  groups:
+    s4300:
+      title: Traquéia
+
+    s4301:
+      title: Pulmões
+
+      groups:
+        s43010:
+          title: Árvore bronquial
+
+        s43011:
+          title: Alvéolos
+
+        s43018:
+          title: Estrutura dos pulmões, outra especificada
+
+        s43019:
+          title: Estrutura dos pulmões, outra especificada
+
+    s4302:
+      title: Cavidade torácica
+
+    s4303:
+      title: Músculos da respiração
+
+      groups:
+        s43030:
+          title: Músculos intercostais
+
+        s43031:
+          title: Diafragma
+
+        s43038:
+          title: Músculos da respiração, outros especificados
+
+        s43039:
+          title: Músculos da respiração, não especificados
+
+    s4308:
+      title: Estrutura do sistema respiratório, outra especificada
+
+    s4309:
+      title: Estrutura do sistema respiratório, não especificada
+
+s498:
+  title: Estruturas dos sistemas cardiovascular, imunológico e respiratório,
+         outras especificadas
+
+s499:
+  title: Estruturas dos sistemas cardiovascular, imunológico e respiratório, não
+         especificadas

@@ -1,0 +1,136 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+d160:
+  title: Concentrar a atenção
+
+  description: >
+    Centrar-se intencionalmente em um estímulo específico, desligando-se de
+    ruídos que distraem a atenção.
+
+d163:
+  title: Pensar
+
+  description: >
+    Formular e manipular idéias, conceitos e imagens, dirigidos ou não a um
+    objetivo, sozinho ou com outros, como criar ficção, comprovar um teorema,
+    brincar com idéias, debater idéias, meditar, ponderar, especular ou
+    refletir.
+
+  excludes: >
+    Exclui: resolver problemas (d175); tomar decisões (d177).
+
+d166:
+  title: Ler
+
+  description: >
+    Realizar atividades envolvidas na compreensão e interpretação da linguagem
+    escrita (e.g., livros, instruções ou jornais em texto ou em braile), com o
+    objetivo de obter conhecimentos gerais ou informações específicas.
+
+  excludes: >
+    Exclui: aprender a ler (d140).
+
+d170:
+  title: Escrever
+
+  description: >
+    Utilizar ou produzir símbolos ou linguagem para transmitir informações, como
+    produzir um registro escrito de eventos ou idéias ou redigir uma carta.
+
+  excludes: >
+    Exclui: Aprender a escrever (d145)
+
+d172:
+  title: Calcular
+
+  description: >
+    Realizar cálculos aplicando princípios matemáticos para resolver problemas
+    descritos em palavras e produzir ou mostrar os resultados, como no cálculo
+    da soma de três número ou encontrar o resultado da divisão de um número por
+    outro.
+
+  excludes: >
+    Exclui: aprender a calcular (d150).
+
+d175:
+  title: Resolver problemas
+
+  description: >
+    Encontrar soluções para problemas ou situações identificando e analisando
+    questões, desenvolvendo opções e soluções, avaliando os potenciais efeitos
+    das soluções e executando uma solução escolhida, como na resolução de uma
+    disputa entre duas pessoas.
+
+  includes: >
+    Inclui: resolução de problemas simples e complexos.
+
+  excludes: >
+    Exclui: pensar (d163); tomar decisões (d177).
+
+  groups:
+    d1750:
+      title: Resolver problemas simples
+
+      description: >
+        Encontrar soluções para um problema simples envolvendo uma única
+        questão, por meio da identificação e análise da questão, do
+        desenvolvimento de soluções, da avaliação dos potenciais efeitos das
+        soluções e da execução da solução escolhida.
+
+    d1751:
+      title: Resolver problemas complexos
+
+      description: >
+        Encontrar soluções para um problema complexo que envolve questões
+        múltiplas e inter-relacionadas, ou vários problemas relacionados, por
+        meio da identificação e análise da questão, desenvolvimento de soluções,
+        avaliação dos potenciais efeitos das soluções e execução da solução
+        escolhida.
+
+    d1758:
+      title: Resolver problemas, outros especificados
+
+    d1759:
+      title: Resolver problemas, não especificados
+
+d177:
+  title: Tomar decisões
+
+  description: >
+    Fazer uma escolha entre opções, implementar a escolha e avaliar os efeitos
+    da escolha, como selecionar e adquirir um item específico ou decidir pôr em
+    prática e realizar uma tarefa entre várias tarefas que precisam ser feitas.
+
+  excludes: >
+    Exclui: pensar (d163); resolver problemas (d175)
+
+d179:
+  title: Aplicação de conhecimento, outra especificada

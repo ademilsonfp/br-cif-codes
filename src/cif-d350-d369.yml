@@ -1,0 +1,165 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+d350:
+  title: Conversação
+
+  description: >
+    Iniciar, manter e finalizar uma troca de pensamentos e idéias, realizada por
+    meio da linguagem escrita, oral, de sinais ou outras formas de linguagem,
+    com uma ou mais pessoas conhecidas ou estranhas, em um ambiente formal ou
+    informal.
+
+  includes: >
+    Inclui: iniciar, manter e finalizar uma conversa; conversar com uma ou mais
+    pessoas.
+
+  groups:
+    d3500:
+      title: Iniciar uma conversa
+
+      description: >
+        Iniciar um diálogo ou troca de idéias, como apresentar-se, expressar os
+        cumprimentos habituais e introduzir um tema de conversação ou fazer
+        perguntas.
+
+    d3501:
+      title: Manter uma conversação
+
+      description: >
+        Continuar e formular um diálogo ou troca de idéias, acrescentando pontos
+        de vista, introduzindo um novo tema ou retomando algum tema previamente
+        mencionado, respeitando turnos ao falar ou ao comunicar-se em linguagem
+        de sinais.
+
+    d3502:
+      title: Terminar uma conversa
+
+      description: >
+        Terminar um diálogo ou troca de idéias com declarações ou expressões
+        habituais de finalização e fechar o tema da conversa.
+
+    d3503:
+      title: Conversar com uma pessoa
+
+      description: >
+        Iniciar, manter, dar forma e terminar um diálogo ou intercâmbio com uma
+        pessoa, como falar do tempo com um amigo.
+
+    d3504:
+      title: Conversar com muitas pessoas
+
+      description: >
+        Iniciar, manter, dar forma e terminar um diálogo ou intercâmbio com mais
+        de um indivíduo, como iniciar e participar de um intercâmbio de grupo.
+
+    d3508:
+      title: Conversação, outra especificada
+
+    d3509:
+      title: Conversação, não especificada
+
+d355:
+  title: Discussão
+
+  description: >
+    Iniciar, manter e terminar a análise de um assunto, com argumentos a favor
+    ou contra, ou um debate por meio de linguagem oral, escrita, de sinais ou
+    outras formas de linguagem, com uma ou mais pessoas conhecidas ou estranhas,
+    em um ambiente formal ou informal.
+
+  includes: >
+    Inclui: discussão com uma ou várias pessoas.
+
+  groups:
+    d3550:
+      title: Discussão com uma pessoa
+
+      description: >
+        Iniciar, manter, dar forma ou terminar uma discussão ou um debate com
+        uma pessoa.
+
+    d3551:
+      title: Discussão com várias pessoas
+
+      description: >
+        Iniciar, manter, dar forma ou terminar uma discussão ou um debate com
+        mais de uma pessoa.
+
+    d3558:
+      title: Discussão, outra especificada
+
+    d3559:
+      title: Discussão, não especificada
+
+d360:
+  title: Utilização de dispositivos e técnicas de comunicação
+
+  description: >
+    Utilizar dispositivos, técnicas e outros meios para se comunicar, como
+    telefonar para um amigo.
+
+  includes: >
+    Inclui: utilização de dispositivos de telecomunicações, utilização de
+    máquinas de escrever e técnicas de comunicação.
+
+  groups:
+    d3600:
+      title: Utilização de dispositivos de comunicação
+
+      description: >
+        Utilizar telefones e outras máquinas, como fax ou telex, como meio de
+        comunicação.
+
+    d3601:
+      title: Utilização de máquina de escrever
+
+      description: >
+        Utilizar máquinas para escrever, como máquinas de escrever, computadores
+        e máquinas de braile.
+
+    d3602:
+      title: Utilização de técnicas de comunicação
+
+      description: >
+        Realizar ações e tarefas relacionadas com técnicas de comunicação, como
+        leitura labial.
+
+    d3608:
+      title: Utilização de dispositivos e técnicas de comunicação, outros
+             especificados
+
+    d3609:
+      title: Utilização de dispositivos e técnicas de comunicação, não
+             especificados
+
+d369:
+  title: Conversação e utilização de dispositivos e técnicas de comunicação,
+         outros especificados e não especificados

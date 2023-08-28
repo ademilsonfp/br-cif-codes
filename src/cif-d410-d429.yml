@@ -1,0 +1,229 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+d410:
+  title: Mudar a posição básica do corpo
+
+  description: >
+    Adotar e abandonar de uma posição corporal e mover-se de um local para
+    outro, como levantar-se de uma cadeira para deitar-se na cama, e adotar e
+    abandonar posições como ajoelhado e agachado.
+
+  includes: >
+    Inclui: mudar a posição do corpo de deitado, agachado, ajoelhado, sentado ou
+    em pé, curvado e mudar o centro de gravidade do corpo.
+
+  excludes: >
+    Exclui: transferir a própria posição (d420).
+
+  groups:
+    d4100:
+      title: Deitar-se
+
+      description: >
+        Adotar e abandonar a posição deitada ou mudar a posição horizontal do
+        corpo para qualquer outra posição, como levantar-se ou sentar-se.
+
+      includes: >
+        Inclui: assumir uma posição prostrada.
+
+    d4101:
+      title: Agachar-se
+
+      description: >
+        Adotar e abandonar a posição sentada ou agachada sobre o próprio quadril
+        com os joelhos juntos ou sentada sobre os próprios calcanhares, como
+        pode ser necessário em banheiros no nível do piso, ou mudar a posição do
+        corpo de agachado para qualquer outra posição, como levantar-se.
+
+    d4102:
+      title: Ajoelhar-se
+
+      description: >
+        Adotar e abandonar uma posição em que o corpo é apoiado sobre os joelhos
+        com as pernas dobradas, como quando se reza, ou mudar a posição do corpo
+        de ajoelhado para qualquer outra posição, como levantar-se.
+
+    d4103:
+      title: Sentar-se
+
+      description: >
+        Adotar e abandonar uma posição sentada ou mudar a posição do corpo de
+        sentado para qualquer outra posição, como levantar-se ou deitar-se.
+
+      includes: >
+        Inclui: adotar uma posição sentada com as pernas dobradas ou cruzadas;
+        adotar uma posição sentada com os pés apoiados ou sem apoio.
+
+    d4104:
+      title: Levantar-se
+
+      description: >
+        Adotar e abandonar uma posição de estar em pé ou mudar a posição do
+        corpo de estar em pé para qualquer outra posição, como deitar-se ou
+        sentar-se.
+
+    d4105:
+      title: Inclinar-se
+
+      description: >
+        Inclinar as costas para baixo ou para o lado, como ao fazer uma
+        reverência ou abaixar-se para pegar um objeto.
+
+    d4106:
+      title: Mudar o centro de gravidade do corpo
+
+      description: >
+        Mudar ou mover o peso do corpo de uma posição para outra enquanto
+        sentado, de pé ou deitado, como mover-se de um pé para o outro enquanto
+        de pé.
+
+      excludes: >
+        Exclui: transferir a própria posição (d420); andar (d450).
+
+    d4108:
+      title: Mudar a posição básica do corpo, outra especificada
+
+    d4109:
+      title: Mudar a posição básica do corpo, não especificada
+
+d415:
+  title: Manter a posição do corpo
+
+  description: >
+    Manter o corpo na mesma posição durante o tempo necessário, como permanecer
+    sentado ou de pé no trabalho ou na escola.
+
+  includes: >
+    Inclui: manter uma posição deitada, agachada, ajoelhada, sentada ou em pé.
+
+  groups:
+    d4150:
+      title: Permanecer deitado
+
+      description: >
+        Permanecer deitado pelo tempo necessário, como permanecer em uma posição
+        de bruços na cama.
+
+      includes: >
+        Inclui: permanecer em uma posição de bruços (face para baixo ou
+        prostrado), supina (virado para cima) ou de lado.
+
+    d4151:
+      title: Permanecer agachado
+
+      description: >
+        Permanecer agachado pelo tempo necessário, como quando sentado no chão.
+
+    d4152:
+      title: Permanecer ajoelhado
+
+      description: >
+        Permanecer em uma posição ajoelhada em que o corpo é apoiado sobre os
+        joelhos com pernas dobradas pelo tempo necessário, como durante as
+        preces na igreja.
+
+    d4153:
+      title: Permanecer sentado
+
+      description: >
+        Permanecer sentado, em um cadeira ou no chão, pelo tempo necessário,
+        como quando sentado em uma carteira ou mesa.
+
+      includes: >
+        Inclui: permanecer sentado com pernas retas ou cruzadas, com pés
+        apoiados ou sem apoio.
+
+    d4154:
+      title: Permanecer em pé
+
+      description: >
+        Permanecer em pé durante o tempo necessário, como quando se espera numa
+        fila.
+
+      includes: >
+        Inclui: permanecer de pé em superfícies inclinadas, escorregadias ou
+        duras.
+
+    d4158:
+      title: Manter a posição do corpo, outra especificada
+
+    d4159:
+      title: Manter a posição do corpo, não especificada
+
+d420:
+  title: Transferir a própria posição
+
+  description: >
+    Mover-se de uma superfície para outra, como escorregar em um banco ou
+    mover-se da cama para a cadeira, sem mudar a posição do corpo.
+
+  includes: >
+    Inclui: deslocar-se enquanto sentado ou deitado.
+
+  excludes: >
+    Exclui: mudar a posição básica do corpo (d410).
+
+  groups:
+    d4200:
+      title: Transferir-se enquanto sentado
+
+      description: >
+        Mover-se de uma posição sentada, passando de uma cadeira para outra, no
+        mesmo nível ou em nível diferente, ou mover-se de uma cadeira para uma
+        cama.
+
+      includes: >
+        Inclui: mover-se de uma cadeira para outra, como para um assento
+        higiênico; mover-se de uma cadeira de rodas para o assento de um
+        veículo.
+
+      excludes: >
+        Exclui: mudar a posição básica do corpo (d410).
+
+    d4201:
+      title: Transferir-se enquanto deitado
+
+      description: >
+        Mover-se de uma posição deitada para outra no mesmo nível ou em nível
+        diferente, como mover-se de uma cama para outra.
+
+      excludes: >
+        Exclui: mudar a posição básica do corpo (d410).
+
+    d4208:
+      title: Transferir a própria posição, outra especificada
+
+    d4209:
+      title: Transferir a própria posição, não especificada
+
+d429:
+  title: Mudar e manter a posição do corpo, outras especificadas e não
+         especificadas

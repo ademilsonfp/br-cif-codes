@@ -1,0 +1,141 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+e410:
+  title: Atitudes individuais de membros da família imediata
+
+  description: >
+    Opiniões e crenças gerais ou específicas dos membros familiares imediatos
+    sobre a pessoa ou sobre outras questões (e.g., questões sociais, políticas e
+    econômicas) que influenciam o comportamento e as ações individuais.
+
+e415:
+  title: Atitudes individuais de membros da família ampliada
+
+  description: >
+    Opiniões e crenças gerais ou específicas dos outros membros familiares sobre
+    a pessoa ou sobre outras questões (e.g., questões sociais, políticas e
+    econômicas) que influenciam o comportamento e as ações individuais.
+
+e420:
+  title: Atitudes individuais dos amigos
+
+  description: >
+    Opiniões e crenças gerais ou específicas dos amigos sobre a pessoa ou sobre
+    outras questões (e.g., questões sociais, políticas e econômicas) que
+    influenciam o comportamento e as ações individuais.
+
+e425:
+  title: Atitudes individuais de conhecidos, companheiros, colegas, vizinhos e
+         membros da comunidade
+
+  description: >
+    Opiniões ou crenças gerais ou específicas de conhecidos, companheiros,
+    colegas, vizinhos e membros da comunidade sobre a pessoa ou sobre outras
+    questões (e.g., questões sociais, políticas e econômicas) que influenciam o
+    comportamento e as ações individuais.
+
+e430:
+  title: Atitudes individuais de pessoas em posições de autoridade
+
+  description: >
+    Opiniões e crenças gerais ou específicas das pessoas em posições de
+    autoridade sobre a pessoa ou sobre outras questões (e.g., questões sociais,
+    políticas e econômicas) que influenciam o comportamento e as ações
+    individuais.
+
+e435:
+  title: Atitudes individuais das pessoas em posições subordinadas
+
+  description: >
+    Opiniões ou crenças gerais ou específicas das pessoas em posições
+    subordinadas sobre a pessoa ou sobre outras questões (e.g., questões
+    sociais, políticas e econômicas) que influenciam o comportamento e as ações
+    individuais.
+
+e440:
+  title: Atitudes individuais dos cuidadores e assistentes pessoais
+
+  description: >
+    Opiniões e crenças gerais ou específicas dos cuidadores e assistentes
+    pessoais sobre a pessoa ou sobre outras questões (e.g., questões sociais,
+    políticas e econômicas) que influenciam o comportamento e as ações
+    individuais.
+
+e445:
+  title: Atitudes individuais de estranhos
+
+  description: >
+    Opiniões e crenças gerais ou específicas de estranhos sobre a pessoa ou
+    sobre outras questões (e.g., questões sociais, políticas e econômicas) que
+    influenciam o comportamento e as ações individuais.
+
+e450:
+  title: Atitudes individuais dos profissionais da saúde
+
+  description: >
+    Opiniões e crenças gerais ou específicas dos profissionais da saúde sobre a
+    pessoa ou sobre outras questões (e.g., questões sociais, políticas e
+    econômicas) que influenciam o comportamento e as ações individuais.
+
+e455:
+  title: Atitudes individuais dos profissionais relacionados à saúde
+
+  description: >
+    Opiniões e crenças gerais ou específicas dos profissionais relacionados à
+    saúde sobre a pessoa ou sobre outras questões (e.g., questões sociais,
+    políticas e econômicas) que influenciam o comportamento e as ações
+    individuais.
+
+e460:
+  title: Atitudes sociais
+
+  description: >
+    Opiniões e crenças gerais ou específicas mantidas em geral pelas pessoas de
+    uma cultura, sociedade, grupo subcultural ou outro grupo social sobre outros
+    indivíduos ou sobre outras questões sociais, políticas e econômicas que
+    influenciam o comportamento e as ações do indivíduo ou do grupo.
+
+e465:
+  title: Normas, práticas e ideologias sociais
+
+  description: >
+    Costumes, práticas, regras e sistemas abstratos de valores e crenças
+    normativas (e.g., ideologias, visões normativas do mundo, filosofias morais)
+    que surgem dentro dos contextos sociais e que afetam ou criam práticas e
+    comportamentos sociais e individuais, como normas sociais de moral, etiqueta
+    e comportamento religioso, doutrina religiosa e normas e práticas
+    resultantes, normas que governam rituais ou eventos sociais.
+
+e498:
+  title: Atitudes, outras especificadas
+
+e499:
+  title: Atitudes, não especificadas

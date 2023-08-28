@@ -1,0 +1,177 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+b710:
+  title: Funções relacionadas à mobilidade das articulações
+
+  description: >
+    Funções relacionadas à amplitude e facilidade de movimento de uma
+    articulação.
+
+  includes: >
+    Inclui: funções relacionadas à mobilidade de uma ou várias articulações,
+    vertebral, ombro, cotovelo, cintura, quadril, joelho, tornozelo, pequenas
+    articulações das mãos e pés; mobilidade generalizada das articulações;
+    deficiências como hipermobilidade das articulações, rigidez articular, ombro
+    "congelado", artrite.
+
+  excludes: >
+    Exclui: funções relacionadas à estabilidade das articulações (b715); funções
+    relacionadas ao controle dos movimentos voluntários (b760).
+
+  groups:
+    b7100:
+      title: Mobilidade de uma única articulação
+
+      description: >
+        Funções relacionadas à amplitude e facilidade do movimento de uma
+        articulação.
+
+    b7101:
+      title: Mobilidade de várias articulações
+
+      description: >
+        Funções relacionadas à amplitude e facilidade de movimento de mais de
+        uma articulação.
+
+    b7102:
+      title: Mobilidade generalizada das articulações
+
+      description: >
+        Funções relacionadas à amplitude e facilidade de movimento das
+        articulações em todo o corpo.
+
+    b7108:
+      title: Funções relacionadas à mobilidade das articulações, outras
+             especificadas
+
+    b7109:
+      title: Funções relacionadas à mobilidade das articulações, não
+             especificadas
+
+b715:
+  title: Funções relacionadas à estabilidade das articulações
+
+  description: >
+    Funções de manutenção da integridade estrutural das articulações.
+
+  includes: >
+    Inclui: funções da estabilidade de uma única articulação, várias
+    articulações e articulações em geral; deficiências como articulação de ombro
+    instável, luxação de uma articulação, luxação do ombro e quadril.
+
+  excludes: >
+    Exclui: funções relacionadas à mobilidade das articulações (b710).
+
+  groups:
+    b7150:
+      title: Estabilidade de uma única articulação
+
+      description: >
+        Funções de manutenção da integridade estrutural de uma articulação.
+
+    b7151:
+      title: Estabilidade de várias articulações
+
+      description: >
+        Funções de manutenção da integridade estrutural de mais de uma
+        articulação.
+
+    b7152:
+      title: Estabilidade generalizada das articulações
+
+      description: >
+        Funções de manutenção da integridade estrutural das articulações em todo
+        o corpo.
+
+    b7158:
+      title: Funções relacionadas à estabilidade das articulações, outras
+             especificadas
+
+    b7159:
+      title: Funções relacionadas à estabilidade das articulações, não
+             especificadas
+
+b720:
+  title: Funções da mobilidade óssea
+
+  description: >
+    Funções relacionadas à amplitude e facilidade de movimento da escápula,
+    pelve, ossos do carpo e do tarso.
+
+  includes: >
+    Inclui: deficiências como escápula congelada e pelve congelada.
+
+  excludes: >
+    Exclui: funções relacionadas à mobilidade das articulações (b710).
+
+  groups:
+    b7200:
+      title: Mobilidade da escápula
+
+      description: >
+        Funções relacionadas à amplitude e facilidade de movimento da escápula.
+
+      includes: >
+        Inclui: deficiências como protração, retração, laterorrotação e rotação
+        medial da escápula.
+
+    b7201:
+      title: Mobilidade da pelve
+
+      description: >
+        Funções relacionadas à amplitude e facilidade de movimento da pelve.
+
+      includes: >
+        Inclui: rotação da pelve.
+
+    b7202:
+      title: Mobilidades dos ossos do carpo
+
+      description: >
+        Funções relacionadas à amplitude e facilidade de movimento dos ossos do
+        carpo.
+
+    b7203:
+      title: Mobilidade dos ossos társicos
+
+      description: >
+        Funções relacionadas à amplitude e facilidade de movimento dos ossos do
+        tarso.
+
+    b7208:
+      title: Funções da mobilidade óssea, outras especificadas
+
+    b7209:
+      title: Funções da mobilidade óssea, não especificadas
+
+b729:
+  title: Funções das articulações e dos ossos, outras especificadas e não
+         especificadas

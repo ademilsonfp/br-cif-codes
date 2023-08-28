@@ -1,0 +1,55 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+d110:
+  title: Observar
+
+  description: >
+    Utilizar intencionalmente o sentido da visão para experimentar estímulos
+    visuais, como assistir um evento esportivo ou observar crianças brincando.
+
+d115:
+  title: Ouvir
+
+  description: >
+    Utilizar intencionalmente o sentido da audição para experimentar estímulos
+    auditivos, como ouvir rádio, música ou aula.
+
+d120:
+  title: Outras percepções sensoriais intencionais
+
+  description: >
+    Utilizar intencionalmente os outros sentidos básicos do corpo para
+    experimentar estímulos, como tocar ou sentir texturas, saborear doces ou
+    sentir o cheiro das flores.
+
+d129:
+  title: Experiências sensoriais intencionais, outras especificadas e não
+         especificadas

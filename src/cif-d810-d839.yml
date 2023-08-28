@@ -1,0 +1,79 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+d810:
+  title: Educação informal
+
+  description: >
+    Aprender em casa ou em outro ambiente não institucional, como aprender
+    trabalhos manuais e outras habilidades com pais ou membros familiares, ou
+    escolarização em casa.
+
+d815:
+  title: Educação infantil
+
+  description: >
+    Aprender em um nível inicial de instrução organizada, projetada
+    principalmente para introduzir a criança ao ambiente escolar e prepará-la
+    para a educação obrigatória, como adquirir habilidades em uma creche ou
+    ambiente similar em preparação para a escola.
+
+d820:
+  title: Educação escolar
+
+  description: >
+    Obter acesso à escola, participar de todas as responsabilidades e
+    privilégios relacionados à escola e aprender o material do curso, matéria e
+    outras exigências curriculares em um programa educacional primário e
+    secundário, incluindo ir à escola regularmente, trabalhar em cooperação com
+    outros alunos, seguir as orientações dos professores, organizar, estudar e
+    concluir as tarefas e projetos designados e progredir para os outros
+    estágios de educação.
+
+d825:
+  title: Treinamento profissional
+
+  description: >
+    Participar de todas as atividades de um programa de formação profissional e
+    aprender as disciplinas do programa curricular que preparam para um negócio,
+    emprego ou profissão.
+
+d830:
+  title: Educação superior
+
+  description: >
+    Participar das atividades dos programas educacionais avançados em
+    universidades, faculdades e escolas profissionalizantes e aprender todos os
+    aspectos do currículo necessários para graduações, diplomas, certificados e
+    outras autorizações, como obter licenciatura ou mestrado, formarse em
+    faculdade de medicina ou em outra escola profissionalizante.
+
+d839:
+  title: Educação, outra especificada e não especificada

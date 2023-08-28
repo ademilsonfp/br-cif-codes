@@ -1,0 +1,302 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+d510:
+  title: Lavar-se
+
+  description: >
+    Lavar e secar todo o corpo, ou partes do corpo, utilizando água e materiais
+    ou métodos de limpeza e secagem apropriados, como tomar banho em banheira ou
+    chuveiro, lavar mãos e pés, face e cabelo; e secar-se com uma toalha.
+
+  includes: >
+    Inclui: lavar partes do corpo, todo o corpo; e secar-se.
+
+  excludes: >
+    Exclui: cuidado das partes do corpo (d520); cuidados relacionados aos
+    processos de excreção (d530).
+
+  groups:
+    d5100:
+      title: Lavar partes do corpo
+
+      description: >
+        Aplicar água, sabonete e outras substâncias às partes do corpo, como
+        mãos, face, pés, cabelo ou unhas, para limpá-las.
+
+    d5101:
+      title: Lavar todo o corpo
+
+      description: >
+        Aplicar água, sabonete e outras substâncias ao corpo inteiro para se
+        limpar, como tomar um banho de banheira ou uma ducha.
+
+    d5102:
+      title: Secar-se
+
+      description: >
+        Usar uma toalha ou outros meios para secar alguma parte ou partes do
+        próprio corpo, ou todo o corpo, como após se lavar.
+
+    d5108:
+      title: Lavar-se, outro especificado
+
+    d5109:
+      title: Lavar-se, não especificado
+
+d520:
+  title: Cuidado das partes do corpo
+
+  description: >
+    Cuidar das partes do corpo como pele, face, dentes, couro cabeludo, unhas
+    e genitais, que requerem mais do que lavar e secar.
+
+  includes: >
+    Inclui: cuidado da pele, dentes, cabelo, unhas das mãos e dos pés.
+
+  excludes: >
+    Exclui: lavar-se (d510); cuidados relacionados aos processos de excreção
+    (d530).
+
+  groups:
+    d5200:
+      title: Cuidado da pele
+
+      description: >
+        Cuidar da textura e hidratação da própria pele, como remover calosidades
+        e utilizar loções hidratantes ou cosméticos.
+
+    d5201:
+      title: Cuidado dos dentes
+
+      description: >
+        Cuidar da higiene dental, como escovar os dentes, passar fio dental e
+        cuidar de próteses ou de aparelhos de correção dos dentes.
+
+    d5202:
+      title: Cuidado com os pêlos
+
+      description: >
+        Cuidar do cabelo e da barba, como pentear, modelar, barbear-se ou
+        aparar.
+
+    d5203:
+      title: Cuidado com as unhas
+
+      description: >
+        Limpar, cortar ou pintar as unhas das mãos.
+
+    d5204:
+      title: Cuidados com as unhas dos pés
+
+      description: >
+        Limpar, cortar ou pintar as unhas dos pés.
+
+    d5208:
+      title: Cuidado das partes do corpo, outro especificado
+
+    d5209:
+      title: Cuidado das partes do corpo, não especificado
+
+d530:
+  title: Cuidados relacionados aos processos de excreção
+
+  description: >
+    Planejamento e execução da eliminação da excreção (menstruação, micção e
+    defecação) e posterior limpeza.
+
+  includes: >
+    Inclui: regulação da micção, defecação e cuidado menstrual.
+
+  excludes: >
+    Exclui: lavar-se (d510); cuidado das partes do corpo (d520).
+
+  groups:
+    d5300:
+      title: Regulação da micção
+
+      description: >
+        Coordenar e gerenciar a micção, como indicar a necessidade, adotar a
+        posição adequada, escolher e ir a um lugar apropriado para urinar,
+        manipular a roupa antes e depois de urinar e limparse após urinar.
+
+    d5301:
+      title: Regulação da defecação
+
+      description: >
+        Coordenar e gerenciar a defecação como indicar a necessidade, adotar a
+        posição adequada, escolher e ir a um lugar apropriado para defecar,
+        manipular a roupa antes e após defecar e limpar-se após defecar.
+
+    d5302:
+      title: Cuidado menstrual
+
+      description: >
+        Coordenar, planejar e cuidar da menstruação, como prever a menstrução e
+        utilizar absorventes e toalhas higiênicas.
+
+    d5308:
+      title: Cuidados relacionados aos processos de excreção, outro especificado
+
+    d5309:
+      title: Cuidados relacionados aos processos de excreção, não especificado
+
+d540:
+  title: Vestir-se
+
+  description: >
+    Realizar as ações coordenadas e tarefas de vestir e tirar as roupas e os
+    sapatos em seqüência e de acordo com as condições climáticas e sociais, como
+    vestir, ajustar e tirar camisas, blusas, calças, roupas íntimas, sáris,
+    quimonos, meias, chapéus, luvas, casacos, botas, sandálias e chinelos.
+
+  includes: >
+    Inclui: vestir ou tirar roupas e calçados e escolher as roupas apropriadas.
+
+  groups:
+    d5400:
+      title: Vestir-se
+
+      description: >
+        Realizar as tarefas coordenadas de vestir roupas em várias partes do
+        corpo, como vestir a roupa pela cabeça, braços e ombros, e nas metades
+        inferior e superior do corpo; vestir luvas e chapéus.
+
+    d5401:
+      title: Despir-se
+
+      description: >
+        Realizar as tarefas coordenadas de despir a roupa de várias partes do
+        corpo, como puxar a roupa pela cabeça, braços e ombros, e das metades
+        inferior e superior do corpo, tirar luvas e chapéus.
+
+    d5402:
+      title: Calçar
+
+      description: >
+        Realizar as tarefas coordenadas de vestir meias e calçados.
+
+    d5403:
+      title: Tirar o calçado
+
+      description: >
+        Executar as tarefas coordenadas de descalçar meias e calçados.
+
+    d5404:
+      title: Escolha de roupa apropriada
+
+      description: >
+        Seguir códigos de vestimenta implícitos ou explícitos e convenções da
+        própria sociedade e vestir-se de acordo com as condições climáticas.
+
+    d5408:
+      title: Vestir-se, outro especificado
+
+    d5409:
+      title: Vestir-se, não especificado
+
+d550:
+  title: Comer
+
+  description: >
+    Executar as tarefas e ações coordenadas de comer o alimento servido, levá-lo
+    à boca e consumi-lo de maneira culturalmente aceitável, cortar ou partir o
+    alimento em pedaços, abrir garrafas e latas, utilizar utensílios, atividades
+    relacionadas com refeições, banquetes e jantares.
+
+  excludes: >
+    Exclui: beber (d560).
+
+d560:
+  title: Beber
+
+  description: >
+    Pegar a bebida, levá-la à boca e consumir a bebida de maneira culturalmente
+    aceitável, misturar, mexer e verter líquidos para beber, abrir garrafas e
+    latas, beber através de um canudo ou beber água corrente da torneira ou de
+    uma fonte; amamentar.
+
+  excludes: >
+    Exclui: comer (d550).
+
+d570:
+  title: Cuidar da própria saúde
+
+  description: >
+    Garantir conforto físico, a saúde e o bem estar físico e mental, como manter
+    uma dieta equilibrada, nível apropriado de atividade física, manter uma
+    temperatura corporal adequada, evitar danos à saúde, seguir práticas sexuais
+    seguras, incluindo a utilização de preservativos, seguir o cronograma de
+    imunização e exames físicos regulares.
+
+  includes: >
+    Inclui: garantir o próprio conforto físico; controlar a alimentação e a
+    forma física; manter a própria saúde.
+
+  groups:
+    d5700:
+      title: Garantir o próprio conforto físico
+
+      description: >
+        Cuidar de si próprio, tendo consciência da necessidade de tomar medidas,
+        e efetua-las, para garantir que o próprio corpo esteja numa posição
+        confortável, sem sentir muito calor ou frio e que dispõe de iluminação
+        adequada.
+
+    d5701:
+      title: Controle da dieta e forma física
+
+      description: >
+        Cuidar de si próprio, tendo consciência das próprias necessidades,
+        selecionando e consumindo alimentos nutritivos e mantendo a forma
+        física.
+
+    d5702:
+      title: Manter a própria saúde
+
+      description: >
+        Cuidar de si próprio, tendo consciência das próprias necessidades, e
+        fazer o que é preciso para cuidar da própria saúde para reagir às
+        ameaças à saúde e prevenir doenças; procurar ajuda profissional; seguir
+        conselhos médicos e outros sobre a saúde; e evitar riscos à saúde como
+        lesões físicas, doenças transmissíveis, uso de drogas e doenças
+        sexualmente transmissíveis.
+
+    d5708:
+      title: Cuidar da própria saúde, outra especificada
+
+    d5709:
+      title: Cuidar da própria saúde, não especificada
+
+d598:
+  title: Cuidados pessoais, outros especificados
+
+d599:
+  title: Cuidados pessoais, não especificados

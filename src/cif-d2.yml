@@ -1,0 +1,232 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+d210:
+  title: Realizar uma única tarefa
+
+  description: >
+    Realizar ações simples ou complexas e coordenadas relacionadas aos
+    componentes mentais e físicos de uma única tarefa, como iniciar uma tarefa,
+    organizar o tempo, o espaço e os materiais para uma tarefa, regular o
+    desempenho da tarefa e executar, concluir e manter a tarefa.
+  
+  includes: >
+    Inclui: realizar uma tarefa simples ou complexa; realizar uma tarefa única
+    de forma independente ou em um grupo.
+  
+  excludes: >
+    Exclui: aquisição de habilidades (d155); resolver problemas (d175); tomar
+    decisões (d177); realizar tarefas múltiplas (d220).
+  
+  groups:
+    d2100:
+      title: Realizar uma tarefa simples
+      
+      description: >
+        Preparar, iniciar e organizar o tempo e o espaço necessários para uma
+        única tarefa; executar uma tarefa simples com um único componente
+        principal, como ler um livro, escrever uma carta ou fazer a cama.
+      
+    d2101:
+      title: Realizar uma tarefa complexa
+
+      description: >
+        Preparar, iniciar e organizar o tempo e o espaço para uma única tarefa
+        complexa; executar uma tarefa complexa com mais de um componente, que
+        pode ser realizada em seqüência ou simultaneamente, como arrumar os
+        móveis na própria casa ou concluir uma tarefa escolar.
+    
+    d2102:
+      title: Realizar uma tarefa única, de forma independente
+
+      description: >
+        Preparar, iniciar e organizar o tempo e o espaço para uma tarefa simples
+        ou complexa, gerenciando e executando a tarefa por si próprio, sem a
+        ajuda de outros.
+    
+    d2103:
+      title: Realizar uma tarefa única em um grupo
+
+      description: >
+        Preparar, iniciar e organizar o tempo e o espaço para uma única tarefa,
+        simples ou complexa; gerenciar e executar a tarefa com as pessoas
+        envolvidas em algumas ou em todas as etapas da tarefa.
+    
+    d2108:
+      title: Realizar uma única tarefa, outra especificada
+
+    d2109:
+      title: Realizar uma única tarefa, não especificada
+
+d220:
+  title: Realizar tarefas múltiplas
+
+  description: >
+    Realizar ações simples ou complexas e coordenadas como componentes de
+    tarefas múltiplas, integradas e complexas em seqüência ou simultaneamente.
+  
+  includes: >
+    Inclui: realizar tarefas múltiplas; concluir tarefas múltiplas; realizar
+    tarefas múltiplas de forma independente e em um grupo.
+  
+  excludes: >
+    Exclui: aquisição de habilidades (d155); resolver problemas (d175); tomar
+    decisões (d177); realizar uma única tarefa (d210).
+  
+  groups:
+    d2200:
+      title: Realizar tarefas múltiplas
+
+      description: >
+        Preparar, iniciar e organizar o tempo e o espaço necessários para várias
+        tarefas, gerenciar e executar várias tarefas, simultânea ou
+        seqüencialmente.
+      
+    d2201:
+      title: Concluir tarefas múltiplas
+
+      description: >
+        Concluir várias tarefas, simultânea ou seqüencialmente.
+    
+    d2202:
+      title: Realizar tarefas múltiplas, de forma independente
+
+      description: >
+        Preparar, iniciar e organizar o tempo e espaço para múltiplas tarefas,
+        gerenciar e executar várias tarefas simultânea ou seqüencialmente, por
+        si próprio, sem a ajuda de outros.
+    
+    d2203:
+      title: Realizar tarefas múltiplas em um grupo
+
+      description: >
+        Preparar, iniciar e organizar o tempo e espaço para múltiplas tarefas,
+        gerenciar e executar várias tarefas em conjunto ou seqüencialmente com
+        outros envolvidos em algumas ou em todas as etapas das tarefas
+        múltiplas.
+    
+    d2208:
+      title: Realizar tarefas múltiplas, outras especificadas
+
+    d2209:
+      title: Realizar tarefas múltiplas, não especificadas
+
+d230:
+  title: Realizar a rotina diária
+
+  description: >
+    Realizar e coordenar ações simples ou complexas para planejar, gerenciar e
+    concluir as exigências dos procedimentos ou dos deveres do dia-adia, como
+    administrar o tempo e fazer planos para diversas atividades ao longo do dia.
+  
+  includes: >
+    Inclui: gerenciar e concluir a rotina diária; gerenciar o nível de atividade
+    pessoal.
+  
+  excludes: >
+    Exclui: realizar tarefas múltiplas (d220).
+  
+  groups:
+    d2301:
+      title: Gerenciar a rotina diária
+
+      description: >
+        Realizar e coordenar ações simples ou complexas para planejar e
+        gerenciar as exigências dos procedimentos ou deveres do dia-adia.
+    
+    d2302:
+      title: Concluir a rotina diária
+
+      description: >
+        Realizar e coordenar ações simples ou complexas para concluir as
+        exigências dos procedimentos ou deveres do dia-a-dia.
+    
+    d2303:
+      title:  Gerenciar o nível de atividade pessoal
+
+      description: >
+        Realizar ações e condutas para obter a energia e o tempo necessários
+        para os procedimentos ou deveres do dia-a-dia.
+    
+    d2308:
+      title: Realizar a rotina diária, outra especificada
+
+    d2309:
+      title: Realizar a rotina diária, não especificada
+
+d240:
+  title: Lidar com o estresse e outras demandas psicológicas
+
+  description: >
+    Realizar e coordenar ações simples ou complexas para gerenciar e controlar
+    as demandas psicológicas necessárias à execução de tarefas que exigem
+    responsabilidades significativas e que envolvem estresse, distração,
+    ou crise, como dirigir um veículo no trânsito pesado ou tomar conta de
+    muitas crianças.
+  
+  includes: >
+    Inclui: lidar com responsabilidades; lidar com estresse e crise.
+  
+  groups:
+    d2400:
+      title: Lidar com responsabilidades
+    
+      description: >
+        Realizar e coordenar ações simples ou complexas para gerenciar os
+        deveres de desempenho de tarefas e para avaliar as necessidades desses
+        deveres.
+    
+    d2401:
+      title: Lidar com estresse
+
+      description: >
+        Realizar e coordenar ações simples ou complexas para enfrentar a
+        pressão, emergências ou estresse associados ao desempenho da tarefa.
+      
+    d2402:
+      title: Lidar com crise
+
+      description: >
+        Realizar e coordenar ações simples ou complexas para enfrentar os
+        momentos decisivos de uma situação ou momentos de perigo ou dificuldade
+        extrema.
+    
+    d2408:
+      title: Lidar com estresse e outras demandas psicológicas, outra
+             especificada
+
+    d2409:
+      title: Lidar com estresse e outras demandas psicológicas, não especificada
+
+d298:
+  title: Tarefas e demandas gerais, outras especificadas
+
+d299:
+  title: Tarefas e demandas gerais, não especificadas

@@ -1,0 +1,235 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+b210:
+  title: Funções da visão
+
+  description: >
+    Funções sensoriais relacionadas com a percepção de luz e forma, tamanho,
+    formato e cor de um estímulo visual.
+
+  includes: >
+    Inclui: funções da acuidade visual; funções do campo visual; qualidade da
+    visão; funções relacionadas com a percepção de luz e cor, acuidade visual da
+    visão distante e próxima, visão monocular e binocular; qualidade da imagem
+    visual; deficiências como miopia, hipermetropia, astigmatismo, hemianopsia,
+    cegueira de cores, visão em túnel, escotoma central e periférico, diplopia,
+    cegueira noturna e adaptabilidade à luz.
+
+  excludes: >
+    Exclui: funções da percepção (b156).
+
+  groups:
+    b2100:
+      title: Funções da acuidade visual
+
+      description: >
+        Funções visuais, tanto monocular como binocular, que permitem perceber a
+        forma e contorno a curta e longa distância.
+
+      groups:
+        b21000:
+          title: Acuidade binocular da visão de longe
+
+          description: >
+            Funções visuais que permitem perceber o tamanho, a forma e o
+            contorno de objetos distantes utilizando ambos os olhos.
+
+        b21001:
+          title: Acuidade monocular da visão de longe
+
+          description: >
+            Funções visuais que permitem perceber o tamanho, a forma e o
+            contorno dos objetos distantes utilizando apenas o olho direito ou o
+            esquerdo.
+
+        b21002:
+          title: Acuidade binocular da visão de perto
+
+          description: >
+            Funções visuais que permitem perceber o tamanho, a forma, o
+            contorno, dos objetos próximos utilizando ambos os olhos.
+
+        b21003:
+          title: Acuidade monocular da visão de perto
+
+          description: >
+            Funções visuais que permitem perceber o tamanho, a forma e o
+            contorno dos objetos próximos utilizando apenas o olho direito ou o
+            esquerdo.
+
+        b21008:
+          title: Funções da acuidade visual, outras especificadas
+
+        b21009:
+          title: Funções da acuidade visual, não especificadas
+
+    b2101:
+      title: Funções do campo visual
+
+      description: >
+        Funções visuais relacionadas a toda a área que pode ser vista com a
+        fixação do olhar.
+
+      includes: >
+        Inclui: deficiências como em escotomas, visão em túnel, anopsias.
+
+    b2102:
+      title: Qualidade da visão
+
+      description: >
+        Funções visuais que envolvem sensibilidade à luz, visão das cores,
+        sensibilidade a contrastes e a qualidade geral da imagem.
+
+      groups:
+        b21020:
+          title: Sensibilidade à luz
+
+          description: >
+            Funções visuais que permitem perceber uma quantidade mínima de luz
+            (mínimo de luz) e a diferença mínima em intensidade (diferença de
+            luz).
+
+          includes: >
+            Inclui: funções de adaptação à escuridão; deficiências tais como
+            cegueira noturna (hiposensibilidade à luz) e fotofobia
+            (hipersensibilidade à luz).
+
+        b21021:
+          title: Visão de cores
+
+          description: >
+            Funções visuais relacionadas com a diferenciação e a combinação de
+            cores.
+
+        b21022:
+          title: Sensibilidade ao contraste
+
+          description: >
+            Funções visuais relacionadas à separação da figura do fundo,
+            utilizando uma quantidade mínima de iluminação necessária.
+
+        b21023:
+          title: Qualidade da imagem visual
+
+          description: >
+            Funções visuais envolvidas na qualidade da imagem.
+
+          includes: >
+            Inclui: deficiências como ver raios de luz, qualidade da imagem
+            afetada (moscas volantes ou teias), distorção da imagem e visão de
+            estrelas ou flashes.
+
+        b21028:
+          title: Qualidade da visão, outra especificada
+
+        b21029:
+          title: Qualidade da visão, não especificada
+
+    b2108:
+      title: Funções da visão, outras especificadas
+
+    b2109:
+      title: Funções da visão, não especificadas
+
+b215:
+  title: Funções das estruturas adjacentes ao olho
+
+  description: >
+    Funções das estruturas internas e periféricas do olho que facilitam as
+    funções visuais.
+
+  includes: >
+    Inclui: funções dos músculos internos do olho, pálpebra, músculos externos
+    do olho, incluindo movimentos voluntários e de rastreamento e fixação do
+    olho, glândulas lacrimais, acomodação, reflexo pupilar; deficiências como
+    nistagmo, xeroftalmia e ptose.
+
+  excludes: >
+    Exclui: funções da visão (b210); Capítulo 7 -- Funções
+    neuromusculoesqueléticas e relacionada ao movimento.
+
+  groups:
+    b2150:
+      title: Funções dos músculos internos do olho
+
+      description: >
+        Funções dos músculos internos do olho, como a íris, que ajusta a forma e
+        o tamanho da pupila e do cristalino.
+
+      includes: >
+        Inclui: funções da acomodação; reflexo pupilar
+
+    b2151:
+      title: Funções da pálpebra
+
+      description: >
+        Funções da pálpebra, como o reflexo de proteção.
+
+    b2152:
+      title: Funções dos músculos externos do olho
+
+      description: >
+        Funções dos músculos que são utilizados para olhar em diferentes
+        direções, para seguir um objeto que se move no campo visual, produzir
+        movimentos sacádicos que localizam um objeto em movimento e para fixar o
+        olho.
+
+      includes: >
+        Inclui: nistagmo; cooperação de ambos os olhos.
+
+    b2153:
+      title: Funções das glândulas lacrimais
+
+      description: >
+        Funções das glândulas e canal lacrimonasal.
+
+    b2158:
+      title: Funções das estruturas adjacentes ao olho, outras especificadas
+
+    b2159:
+      title: Funções das estruturas adjacente ao olho, não especificadas
+
+b220:
+  title: Sensações associadas ao olho e estruturas adjacentes
+
+  description: >
+    Sensações de cansaço, secura e prurido no olho e outras sensações
+    relacionadas.
+
+  includes: >
+    Inclui: sensações de pressão atrás do olho, de ter algo no olho, tensão no
+    olho, queimação no olho e irritação no olho.
+
+  excludes: >
+    Exclui: sensação de dor (b280).
+
+b229:
+  title: Visão e funções relacionadas, outras especificadas e não especificadas

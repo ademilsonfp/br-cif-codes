@@ -1,0 +1,101 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+b450:
+  title: Funções respiratórias adicionais
+
+  description: >
+    Funções adicionais relacionadas à respiração como tossir, espirrar e
+    bocejar.
+
+  includes: >
+    Inclui: funções de sopro, assobio e respiração bucal.
+
+b455:
+  title: Funções de tolerância a exercícios
+
+  description: >
+    Funções relacionadas à capacidade respiratória e cardiovascular necessária
+    para suportar exercícios físicos.
+
+  includes: >
+    Inclui: funções de resistência física, capacidade aeróbica, vigor e fadiga.
+
+  excludes: >
+    Exclui: funções do sistema cardiovascular (b410-429); funções do sistema
+    hematológico (b430); funções respiratórias (b440); funções dos músculos
+    respiratórios (b445); funções respiratórias adicionais (b450).
+
+  groups:
+    b4550:
+      title: Resistência física geral
+
+      description: >
+        Funções relacionadas ao nível geral de tolerância ao exercício físico ou
+        vigor.
+
+    b4551:
+      title: Capacidade aeróbica
+
+      description: >
+        Funções relacionadas à capacidade da pessoa de se exercitar sem sentir
+        falta de fôlego.
+
+    b4552:
+      title: Fadiga
+
+      description: >
+        Funções relacionadas à suscetibilidade à fadiga, em qualquer nível de
+        exercício.
+
+    b4558:
+      title: Funções de tolerância a exercícios, outras especificadas
+
+    b4559:
+      title: Funções de tolerância a exercícios, não especificadas
+
+b460:
+  title: Sensações associadas às funções cardiovasculares e respiratórias
+
+  description: >
+    Sensações como perda de batimento cardíaco, palpitação e diminuição do
+    fôlego.
+
+  includes: >
+    Inclui: sensações de aperto no peito, sensações de batimento cardíaco
+    irregular, dispnéia, sufocação, náuseas, respiração ofegante e necessidade
+    de engolir ar.
+
+  excludes: >
+    Exclui: sensações de dor (b280).
+
+b469:
+  title: Funções e sensações adicionais dos sistemas cardiovascular e
+         respiratório, outras especificadas e não especificadas.

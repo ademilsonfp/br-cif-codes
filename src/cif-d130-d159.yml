@@ -1,0 +1,103 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+d130:
+  title: Imitar
+
+  description: >
+    Imitar ou espelhar como componente básico do aprendizado, como copiar um
+    gesto, um som ou as letras de um alfabeto.
+
+d135:
+  title: Ensaiar
+
+  description: >
+    Repetir uma seqüência de eventos ou símbolos como componente básico do
+    aprendizado, como contar de dez em dez ou praticar a recitação de um poema.
+
+d140:
+  title: Aprender a ler
+
+  description: >
+    Desenvolver a capacidade de ler material impresso (incluindo braile) com
+    fluência e precisão, como reconhecer caracteres e alfabetos, vocalizar
+    palavras com a pronúncia correta e compreender palavras e frases.
+
+d145:
+  title: Aprender a escrever
+
+  description: >
+    Desenvolver a capacidade de produzir símbolos que representam sons, palavras
+    ou frases de forma que tenham um significado (incluindo a escrita braile),
+    como escrever de maneira eficiente e utilizar a gramática correta.
+
+d150:
+  title: Aprender a calcular
+
+  description: >
+    Desenvolver a capacidade de manipular números e realizar operações
+    matemáticas simples e complexas, como utilizar sinais matemáticos para somar
+    e subtrair e usar a operação matemática apropriada para o problema.
+
+d155:
+  title: Aquisição de habilidades
+
+  description: >
+    Desenvolver capacidades básicas e complexas em usar conjunto integrado de
+    ações ou tarefas de maneira a iniciar e concluir a aquisição de uma
+    habilidade, como manipular ferramentas ou disputar jogos como xadrez.
+
+  includes: >
+    Inclui: aquisição de habilidades básicas e complexas
+
+  groups:
+    d1550:
+      title: Aquisição de habilidades básicas
+
+      description: >
+        Aprender ações elementares e intencionais, como manipular utensílios
+        para comer, um lápis ou uma ferramenta simples.
+
+    d1551:
+      title: Aquisição de habilidades complexas
+
+      description: >
+        Aprender conjuntos integrados de ações para seguir regras, seqüenciar e
+        coordenar os próprios movimentos, tais como aprender a jogar futebol ou
+        utilizar uma ferramenta de construção.
+
+    d1558:
+      title: Aquisição de habilidades, outra especificada
+
+    d1559:
+      title: Aquisição de habilidades, não especificada
+
+d159:
+  title: Aprendizado básico, outro especificado e não especificado

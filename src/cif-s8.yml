@@ -1,0 +1,98 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+s810:
+  title: Estruturas das áreas da pele
+
+  groups:
+    s8100:
+      title: Pele da região da cabeça e do pescoço
+
+    s8101:
+      title: Pele da região do ombro
+
+    s8102:
+      title: Pele da extremidade superior
+
+    s8103:
+      title: Pele da região pélvica
+
+    s8104:
+      title: Pele da extremidade inferior
+
+    s8105:
+      title: Pele do tronco e das costas
+
+    s8108:
+      title: Estrutura das áreas da pele, outra especificada
+
+    s8109:
+      title: Estrutura das áreas da pele, não especificada
+
+s820:
+  title: Estrutura das glândulas da pele
+
+  groups:
+    s8200:
+      title: Glândulas sudoríferas
+
+    s8201:
+      title: Glândulas sebáceas
+
+    s8208:
+      title: Estrutura das glândulas da pele, outra especificada
+
+    s8209:
+      title: Estrutura das glândulas da pele, não especificada
+
+s830:
+  title: Estrutura das unhas
+
+  groups:
+    s8300:
+      title: Unhas dos dedos das mãos
+
+    s8301:
+      title: Unhas dos dedos dos pés
+
+    s8308:
+      title: Estrutura das unhas, outra especificada
+
+    s8309:
+      title: Estrutura das unhas, não especificada
+
+s840:
+  title: Estrutura dos pêlos
+
+s898:
+  title: Pele e estruturas relacionadas, outras especificadas
+
+s899:
+  title: Pele e estruturas relacionadas, não especificadas

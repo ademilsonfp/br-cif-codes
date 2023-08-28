@@ -1,0 +1,156 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+e310:
+  title: Família imediata
+
+  description: >
+    Indivíduos relacionados por nascimento, casamento ou outros relacionamentos
+    reconhecidos pela cultura, como família imediata, cônjuges, parceiros, pais,
+    irmãos, filhos, pais de criação, pais adotivos e avós.
+
+  excludes: >
+    Exclui: outros parentes (e315); cuidadores e assistentes pessoais (e340).
+
+e315:
+  title: Família ampliada
+
+  description: >
+    Indivíduos aparentados por meio de família ou casamento ou outros
+    relacionamentos reconhecidos pela cultura, como parentes, tias, tios,
+    sobrinhos e sobrinhas.
+
+  excludes: >
+    Exclui: família imediata (e310).
+
+e320:
+  title: Amigos
+
+  description: >
+    Indivíduos que são próximos e contínuos em relacionamentos caracterizados
+    pela confiança e apoio mútuos.
+
+e325:
+  title: Conhecidos, companheiros, colegas, vizinhos e membros da comunidade
+
+  description: >
+    Indivíduos que mantêm uma relação de familiaridade entre si, como
+    conhecidos, companheiros, colegas, vizinhos e membros da comunidade, no
+    trabalho, escola, recreação, ou outros aspectos da vida, e que compartilham
+    características demográficas como idade, sexo, credo ou etnia ou os mesmos
+    interesses.
+
+  excludes: >
+    Exclui: serviços prestados por associações e organizações (e5550).
+
+e330:
+  title: Pessoas em posição de autoridade
+
+  description: >
+    Indivíduos que têm responsabilidade de tomar decisões por outros e que têm
+    influência socialmente definida ou poder com base no seu papel social,
+    econômico, cultural ou religioso na sociedade, como professores,
+    empregadores, supervisores, líderes religiosos, tomadores de decisão
+    substitutos, tutores ou curadores.
+
+e335:
+  title: Pessoas em posições subordinadas
+
+  description: >
+    Indivíduos cuja vida diária é influenciada pelas pessoas em posição de
+    autoridade no trabalho, escola ou em outros ambientes, como estudantes,
+    trabalhadores e membros de um grupo religioso.
+
+  excludes: >
+    Exclui: família imediata (e310).
+
+e340:
+  title: Cuidadores e assistentes pessoais
+
+  description: >
+    Indivíduos que fornecem os serviços necessários para dar suporte a outros
+    indivíduos nas suas atividades diárias e na manutenção do desempenho no
+    trabalho, educação ou outra situação da vida, fornecidos por meio de
+    recursos públicos ou privados, ou em base voluntária, como provedores de
+    suporte para construção e manutenção de casas, assistentes pessoais,
+    assistentes de transporte, ajuda paga, babá ou outros que prestam cuidado.
+
+  excludes: >
+    Exclui: família imediata (e310); outros parentes (e315); amigos (e320);
+    serviços de suporte social geral (e5750); profissionais da saúde (e355).
+
+e345:
+  title: Estranhos
+
+  description: >
+    Indivíduos que não são familiares ou parentes ou aqueles que ainda não
+    estabeleceram um relacionamento ou associação, como pessoas desconhecidas do
+    indivíduo e que compartilham uma situação de vida com eles, como professores
+    substitutos, colaboradores ou cuidadores.
+
+e350:
+  title: Animais domésticos
+
+  description: >
+    Animais que fornecem apoio físico, emocional ou psicológico, como animais de
+    estimação (e.g., cachorros, gatos, pássaros, peixes etc.) e animais para
+    mobilidade e transporte pessoal.
+
+  excludes: >
+    Exclui: animais (e2201); bens (e165).
+
+e355:
+  title: Profissionais da saúde
+
+  description: >
+    Todos os fornecedores de serviços que trabalham no contexto do sistema de
+    saúde, como médicos, enfermeiros, fisioterapeutas, terapeutas ocupacionais,
+    fonoaudiólogos, audiologistas, protético, assistentes sociais da área
+    médica.
+
+  excludes: >
+    Exclui: outros profissionais (e360).
+
+e360:
+  title: Outros profissionais
+
+  description: >
+    Todos os fornecedores de serviço que trabalham fora do sistema de saúde, mas
+    que fornecem serviços relacionados à saúde como assistentes sociais,
+    professores, arquitetos ou projetistas.
+
+  excludes: >
+    Exclui: profissionais da saúde (e355).
+
+e398:
+  title: Apoio e relacionamentos, outros especificados
+
+e399:
+  title: Apoio e relacionamentos, não especificados

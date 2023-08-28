@@ -1,0 +1,152 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+b280:
+  title: Sensação de dor
+
+  description: >
+    Sensação desagradável que indica lesão potencial ou real em alguma estrutura
+    do corpo.
+
+  includes: >
+    Inclui: sensações de dor generalizada ou localizada, em uma ou mais partes
+    do corpo, dor em um dermátomo, dor aguda, dor em queimação, dor imprecisa,
+    dor contínua e localizada; deficiências como mialgia, analgesia e
+    hiperalgesia.
+
+  groups:
+    b2800:
+      title: Dor generalizada
+
+      description: >
+        Sensação desagradável sentida em todo o corpo, que indica lesão
+        potencial ou real em alguma estrutura do corpo ou em todas as partes do
+        corpo.
+
+    b2801:
+      title: Dor localizada
+
+      description: >
+        Sensação desagradável sentida em uma ou várias partes específicas do
+        corpo que indica lesão potencial ou real de alguma estrutura.
+
+      groups:
+        b28010:
+          title: Dor na cabeça ou pescoço
+
+          description: >
+            Sensação desagradável sentida na cabeça ou no pescoço que indica
+            lesão potencial ou real de alguma estrutura do corpo.
+
+        b28011:
+          title: Dor no peito
+
+          description: >
+            Sensação desagradável sentida no peito e que indica lesão potencial
+            ou real de alguma estrutura do corpo.
+
+        b28012:
+          title: Dor no estômago ou abdome
+
+          description: >
+            Sensação desagradável sentida no estômago ou no abdome que indica
+            lesão potencial ou real de alguma estrutura do corpo.
+
+          includes: >
+            Inclui: dor na região pélvica.
+
+        b28013:
+          title: Dor nas costas
+
+          description: >
+            Sensação desagradável sentida nas costas e que indica lesão
+            potencial ou real de alguma estrutura do corpo.
+
+          includes: >
+            Inclui: dor no tronco; dor lombar inferior.
+
+        b28014:
+          title: Dor em membro superior
+
+          description: >
+            Sensação desagradável sentida em um ou nos dois membros superiores,
+            incluindo as mãos, que indica lesão potencial ou real de alguma
+            estrutura do corpo.
+
+        b28015:
+          title: Dor em membro inferior
+
+          description: >
+            Sensação desagradável sentida em um ou em ambos os membros
+            inferiores, incluindo os pés, que indica lesão potencial ou real de
+            alguma estrutura do corpo.
+
+        b28016:
+          title: Dor nas articulações
+
+          description: >
+            Sensação desagradável sentida em uma ou mais articulações, incluindo
+            pequenas e grandes articulações, que indica lesão potencial ou real
+            de alguma estrutura do corpo.
+
+          includes: >
+            Inclui: dor no quadril; dor no ombro.
+
+        b28018:
+          title: Dor localizada, outra especificada
+
+        b28019:
+          title: Dor localizada, não especificada
+
+    b2802:
+      title: Dor em múltiplas partes do corpo
+
+      description: >
+        Sensação desagradável sentida em várias partes do corpo que indica lesão
+        potencial ou real de alguma estrutura do corpo.
+
+    b2803:
+      title: Dor irradiante em um dermátomo
+
+      description: >
+        Sensação desagradável localizada em áreas da pele inervadas pela mesma
+        raiz nervosa que indica lesão potencial ou real de alguma estrutura do
+        corpo.
+
+    b2804:
+      title: Dor irradiante em um segmento ou região
+
+      description: >
+        Sensação desagradável localizada em áreas da pele em diferentes partes
+        do corpo não servidas pela mesma raiz nervosa que indica lesão potencial
+        ou real de alguma estrutura do corpo.
+
+b289:
+  title: Sensação de dor, outras especificadas e não especificadas

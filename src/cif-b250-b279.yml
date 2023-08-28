@@ -1,0 +1,135 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+b250:
+  title: Função gustativa
+
+  description: >
+    Funções sensoriais que permitem sentir as qualidades do sabor amargo, doce,
+    ácido e salgado.
+
+  includes: >
+    Inclui: funções gustativas; deficiências como ageusia e hipogeusia.
+
+b255:
+  title: Função olfativa
+
+  description: >
+    Funções sensoriais que permitem sentir odores e aromas.
+
+  includes: >
+    Inclui: funções olfativas; deficiências como anosmia e hiposmia.
+
+b260:
+  title: Função proprioceptiva
+
+  description: >
+    Funções sensoriais que permitem sentir a posição relativa das partes do
+    corpo.
+
+  excludes: >
+    Exclui: função vestibular (b235); sensações relacionadas aos músculos e
+    funções de movimentos (b780).
+
+b265:
+  title: Função tátil
+
+  description: >
+    Funções sensoriais que permitem sentir as superfícies dos objetos, sua
+    textura ou qualidade.
+
+  includes: >
+    Inclui: funções táteis, sensação tátil; deficiências como entorpecimento,
+    anestesia, formigamento, parestesia e hiperestesia.
+
+  excludes: >
+    Exclui: funções sensoriais relacionada à temperatura e outros estímulos
+    (b270).
+
+b270:
+  title: Funções sensoriais relacionadas à temperatura e outros estímulos
+
+  description: >
+    Funções sensoriais que permitem sentir a temperatura, a vibração, a pressão
+    e os estímulos nocivos.
+
+  includes: >
+    Inclui: funções de sensibilidade à temperatura, vibração, tremor ou
+    oscilação, pressão superficial, pressão profunda, sensação de ardor ou um
+    estímulo nocivo.
+
+  excludes: >
+    Exclui: função tátil (b265); sensação de dor (b280).
+
+  groups:
+    b2700:
+      title: Sensibilidade à temperatura
+
+      description: >
+        Funções sensoriais relacionadas a sentir frio e calor.
+
+    b2701:
+      title: Sensibilidade à vibração
+
+      description: >
+        Funções sensoriais relacionadas a sentir tremor ou oscilação.
+
+    b2702:
+      title: Sensibilidade à pressão
+
+      description: >
+        Funções sensoriais relacionadas a sentir pressão contra a ou sobre a
+        pele.
+
+      includes: >
+        Inclui: deficiências como sensibilidade ao toque, entorpecimento,
+        hipoestesia, hiperestesia, parestesia e formigamento.
+
+    b2703:
+      title: Sensibilidade a estímulos nocivos
+
+      description: >
+        Funções sensoriais relacionadas a perceber sensações dolorosas ou
+        desconfortáveis.
+
+      includes: >
+        Inclui: deficiências como hipoalgesia, hiperalgesia, hiperpatia,
+        alodinia, analgesia e anestesia dolorosa.
+
+    b2708:
+      title: Funções sensoriais relacionadas à temperatura e outros estímulos,
+             outras especificadas
+
+    b2709:
+      title: Funções sensoriais relacionadas à temperatura e outros estímulos,
+             não especificadas
+
+b279:
+  title: Funções sensoriais adicionais, outras especificadas e não especificadas

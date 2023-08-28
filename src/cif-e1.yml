@@ -1,0 +1,539 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+e115:
+  title: Produtos e tecnologia para uso pessoal na vida diária
+
+  description: >
+    Equipamentos, produtos e tecnologia utilizados pelas pessoas nas atividades
+    diárias, incluindo aqueles adaptados ou especialmente projetados, situados
+    na, sobre ou perto da pessoa que os utiliza.
+
+  includes: >
+    Inclui: produtos e tecnologia gerais e de assistência para uso pessoal.
+
+  excludes: >
+    Exclui: cuidadores e assistentes pessoais (e340).
+
+  groups:
+    e1150:
+      title: Produtos e tecnologia gerais para uso pessoal na vida diária
+
+      description: >
+        Equipamentos, produtos e tecnologia utilizados pelas pessoas nas
+        atividades diárias como roupas, tecidos, móveis, aparelhos, produtos de
+        limpeza e ferramentas, não adaptados nem especialmente projetados.
+
+    e1151:
+      title: Produtos e tecnologia de assistência para uso pessoal na vida
+             diária
+
+      description: >
+        Equipamentos, produtos e tecnologia adaptados ou especialmente
+        projetados para auxiliar as pessoas na vida diária, como dispositivos
+        protéticos e ortopédicos, próteses neurais (e.g., dispositivos de
+        estimulação funcional que controlam os intestinos, bexiga, respiração e
+        freqüência cardíaca) e unidades de controle ambiental que visam
+        facilitar o controle dos indivíduos sobre seus espaços internos
+        (scanners, sistemas de controle remoto, sistemas controlados por voz,
+        temporizadores)
+
+    e1158:
+      title: Produtos e tecnologia para uso pessoal na vida diária, outros
+             especificados
+
+    e1159:
+      title: Produtos e tecnologia para uso pessoal na vida diária, não
+             especificados
+
+e120:
+  title: Produtos e tecnologia para mobilidade e transporte pessoal em ambientes
+         internos e externos
+
+  description: >
+    Equipamentos, produtos e tecnologia utilizados pelas pessoas nas atividades
+    de deslocamento dentro e fora de edifícios, incluindo aqueles adaptados ou
+    especialmente projetados, situados em, sobre ou perto da pessoa que os
+    utiliza.
+
+  includes: >
+    Inclui: produtos e tecnologia gerais e de assistência para mobilidade e
+    transporte pessoal em ambientes internos e externos.
+
+  excludes: >
+    Exclui: cuidadores e assistentes pessoais (e340).
+
+  groups:
+    e1200:
+      title: Produtos e tecnologia gerais para mobilidade e transporte pessoal
+             em ambientes internos e externos
+
+      description: >
+        Equipamentos, produtos e tecnologia utilizados pelas pessoas nas
+        atividades de deslocamento dentro e fora de edifícios, como veículos
+        motorizados e não motorizados utilizados para o transporte de pessoas em
+        terra, na água ou no ar (e.g., ônibus, carros, vans, furgões, outros
+        veículos a motor e meios de transporte com tração animal), não adaptados
+        nem especialmente projetados.
+
+    e1201:
+      title: Produtos e tecnologia de assistência para mobilidade e transporte
+             pessoal em ambientes internos ou externos
+
+      description: >
+        Equipamentos, produtos e tecnologia adaptados ou especialmente
+        projetados para ajudar as pessoas a se deslocar dentro e fora dos
+        edifícios, como dispositivos para mobilidade pessoal, carros e vans
+        especiais, veículos adaptados, cadeiras de roda, ciclomotores e
+        dispositivos de transferência.
+
+    e1208:
+      title: Produtos e tecnologia para mobilidade e transporte pessoal em
+             ambientes internos e externos, outros especificados
+
+    e1209:
+      title: Produtos e tecnologia para mobilidade e transporte pessoal em
+             ambientes internos e externos, não especificados
+
+e125:
+  title: Produtos e tecnologia para comunicação
+
+  description: >
+    Equipamentos, produtos e tecnologia utilizados pelas pessoas nas atividades
+    de transmissão e recepção de informações, incluindo aqueles adaptados ou
+    especialmente projetados, situados em, sobre ou perto da pessoa que os
+    utiliza.
+
+  includes: >
+    Inclui: produtos e tecnologia gerais e de assistência para comunicação
+
+  groups:
+    e1250:
+      title: Produtos e tecnologia gerais para comunicação
+
+      description: >
+        Equipamentos, produtos e tecnologia utilizados pelas pessoas em
+        atividades de transmissão e recepção de informações, como dispositivos
+        ópticos e auditivos, gravadores e receptores de áudio, televisão e
+        equipamento de vídeo, telefones, sistemas de transmissão de som e
+        dispositivos de comunicação face a face, não adaptados nem especialmente
+        projetados.
+
+    e1251:
+      title: Produtos e tecnologia de assistência para comunicação
+
+      description: >
+        Equipamentos, produtos e tecnologia adaptados ou especialmente
+        projetados para ajudar as pessoas a transmitir e a receber informações,
+        como dispositivos especiais de visão, dispositivos eletro ópticos,
+        dispositivos de escrita especializados, dispositivos de desenho ou
+        escrita à mão, sistemas de sinalização e hardware e software especiais
+        de computadores, implantes cocleares, aparelhos de surdez, treinadores
+        auditivos de FM, próteses de voz, quadros de comunicação, óculos e
+        lentes de contato.
+
+    e1258:
+      title: Produtos e tecnologia para comunicação, outros especificados
+
+    e1259:
+      title: Produtos e tecnologia para comunicação, não especificados
+
+e130:
+  title: Produtos e tecnologia para educação
+
+  description: >
+    Equipamentos, produtos, processos, métodos e tecnologia utilizados para a
+    aquisição de conhecimento, especialização ou habilidade, incluindo aqueles
+    adaptados ou especialmente projetados.
+
+  includes: >
+    Inclui: produtos e tecnologia gerais e de assistência para educação.
+
+  groups:
+    e1300:
+      title: Produtos e tecnologia gerais para educação
+
+      description: >
+        Equipamentos, produtos, processos, métodos e tecnologia utilizados para
+        aquisição de conhecimento, experiência ou habilidade em qualquer nível,
+        como livros, manuais, brinquedos educativos, hardware ou software de
+        computador, não adaptados nem especialmente projetados.
+
+    e1308:
+      title: Produtos e tecnologia para educação, outros especificados
+
+    e1309:
+      title: Produtos e tecnologia para educação, não especificados
+
+e135:
+  title: Produtos e tecnologia para o trabalho
+
+  description: >
+    Equipamentos, produtos e tecnologia utilizados no trabalho para facilitar as
+    atividades profissionais.
+
+  includes: >
+    Inclui: produtos e tecnologia gerais e de assistência para o trabalho.
+
+  groups:
+    e1350:
+      title: Produtos e tecnologia gerais para o trabalho
+
+      description: >
+        Equipamentos, produtos e tecnologia utilizados no trabalho para
+        facilitar as atividades profissionais, como ferramentas, máquinas e
+        equipamentos de escritório, não adaptados nem especialmente projetados.
+
+    e1351:
+      title: Produtos e tecnologia de assistência para o trabalho
+
+      description: >
+        Equipamentos, produtos e tecnologia adaptados ou especialmente
+        projetados utilizados no trabalho para facilitar as atividades
+        profissionais, como mesas ajustáveis, escrivaninhas e arquivos; abertura
+        e fechamento de portas de escritório com controle remoto; hardware e
+        software de computador, acessórios e unidades de controle ambiental que
+        visam facilitar a condução do indivíduo, das tarefas relacionadas ao
+        trabalho e o controle do ambiente de trabalho (e.g., scanners, sistemas
+        de controle remoto, sistemas controlados por voz e temporizadores).
+
+    e1358:
+      title: Produtos e tecnologia para o trabalho, outros especificados
+
+    e1359:
+      title: Produtos e tecnologia para o trabalho, não especificados
+
+e140:
+  title: Produtos e tecnologia para atividades culturais, recreativas e
+         esportivas
+
+  description: >
+    Equipamentos, produtos e tecnologia utilizados para a condução e o
+    aprimoramento de atividades culturais, recreativas e esportivas, incluindo
+    aqueles adaptados ou especialmente projetados.
+
+  includes: >
+    Inclui: produtos e tecnologia gerais e de assistência para cultura,
+    recreação e esporte.
+
+  groups:
+    e1400:
+      title: Produtos e tecnologia gerais para atividades culturais, recreativas
+             e esportivas
+
+      description: >
+        Equipamentos, produtos e tecnologia utilizados para a condução e
+        aprimoramento das atividades culturais, recreativas e esportivas, como
+        brinquedos, esquis, bolas de tênis e instrumentos musicais, não
+        adaptados nem especialmente projetados.
+
+    e1401:
+      title: Produtos e tecnologia de assistência para atividades culturais,
+             recreativas e esportivas
+
+      description: >
+        Equipamentos, produtos e tecnologia adaptados ou especialmente
+        projetados para a condução e aprimoramento das atividades culturais,
+        recreativas e esportivas, como dispositivos de mobilidade modificados
+        para práticas esportivas, adaptações realizadas para tocar música ou
+        para realizar atividades artísticas.
+
+    e1408:
+      title: Produtos e tecnologia para atividades culturais, recreativas e
+             esportivas, outros especificados
+
+    e1409:
+      title: Produtos e tecnologia para atividades culturais, recreativas
+             e esportivas, não especificados
+
+e145:
+  title: Produtos e tecnologia para a prática religiosa e vida espiritual
+
+  description: >
+    Produtos e tecnologia, únicos ou produzidos em série, que têm ou a que se dá
+    um significado simbólico no contexto da prática religiosa ou espiritual,
+    incluindo aqueles adaptados ou especialmente projetados.
+
+  includes: >
+    Inclui: produtos e tecnologia gerais e de assistência para a prática
+    religiosa e espiritual.
+
+  excludes: >
+    Exclui: cuidadores e assistentes pessoais (e340).
+
+  groups:
+    e1450:
+      title: Produtos e tecnologia gerais para a prática religiosa e vida
+             espiritual
+
+      description: >
+        Produtos ou tecnologia, únicos ou produzidos em série, que têm ou a que
+        se dá um significado simbólico no contexto da prática religiosa ou
+        espiritual, como casas espirituais, mastros, toucas, máscaras,
+        crucifixos, objetos utilizados em cultos e tapetes de oração, não
+        adaptados nem especialmente projetados.
+
+    e1451:
+      title: Produtos e tecnologia de assistência para a prática religiosa e
+             vida espiritual
+
+      description: >
+        Produtos e tecnologia adaptados ou especialmente projetados que têm ou a
+        que se dá um significado simbólico no contexto da prática religiosa ou
+        espiritual, como livros religiosos em braile, cartas de tarô em braile,
+        e proteção especial para as rodas das cadeiras de rodas ao entrar em
+        templos.
+
+    e1458:
+      title: Produtos e tecnologia para a prática religiosa e vida espiritual,
+             outros especificados
+
+    e1459:
+      title: Produtos e tecnologia para a prática religiosa e vida espiritual,
+             não especificados
+
+e150:
+  title: Produtos e tecnologia usados em projeto, arquitetura e construção de
+         edifícios para uso público
+
+  description: >
+    Produtos e tecnologia que constituem os espaços interno e externo do
+    ambiente planejado, projetado e construído pelo homem para uso público,
+    incluindo aqueles adaptados ou especialmente projetados.
+
+  includes: >
+    Inclui: produtos e tecnologia usadas em projeto, arquitetura e construção de
+    entradas e saídas, instalações e indicações de direção.
+
+  groups:
+    e1500:
+      title: Produtos e tecnologia usados em projeto, arquitetura e construção
+             para entrada e saída de edifícios de uso público
+
+      description: >
+        Produtos e tecnologia arquitetônica de entrada e saída do ambiente
+        planejado, projetado e construído pelo homem para uso público, como
+        projeto, arquitetura e construção de entradas e saídas de prédios de uso
+        público, incluindo locais de trabalho, edifícios públicos, rampas
+        portáteis ou fixas, portas elétricas, maçanetas e soleiras niveladas.
+
+    e1501:
+      title: Produtos e tecnologia usados em projeto, arquitetura e construção
+             para o acesso às instalações internas dos edifícios para uso
+             público
+
+      description: >
+        Produtos e tecnologia arquitetônica para projeto e construção das
+        instalações internas para uso público, como banheiros, telefones,
+        circuito fechado de áudio, elevadores, escadas rolantes, termostatos
+        (para regulação da temperatura) e assentos distribuídos e acessíveis em
+        auditórios ou estádios.
+
+    e1502:
+      title: Produtos e tecnologia usados em projeto, arquitetura e construção
+             para indicação de direção, orientação de percurso e designação de
+             locais em edifícios de uso público
+
+      description: >
+        Produtos e tecnologia arquitetônica, externos e internos, para projeto e
+        construção para uso público voltados a ajudar as pessoas a encontrar o
+        caminho dentro e imediatamente fora do prédio e a localizar os lugares
+        para os quais desejam ir, como placas em Braille ou escritas, tamanho
+        dos corredores, superfícies dos pisos, balcões acessíveis e outras
+        formas de indicações.
+
+    e1508:
+      title: Produtos e tecnologia usados em projeto, arquitetura e construção
+             de edifícios para uso público, outros especificados
+
+    e1509:
+      title: Produtos e tecnologia usados em projeto, arquitetura e construção
+             de edifícios para uso público, não especificados
+
+e155:
+  title: Produtos e tecnologia usados em projeto, arquitetura e construção de
+        edifícios de uso privado
+
+  description: >
+    Produtos e tecnologia que constituem os espaços interno e externo do
+    ambiente planejado, projetado e construído pelo homem para uso privado,
+    incluindo aqueles adaptados ou especialmente projetados.
+
+  includes: >
+    Inclui: produtos e tecnologia usados em projeto, arquitetura e construção de
+    entradas e saídas, instalações e indicadores de direção.
+
+  groups:
+    e1550:
+      title: Produtos e tecnologia usados em projeto, arquitetura e construção
+             de entrada e saída de edifícios de uso privado
+
+      description: >
+        Produtos e tecnologia arquitetônica de entrada e saída do ambiente
+        planejado, projetado e construído pelo homem para uso privado, como
+        entradas e saídas de casas privadas, rampas portáteis e fixas, portas
+        elétricas, maçanetas e soleiras niveladas.
+
+    e1551:
+      title: Produtos e tecnologia usados em projeto, arquitetura e construção
+             para acesso às instalações em edifícios de uso privado
+
+      description: >
+        Produtos e tecnologia arquitetônica para projeto e construção de áreas
+        internas para uso privado, como banheiros, telefones, circuito fechado
+        de rádio, armários de cozinha, controles de aparelhos eletroeletrônicos
+        em residências particulares.
+
+    e1552:
+      title: Produtos e tecnologia usados em projeto, arquitetura e construção
+             para indicação de direção, indicação de percurso e designação de
+             localizações em edifícios de uso privado
+
+      description: >
+        Produtos e tecnologia arquitetônica, interna e externa, para projeto e
+        construção de indicadores de percurso, para uso privado, para ajudar as
+        pessoas a encontrar o caminho dentro e imediatamente fora do edifício e
+        localizar os lugares para os quais querem ir, como placas em Braille ou
+        escritas, tamanho dos corredores e superfícies dos pisos.
+
+    e1558:
+      title: Produtos e tecnologia usados em projeto, arquitetura e construção
+             de edifícios para uso privado, outros especificados
+
+    e1559:
+      title: Produtos e tecnologia usados em projeto, arquitetura e construção
+             de edifícios para uso privado, não especificados
+
+e160:
+  title: Produtos e tecnologia relacionados ao uso e à exploração do solo
+
+  description: >
+    Produtos e tecnologia relacionados ao uso do solo que afetam o ambiente
+    externo do indivíduo por meio da implementação de políticas de uso do solo,
+    projeto, planejamento e desenvolvimento de espaços, incluindo aqueles
+    adaptados ou especialmente projetados.
+
+  includes: >
+    Inclui: produtos e tecnologia de áreas que foram organizadas por políticas
+    de utilização do solo, como zonas rurais, residenciais, urbanas, parques,
+    áreas de proteção e reservas naturais.
+
+  groups:
+    e1600:
+      title: Produtos e tecnologia do desenvolvimento da zona rural
+
+      description: >
+        Produtos e tecnologia utilizados em áreas rurais que afetam o ambiente
+        externo do indivíduo por meio da implementação de políticas de uso da
+        terra rural, projeto, planejamento e desenvolvimento do espaço, como
+        terra de fazenda, trilhas e colocação de placas indicativas de direção.
+
+    e1601:
+      title: Produtos e tecnologia do desenvolvimento de áreas suburbanas
+
+      description: >
+        Produtos e tecnologia utilizados em áreas suburbanas que afetam o
+        ambiente externo do indivíduo por meio da implementação de políticas de
+        uso do solo urbano, projeto, planejamento e desenvolvimento de espaço,
+        como meio-fio, caminhos, placas de sinalização e iluminação das ruas.
+
+    e1602:
+      title: Produtos e tecnologia do desenvolvimento da zona urbana
+
+      description: >
+        Produtos e tecnologia em áreas urbanas que afetam o ambiente externo do
+        indivíduo por meio da implementação de políticas de uso do solo urbano,
+        projeto, planejamento e desenvolvimento de espaço, como meio-fio,
+        rampas, placas de sinalização e iluminação das ruas.
+
+    e1603:
+      title: Produtos e tecnologia de parques, áreas de proteção e reservas
+             naturais
+
+      description: >
+        Produtos e tecnologia em áreas que compõem parques, áreas de proteção e
+        reservas naturais que afetam o ambiente externo do indivíduo por meio da
+        implementação de políticas de uso do solo e projeto, planejamento e
+        desenvolvimento de espaço, como sinalização de parque e trilhas em
+        matas.
+
+    e1608:
+      title: Produtos e tecnologia relacionados ao uso e à exploração do solo,
+             outros especificados
+
+    e1609:
+      title: Produtos e tecnologia relacionados ao uso e à exploração do solo,
+             não especificados
+
+e165:
+  title: Bens
+
+  description: >
+    Produtos ou objetos de intercâmbio econômico, como dinheiro, mercadorias,
+    propriedade e outras coisas valiosas que um indivíduo tem ou que ele ou ela
+    tem direito a usar.
+
+  includes: >
+    Inclui: produtos e bens materiais e não materiais, patrimônio financeiro.
+
+  groups:
+    e1650:
+      title: Bens financeiros
+
+      description: >
+        Produtos, como dinheiro ou outros instrumentos financeiros, que servem
+        como meio de troca de mão-de- obra, bens de capital e serviços.
+
+    e1651:
+      title: Bens materiais
+
+      description: >
+        Produtos ou objetos, como uma casa ou propriedade de terra, roupas,
+        alimentos e mercadorias técnicas, que servem como meio de troca de
+        mão-de-obra, bens de capital e serviços.
+
+    e1652:
+      title: Bens não materiais
+
+      description: >
+        Produtos, como propriedade intelectual, conhecimento e habilidades que
+        servem como meio de troca de mão-de-obra, bens de capital e serviços.
+
+    e1658:
+      title: Bens, outros especificados
+
+    e1659:
+      title: Bens, não especificados
+
+e198:
+  title: Produtos e tecnologia, outros especificados
+
+e199:
+  title: Produtos e tecnologia, não especificados

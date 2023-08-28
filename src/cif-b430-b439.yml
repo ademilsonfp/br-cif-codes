@@ -1,0 +1,163 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+b430:
+  title: Funções do sistema hematológico
+
+  description: >
+    Funções da produção de sangue, transporte de oxigênio e metabólitos, e de
+    coagulação.
+
+  includes: >
+    Inclui: funções da produção de sangue e de medula óssea; funções de
+    transporte de oxigênio do sangue; funções do baço relacionadas ao sangue;
+    funções de transporte de metabólitos do sangue; coagulação; deficiências
+    como anemia, hemofilia e outras disfunções de coagulação.
+
+  excludes: >
+    Exclui: funções do sistema cardiovascular (b410-b429); funções do sistema
+    imunológico (b435); funções de tolerância a exercícios (b455).
+
+  groups:
+    b4300:
+      title: Produção de sangue
+
+      description: >
+        Funções relacionadas à produção de sangue e de todos os seus
+        componentes.
+
+    b4301:
+      title: Funções sangüíneas de transporte de oxigênio
+
+      description: >
+        Funções relacionadas à capacidade do sangue de transportar oxigênio por
+        todo o corpo.
+
+    b4302:
+      title: Funções sangüíneas de transporte de metabólitos
+
+      description: >
+        Funções relacionadas à capacidade do sangue de transportar metabólitos
+        por todo o corpo.
+
+    b4303:
+      title: Funções de coagulação
+
+      description: >
+        Funções relacionadas à coagulação do sangue, como ocorre em local de
+        ferimento.
+
+    b4308:
+      title: Funções do sistema hematológico, outras especificadas
+
+    b4309:
+      title: Funções do sistema hematológico, não especificadas
+
+b435:
+  title: Funções do sistema imunológico
+
+  description: >
+    Funções do corpo relacionadas à proteção contra substâncias estranhas,
+    incluindo infecções, por meio de respostas imunológicas específicas e não
+    específicas.
+
+  includes: >
+    Inclui: resposta imunológica (específica e não específica); reações de
+    hipersensibilidade; funções dos vasos e nódulos linfáticos; funções de
+    imunidade celular, imunidade mediada por anticorpo, resposta à imunização;
+    deficiência como a auto-imune, reações alérgicas, linfadenite e linfoedema.
+
+  excludes: >
+    Exclui: funções do sistema hematológico (b430).
+
+  groups:
+    b4350:
+      title: Resposta imunológica
+
+      description: >
+        Funções relacionadas à resposta de sensibilização do corpo frente a
+        substâncias estranhas, incluindo infecções.
+
+      groups:
+        b43500:
+          title: Resposta imunológica específica
+
+          description: >
+            Funções da resposta de sensibilização do corpo frente a uma
+            substância estranha específica.
+
+        b43501:
+          title: Resposta imunológica não específica
+
+          description: >
+            Funções de resposta geral de sensibilização do corpo a substâncias
+            estranhas, incluindo infecções.
+
+        b43508:
+          title: Respostas imunológicas, outra especificada
+
+        b43509:
+          title: Resposta imunológica, não especificada
+
+    b4351:
+      title: Reações de hipersensibilidade
+
+      description: >
+        Funções relacionadas à resposta geral de sensibilização do corpo frente
+        a substâncias estranhas, como na sensibilidade a diferentes antígenos.
+
+      includes: >
+        Inclui: deficiências como hipersensibilidades ou alergias.
+
+      excludes: >
+        Exclui: tolerância aos alimentos (b5153).
+
+    b4352:
+      title: Funções dos vasos linfáticos
+
+      description: >
+        Funções relacionadas aos canais vasculares que transportam linfa.
+
+    b4353:
+      title: Funções dos nódulos linfáticos
+
+      description: >
+        Funções relacionadas às glândulas que se encontram ao longo do curso dos
+        vasos linfáticos.
+
+    b4358:
+      title: Funções do sistema imunológico, outras especificadas
+
+    b4359:
+      title: Funções do sistema imunológico, não especificadas
+
+b439:
+  title: Funções dos sistemas hematológico e imunológico, outras especificadas e
+         não especificadas

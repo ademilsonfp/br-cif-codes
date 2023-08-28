@@ -1,0 +1,124 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+b440:
+  title: Funções respiratórias
+
+  description: >
+    Funções relacionadas à inalação de ar para os pulmões, à troca de gases
+    entre o ar e o sangue e à expulsão do ar.
+
+  includes: >
+    Inclui: funções da freqüência, ritmo e profundidade da respiração;
+    deficiências como apnéia, hiperventilação, respiração irregular, respiração
+    paradoxal e espasmo brônquico e como no enfisema pulmonar.
+
+  excludes: >
+    Exclui: funções dos músculos respiratórios (b445); funções respiratórias
+    adicionais (b450); funções de tolerância a exercícios (b455).
+
+  groups:
+    b4400:
+      title: Freqüência respiratória
+
+      description: >
+        Funções relacionadas ao número de respirações por minuto.
+
+      includes: >
+        Inclui: deficiências como freqüências muito altas (taquipnéia) ou muito
+        baixas (bradipneía).
+
+    b4401:
+      title: Ritmo respiratório
+
+      description: >
+        Funções relacionadas à periodicidade e regularidade da respiração.
+
+      includes: >
+        Inclui: deficiências como respiração irregular.
+
+    b4402:
+      title: Profundidade da respiração
+
+      description: >
+        Funções relacionadas ao volume de expansão dos pulmões durante a
+        respiração.
+
+      includes: >
+        Inclui: deficiência como respiração superficial ou pouco profunda.
+
+    b4408:
+      title: Funções respiratórias, outras especificadas
+
+    b4409:
+      title: Funções respiratórias, não especificadas
+
+b445:
+  title: Funções dos músculos respiratórios
+
+  description: >
+    Funções dos músculos envolvidos na respiração.
+
+  includes: >
+    Inclui: funções dos músculos respiratórios torácicos; funções do diafragma;
+    funções dos músculos respiratórios acessórios.
+
+  excludes: >
+    Exclui: funções respiratórias (b440); funções respiratórias adicionais
+    (b450); funções de tolerância a exercícios (b455).
+
+  groups:
+    b4450:
+      title: Funções dos músculos respiratórios torácicos
+
+      description: >
+        Funções dos músculos torácicos envolvidos na respiração.
+
+    b4451:
+      title: Funções do diafragma
+
+      description: >
+        Funções do diafragma relacionadas à respiração.
+
+    b4452:
+      title: Funções dos músculos respiratórios acessórios
+
+      description: >
+        Funções dos músculos adicionais envolvidos na respiração.
+
+    b4458:
+      title: Funções dos músculos respiratórios, outras especificadas
+
+    b4459:
+      title: Funções dos músculos respiratórios, não especificadas
+
+b449:
+  title: Funções do sistema respiratório, outras especificadas e não
+         especificadas

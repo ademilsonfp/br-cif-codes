@@ -1,0 +1,142 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+s110:
+  title: Estrutura do Cérebro
+
+  groups:
+    s1100:
+      title: Estrutura dos lobos corticais
+
+      groups:
+        s11000:
+          title: Lobo frontal
+
+        s11001:
+          title: Lobo temporal
+
+        s11002:
+          title: Lobo parietal
+
+        s11003:
+          title: Lobo occipital
+
+        s11008:
+          title: Estrutura dos lobos corticais, outra especificada
+
+        s11009:
+          title: Estrutura dos lobos corticais, não especificada
+
+    s1101:
+      title: Estrutura do mesencéfalo
+
+    s1102:
+      title: Estrutura do diencéfalo
+
+    s1103:
+      title: Gânglios da base e estruturas relacionadas
+
+    s1104:
+      title: Estrutura do cerebelo
+
+    s1105:
+      title: Estrutura do tronco cerebral
+
+      groups:
+        s11050:
+          title: Bulbo
+
+        s11051:
+          title: Ponte
+
+        s11058:
+          title: Estrutura do tronco cerebral, outra especificada
+
+        s11059:
+          title: Estrutura do tronco cerebral, não especificada
+
+    s1106:
+      title: Estrutura dos nervos cranianos
+
+    s1108:
+      title: Estrutura do cérebro, outra especificada
+
+    s1109:
+      title: Estrutura do cérebro, não especificada
+
+s120:
+  title: Medula espinal e estruturas relacionadas
+
+  groups:
+    s1200:
+      title: Estrutura da medula espinal
+
+      groups:
+        s12000:
+          title: Medula espinal cervical
+
+        s12001:
+          title: Medula espinal torácica
+
+        s12002:
+          title: Medula espinal lombossacral
+
+        s12003:
+          title: Cauda eqüina
+
+        s12008:
+          title: Estrutura da medula espinal, outra especificada
+
+        s12009:
+          title: Estrutura da medula espinal, não especificada
+
+    s1201:
+      title: Nervos espinais
+
+    s1208:
+      title: Medula espinal e estruturas relacionadas, outras especificadas
+
+    s1209:
+      title: Medula espinal e estruturas relacionadas, não especificadas
+
+s130:
+  title: Estrutura das meninges
+
+s140:
+  title: Estrutura do sistema nervoso simpático
+
+s150:
+  title: Estrutura do sistema nervoso parassimpático
+
+s198:
+  title: Estrutura do sistema nervoso, outra especificada
+
+s199:
+  title: 9 Estrutura do sistema nervoso, não especificada

@@ -1,0 +1,135 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+s610:
+  title: Estrutura do sistema urinário
+
+  groups:
+    s6100:
+      title: Rim
+
+    s6101:
+      title: Ureteres
+
+    s6102:
+      title: Bexiga urinária
+
+    s6103:
+      title: Uretra
+
+    s6108:
+      title: Estrutura do sistema urinário, outra especificada
+
+    s6109:
+      title: Estrutura do sistema urinário, não especificada
+
+s620:
+  title: Estrutura do assoalho pélvico
+
+s630:
+  title: Estrutura do sistema reprodutivo
+
+  groups:
+    s6300:
+      title: Ovários
+
+    s6301:
+      title: Estrutura do útero
+
+      groups:
+        s63010:
+          title: Corpo do útero
+
+        s63011:
+          title: Colo do útero
+
+        s63012:
+          title: Tuba uterina
+
+        s63018:
+          title: Estrutura do útero, outra especificada
+
+        s63019:
+          title: Estrutura do útero, não especificada
+
+    s6302:
+      title: Mama e mamilo
+
+    s6303:
+      title: Estrutura da vagina e genitais externos
+
+      groups:
+        s63030:
+          title: Clitóris
+
+        s63031:
+          title: Lábios maiores
+
+        s63032:
+          title: Lábios menores
+
+        s63033:
+          title: Canal vaginal
+
+    s6304:
+      title: Testículos
+
+    s6305:
+      title: Estrutura do pênis
+
+      groups:
+        s63050:
+          title: Glande do pênis
+
+        s63051:
+          title: Corpo esponjoso do pênis
+
+        s63058:
+          title: Estrutura do pênis, outra especificada
+
+        s63059:
+          title: Estrutura do pênis, não especificada
+
+    s6306:
+      title: Próstata
+
+    s6308:
+      title: Estruturas do sistema reprodutivo, outras especificadas
+
+    s6309:
+      title: Estruturas do sistema reprodutivo, não especificadas
+
+s698:
+  title: Estruturas relacionadas aos sistemas geniturinário e reprodutivo,
+         outras especificadas
+
+s699:
+  title: Estruturas relacionadas aos sistemas geniturinário e reprodutivo, não
+         especificadas

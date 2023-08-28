@@ -1,0 +1,153 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+d630:
+  title: Preparação de refeições
+
+  description: >
+    Planejar, organizar, cozinhar e servir pratos simples e complexos para si
+    próprio e para outros, como elaborar um cardápio, selecionar alimentos
+    comestíveis e bebidas, reunir os ingredientes para preparar os pratos,
+    cozinhar com calor e preparar pratos e bebidas frias e servir a comida.
+
+  includes: >
+    Inclui: preparar refeições simples e complexas
+
+  excludes: >
+    Exclui: comer (d550); beber (d560); aquisição de bens e serviços (d620);
+    realização das tarefas domésticas (d640); cuidar dos objetos da casa (d650);
+    ajudar os outros (d660).
+
+  groups:
+    d6300:
+      title: Preparar refeições simples
+
+      description: >
+        Organizar, cozinhar e servir pratos com um pequeno número de
+        ingredientes que requerem métodos fáceis para ser preparados e servidos,
+        como fazer um aperitivo ou um lanche e transformar ingredientes,
+        cortando-os e mexendo-os, ferver e aquecer o alimento como arroz ou
+        batatas.
+
+    d6301:
+      title: Preparar refeições complexas
+
+      description: >
+        Planejar, organizar, cozinhar e servir pratos com um grande número de
+        ingredientes que requerem métodos complexos para serem preparados e
+        servidos, como planejar uma refeição com vários pratos e transformar
+        ingredientes por meio de ações combinadas, como descascar, fatiar,
+        misturar, amassar, mexer, apresentar e servir o alimento de maneira
+        apropriada à ocasião e à cultura.
+
+      excludes: >
+        Exclui: utilizar aparelhos domésticos (d6403).
+
+    d6308:
+      title: Preparação de refeições, outra especificada
+
+    d6309:
+      title: Preparação de refeições, não especificada
+
+d640:
+  title: Realização das tarefas domésticas
+
+  description: >
+    Administrar a casa: limpar a casa, lavar roupa, utilizar utensílios
+    domésticos, armazenar alimentos e remover o lixo, como varrer, passar pano,
+    lavar mesas, paredes e outras superfícies; coletar e remover o lixo
+    doméstico; arrumar quartos, armários e gavetas; coletar, lavar, secar,
+    dobrar e passar roupas; limpar sapatos; utilizar espanador, vassoura e
+    aspirador de pó; utilizar máquina de lavar, secadora e ferro de passar.
+
+  includes: >
+    Inclui: lavar e secar roupas; limpar a cozinha e os utensílios; limpar a
+    casa; utilizar aparelhos domésticos, armazenar as necessidades diárias e
+    remover o lixo.
+
+  excludes: >
+    Exclui: aquisição de um lugar para morar (d610); aquisição de bens e
+    serviços (d620); preparação de refeições (d630); cuidar dos objetos da casa
+    (d650); ajudar os outros (d660).
+
+  groups:
+    d6400:
+      title: Lavar e secar roupas
+
+      description: >
+        Lavar roupas à mão e pendurá-las para secar ao ar livre.
+
+    d6401:
+      title: Limpar a cozinha e utensílios
+
+      description: >
+        Limpar após cozinhar, como lavar pratos, panelas, caçarolas e
+        utensílios, e limpar mesas e pisos em volta da área da cozinha e do
+        local das refeições.
+
+    d6402:
+      title: Limpar a habitação
+
+      description: >
+        Limpar os ambientes da casa, como arrumar e tirar o pó, varrer,
+        esfregar, passar pano no chão, lavar janelas e paredes, limpar banheiros
+        e vasos sanitários e limpar móveis.
+
+    d6403:
+      title: Utilizar aparelhos domésticos
+
+      description: >
+        Utilizar todos os tipos de aparelhos domésticos, como máquina de lavar,
+        secadora, ferro de passar, aspirador de pó e máquina de lavar louça.
+
+    d6404:
+      title: Armazenar as necessidades diárias
+
+      description: >
+        Armazenar alimentos, bebidas, roupas e outros artigos domésticos
+        necessários para a vida diária; preparar alimentos para conservação
+        enlatando-os, salgando-os ou refrigerando-os, manter os alimentos
+        frescos e fora do alcance de animais.
+
+    d6405:
+      title: Remover o lixo
+
+      description: >
+        Eliminar o lixo doméstico: coletar o lixo da casa, preparar o lixo para
+        remoção, utilizar dispositivos de remoção de lixo; queimar o lixo.
+
+    d6408:
+      title: Realização das tarefas domésticas, outra especificada
+
+    d6409:
+      title: Realização das tarefas domésticas, não especificada
+
+d649:
+  title: Tarefas domésticas, outras especificadas e não especificadas

@@ -1,0 +1,191 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+b230:
+  title: Funções auditivas
+
+  description: >
+    Funções sensoriais que permitem perceber sons e discriminar sua localização,
+    intensidade, ruído e qualidade.
+
+  includes: >
+    Inclui: funções auditivas, discriminação auditiva, localização da fonte
+    sonora, lateralização do som, discriminação da fala; deficiências como
+    surdez, insuficiência auditiva e perda da audição.
+
+  excludes: >
+    Exclui: funções da percepção (b156) e funções mentais da linguagem (b167).
+
+  groups:
+    b2300:
+      title: Detecção do som
+
+      description: >
+        Funções sensoriais que permitem peceber a presença dos sons.
+
+    b2301:
+      title: Discriminação do som
+
+      description: >
+        Funções sensoriais que permitem perceber a presença do som e que
+        impliquem na diferenciação do som de fundo e da síntese biauricular, a
+        separação e combinação.
+
+    b2302:
+      title: Localização da fonte sonora
+
+      description: >
+        Funções sensoriais relacionadas à determinação da localização da fonte
+        sonora.
+
+    b2303:
+      title: Lateralização do som
+
+      description: >
+        Funções sensoriais que permitem detectar se o som está vindo do lado
+        direito ou do esquerdo.
+
+    b2304:
+      title: Discriminação da fala
+
+      description: >
+        Funções sensoriais que permitem detectar a linguagem oral e sua
+        diferenciação de outros sons.
+
+    b2308:
+      title: Funções auditivas, outras especificadas
+
+    b2309:
+      title: Funções auditivas, não especificadas
+
+b235:
+  title: Função vestibular
+
+  description: >
+    Funções sensoriais do ouvido interno relacionadas à posição, ao equilíbrio e
+    ao movimento.
+
+  includes: >
+    Inclui: funções de posição e do sentido da posição; função de equilíbrio do
+    corpo e do movimento.
+
+  excludes: >
+    Exclui: sensações associadas à audição e à função vestibular (b240).
+
+  groups:
+    b2350:
+      title: Função vestibular de posição
+
+      description: >
+        Funções sensoriais do ouvido interno relacionadas à determinação da
+        posição do corpo.
+
+    b2351:
+      title: Função vestibular de equilíbrio
+
+      description: >
+        Funções sensoriais do ouvido interno relacionadas à determinação do
+        equilíbrio do corpo.
+
+    b2352:
+      title: Função vestibular do movimento
+
+      description: >
+        Funções sensoriais do ouvido interno relacionadas à determinação do
+        movimento do corpo, incluindo sua direção e velocidade.
+
+    b2358:
+      title: Funções vestibulares, outras especificadas
+
+    b2359:
+      title: Funções vestibulares, não especificadas
+
+b240:
+  title: Sensações associadas à audição e à função vestibular
+
+  description: >
+    Sensações de tontura, queda, vibração e vertigem
+
+  includes: >
+    Inclui: sensações de zumbido nos ouvidos, irritação no ouvido, pressão
+    auricular, náusea associada à tontura ou vertigem.
+
+  excludes: >
+    Exclui: função vestibular (b235); sensação de dor (b280).
+
+  groups:
+    b2400:
+      title: Zumbido nos ouvidos
+
+      description: >
+        Sensação de um tom baixo, golpeando, sibilando ou zumbindo no ouvido.
+
+    b2401:
+      title: Tontura
+
+      description: >
+        Sensação de movimento envolvendo a pessoa ou o próprio ambiente;
+        sensação de rodar, balançar ou inclinar.
+
+    b2402:
+      title: Sensação de cair
+
+      description: >
+        Sensação de perder o equilíbrio e cair.
+
+    b2403:
+      title: Náusea associada à tontura ou vertigem
+
+      description: >
+        Sensação de desejo de vomitar produzida pela tontura ou vertigem.
+
+    b2404:
+      title: Irritação no ouvido
+
+      description: >
+        Sensação de coceira ou outras sensações similares no ouvido.
+
+    b2405:
+      title: Pressão no ouvido
+
+      description: >
+        Sensação de pressão no ouvido.
+
+    b2408:
+      title: Sensações associadas à audição e à função vestibular, outras
+             especificadas
+
+    b2409:
+      title: Sensações associadas à audição e à função vestibular, não
+             especificadas
+
+b249:
+  title: Funções auditivas e vestibulares, outras especificadas e não
+         especificadas

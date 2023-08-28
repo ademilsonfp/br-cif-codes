@@ -1,0 +1,366 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+e210:
+  title: Geografia física
+
+  description: >
+    Características dos tipos de terrenos e da hidrografia.
+
+  includes: >
+    Inclui: características geográficas incluídas na orografia (relevo,
+    qualidade e expansão do solo e tipos de solo, incluindo altitude) e
+    hidrografia (extensões de água como lagos, rios e mares).
+
+  groups:
+    e2100:
+      title: Formas de terreno
+
+      description: >
+        Características das formas dos terrenos como montanhas, colinas, vales e
+        planícies.
+
+    e2101:
+      title: Corpos de água
+
+      description: >
+        Características de extensões de água, como lagos, represas, rios e
+        riachos.
+
+    e2108:
+      title: Geografia física, outra especificada
+
+    e2109:
+      title: Geografia física, não especificada
+
+e215:
+  title: População
+
+  description: >
+    Grupos de pessoas que vivem em um determinado ambiente e compartilham o
+    mesmo padrão de adaptação ambiental.
+
+  includes: >
+    Inclui: mudança demográfica; densidade populacional.
+
+  groups:
+    e2150:
+      title: Mudança demográfica
+
+      description: >
+        Mudanças que ocorrem nos grupos de pessoas, como a composição e variação
+        do número total de indivíduos em uma área decorrente de nascimentos,
+        falecimentos, envelhecimento da população e migração.
+
+    e2151:
+      title: Densidade populacional
+
+      description: >
+        Número de pessoas por unidade de superfície, incluindo características
+        como densidade alta e baixa.
+
+    e2158:
+      title: População, outra especificada
+
+    e2159:
+      title: População, não especificada
+
+e220:
+  title: Flora e fauna
+
+  description: >
+    Plantas e animais.
+
+  excludes: >
+    Exclui: animais domesticados (e350); população (e215).
+
+  groups:
+    e2200:
+      title: Plantas
+
+      description: >
+        Qualquer um dos vários organismos que fazem fotossíntese, eucarióticos,
+        multicelulares do reino Plantae, que produzem caracteristicamente
+        embriões, contêm cloroplastos, têm paredes das células de celulose e não
+        têm poder de locomoção, como árvores, flores, arbustos e videiras.
+
+    e2201:
+      title: Animais
+
+      description: >
+        Organismos multicelulares do reino Animal, que diferem das plantas por
+        certas características típicas como a capacidade de locomoção,
+        metabolismo não fotossintético, reação acentuada a estímulos,
+        crescimento limitado e estrutura corporal fixa, como animais selvagens
+        ou de fazenda, répteis, pássaros, peixes e mamíferos.
+
+      excludes: >
+        Exclui: bens (e165); animais domesticados (e350).
+
+    e2208:
+      title: Fauna e flora, outra especificada
+
+    e2209:
+      title: Fauna e flora, não especificada
+
+e225:
+  title: Clima
+
+  description: >
+    Características e eventos meteorológicos, como o tempo.
+
+  includes: >
+    Inclui: temperatura, umidade, pressão atmosférica, precipitação, vento e
+    variações sazonais.
+
+  groups:
+    e2250:
+      title: Temperatura
+
+      description: >
+        Grau de calor ou frio, como temperatura alta e baixa, temperatura normal
+        ou extrema.
+
+    e2251:
+      title: Umidade
+
+      description: >
+        Nível de umidade no ar, como umidade alta ou baixa.
+
+    e2252:
+      title: Pressão atmosférica
+
+      description: >
+        Pressão do ar circundante, como pressão relacionada à altitude acima do
+        nível do mar ou condições meteorológicas.
+
+    e2253:
+      title: Precipitação
+
+      description: >
+        Água caída das nuvens, como chuva, orvalho, neve, pedrisco e granizo.
+
+    e2254:
+      title: Vento
+
+      description: >
+        Movimentação natural do ar, mais ou menos rápida, como brisa, vendaval
+        ou rajada.
+
+    e2255:
+      title: Variação sazonal
+
+      description: >
+        Mudanças naturais, regulares e previsíveis de uma estação para a outra,
+        como verão, outono, inverno e primavera.
+
+    e2258:
+      title: Clima, outro especificado
+
+    e2259:
+      title: Clima, não especificado
+
+e230:
+  title: Desastres naturais
+
+  description: >
+    Mudanças geográficas e atmosféricas que causam grande alteração no ambiente
+    físico do indivíduo e que ocorrem regularmente ou irregularmente, como
+    terremotos ou condições climáticas graves ou violentas, e.g., tornados,
+    furacões, tufões, inundações, incêndios em florestas e tempestades de neve.
+
+e235:
+  title: Desastres causados pelo homem
+
+  description: >
+    Alterações ou distúrbios nos ambientes naturais causados pelo homem, que
+    podem resultar em grave alteração do cotidiano das pessoas, incluindo
+    eventos ou condições associadas a conflitos ou guerras, como o deslocamento
+    de pessoas, destruição da infra-estrutura, casas e terras, desastres
+    ambientais e poluição do solo, da água ou do ar (e.g., resíduos tóxicos).
+
+e240:
+  title: Luz
+
+  description: >
+    Radiação eletromagnética por meio da qual as coisas se tornam visíveis por
+    luz solar ou iluminação artificial (e.g., velas, lamparinas a óleo ou
+    parafina, fogo e eletricidade) e que pode fornecer informações úteis sobre o
+    mundo ou provocar distrações.
+
+  includes: >
+    Inclui: intensidade da luz; qualidade da luz; contraste de cores.
+
+  groups:
+    e2400:
+      title: Intensidade da luz
+
+      description: >
+        Nível ou quantidade de energia emitida por uma fonte de luz natural
+        (e.g., sol) ou por uma fonte de luz artificial.
+
+    e2401:
+      title: Qualidade da luz
+
+      description: >
+        A natureza da luz ambiental e os contrastes de cor criados nos ambientes
+        visuais e que podem fornecer informações úteis sobre o mundo ao redor
+        (e.g., informações visuais sobre a presença de escadas ou de uma porta)
+        ou provocar distrações (e.g., excesso de imagens visuais).
+
+    e2408:
+      title: Luz, outra especificada
+
+    e2409:
+      title: Luz, não especificada
+
+e245:
+  title: Mudanças relacionadas ao tempo
+
+  description: >
+    Mudança temporal natural, regular ou previsível.
+
+  includes: >
+    Inclui: ciclos do dia/noite e ciclos lunares.
+
+  groups:
+    e2450:
+      title: Ciclos do dia/noite
+
+      description: >
+        Mudanças naturais, regulares e previsíveis do dia para a noite e de novo
+        para o dia, como dia, noite, amanhecer e anoitecer.
+
+    e2451:
+      title: Ciclos lunares
+
+      description: >
+        Mudanças naturais, regulares e previsíveis da posição da lua em relação
+        à terra.
+
+    e2458:
+      title: Mudanças relacionadas ao tempo, outras especificadas
+
+    e2459:
+      title: Mudanças relacionadas ao tempo, não especificadas
+
+e250:
+  title: Som
+
+  description: >
+    Um fenômeno que é ou que pode ser ouvido, como batida, toque, pancada,
+    canto, assobio, grito ou zumbido, em qualquer volume, timbre ou tom, e que
+    pode fornecer informações úteis sobre o mundo.
+
+  includes: >
+    Inclui: intensidade do som; qualidade do som.
+
+  groups:
+    e2500:
+      title: Intensidade do som
+
+      description: >
+        Nível ou volume do fenômeno auditivo determinado pela quantidade de
+        energia gerada, onde níveis altos de energia são percebidos como sons
+        altos e níveis baixos de energia como sons baixos.
+
+    e2501:
+      title: Qualidade do som
+
+      description: >
+        Natureza de um som, como determinado pelo comprimento e padrão da onda
+        sonora e percebido como o timbre e o tom, como aspereza ou
+        melodiosidade, e que pode fornecer informações úteis sobre o mundo
+        (e.g., som de um cachorro latindo versus um gato miando) ou provocar
+        distrações (e.g., ruído de fundo).
+
+    e2508:
+      title: Som, outros especificados
+
+    e2509:
+      title: Som, não especificados
+
+e255:
+  title: Vibração
+
+  description: >
+    Movimento regular ou irregular para frente e para trás, de um objeto ou um
+    indivíduo causado por um distúrbio físico, como sacudir, tremer, movimentos
+    rápidos e irregulares de coisas, prédios ou pessoas, causados por
+    equipamentos pequenos ou grandes, aeronaves e explosões.
+
+  excludes: >
+    Exclui: desastres naturais (e230), como vibração ou tremor da terra causado
+    por terremotos.
+
+e260:
+  title: Qualidade do ar
+
+  description: >
+    Características da atmosfera (fora dos edifícios) ou espaços internos de ar
+    (dentro de edifícios) que podem fornecer informações úteis ou confusas sobre
+    o mundo.
+
+  includes: >
+    Inclui: qualidade do ar interno e externo.
+
+  groups:
+    e2600:
+      title: Qualidade do ar interno
+
+      description: >
+        Natureza do ar dentro de edifícios ou áreas internas, determinada por
+        odores, fumaça, umidade, ar condicionado (qualidade do ar controlada) ou
+        qualidade do ar não controlada e que pode fornecer informações úteis
+        sobre o mundo ao redor (e.g., cheiro de vazamento de gás) ou confusas
+        (e.g., cheiro forte de perfume).
+
+    e2601:
+      title: Qualidade do ar externo
+
+      description: >
+        Natureza do ar fora dos edifícios ou áreas internas, determinada por
+        odor, fumaça, umidade, níveis de ozônio e outras características da
+        atmosfera e que podem fornecer informações úteis sobre o mundo ao redor
+        (e.g., cheiro de chuva) ou confusas (e.g., cheiros tóxicos).
+
+    e2608:
+      title: Qualidade do ar, outros especificados
+
+    e2609:
+      title: Qualidade do ar, não especificados
+
+e298:
+  title: Ambiente natural e mudanças ambientais feitas pelo homem, outro
+         especificado
+
+e299:
+  title: Ambiente natural e mudanças ambientais feitas pelo homem, não
+         especificado

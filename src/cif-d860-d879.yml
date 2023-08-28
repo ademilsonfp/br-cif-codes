@@ -1,0 +1,80 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+d860:
+  title: Transações econômicas básicas
+
+  description: >
+    Participar de qualquer forma de transação econômica simples, como utilizar
+    dinheiro para comprar comida ou fazer permutas, trocar mercadorias ou
+    serviços; ou economizar dinheiro.
+
+d865:
+  title: Transações econômicas complexas
+
+  description: >
+    Participar de qualquer forma de transação econômica complexa que envolve o
+    intercâmbio de capital ou propriedade e a criação de lucro ou valor
+    econômico, como comprar um negócio, fábrica ou equipamento, manter uma conta
+    bancária ou negociar mercadorias.
+
+d870:
+  title: Auto-suficiência econômica
+
+  description: >
+    Ter controle sobre recursos econômicos, de fontes públicas ou privadas, para
+    garantir segurança econômica para as necessidades atuais e futuras.
+
+  includes: >
+    Inclui: recursos econômicos pessoais e direitos econômicos públicos.
+
+  groups:
+    d8700:
+      title: Recursos econômicos pessoais
+
+      description: >
+        Ter controle sobre recursos econômicos pessoais ou privados para
+        garantir segurança financeira para as necessidades atuais e futuras.
+
+    d8701:
+      title: Direitos econômicos públicos
+
+      description: >
+        Ter controle sobre recursos econômicos públicos para garantir a
+        segurança econômica para as necessidades atuais e futuras.
+
+    d8708:
+      title: Auto-suficiência econômica, outra especificada
+
+    d8709:
+      title: Auto-suficiência econômica, não especificada
+
+d879:
+  title: Vida econômica, outra especificada e não especificada

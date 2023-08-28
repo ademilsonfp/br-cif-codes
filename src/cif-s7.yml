@@ -1,0 +1,325 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+s710:
+  title: Estrutura da região da cabeça e do pescoço
+
+  groups:
+    s7100:
+      title: Ossos do crânio
+
+    s7101:
+      title: Ossos da face
+
+    s7102:
+      title: Ossos da região do pescoço
+
+    s7103:
+      title: Articulações da região da cabeça e pescoço
+
+    s7104:
+      title: Músculos da região da cabeça e pescoço
+
+    s7105:
+      title: Ligamentos e fáscias da região da cabeça e pescoço
+
+    s7108:
+      title: Estrutura da região da cabeça e pescoço, outra especificada
+
+    s7109:
+      title: Estrutura da região da cabeça e pescoço, não especificada
+
+s720:
+  title: Estrutura da região do ombro
+
+  groups:
+    s7200:
+      title: Ossos da região do ombro
+
+    s7201:
+      title: Articulações da região do ombro
+
+    s7202:
+      title: Músculos da região do ombro
+
+    s7203:
+      title: Ligamentos e fáscias da região do ombro
+
+    s7208:
+      title: Estrutura da região do ombro, outra especificada
+
+    s7209:
+      title: Estrutura da região do ombro, não especificada
+
+s730:
+  title: Estrutura da extremidade superior
+
+  groups:
+    s7300:
+      title: Estrutura do braço
+
+      groups:
+        s73000:
+          title: Ossos do braço
+
+        s73001:
+          title: Articulação do cotovelo
+
+        s73002:
+          title: Músculos do braço
+
+        s73003:
+          title: Ligamentos e fáscias do braço
+
+        s73008:
+          title: Estrutura do braço, outra especificada
+
+        s73009:
+          title: Estrutura do braço, não especificada
+
+    s7301:
+      title: Estrutura do antebraço
+
+      groups:
+        s73010:
+          title: Ossos do antebraço
+
+        s73011:
+          title: Articulação do pulso
+
+        s73012:
+          title: Músculos do antebraço
+
+        s73013:
+          title: Ligamentos e fáscias do antebraço
+
+        s73018:
+          title: Estrutura do antebraço, outra especificada
+
+        s73019:
+          title: Estrutura do antebraço, não especificada
+
+    s7302:
+      title: Estrutura da mão
+
+      groups:
+        s73020:
+          title: Ossos da mão
+
+        s73021:
+          title: Articulações da mão e dos dedos
+
+        s73022:
+          title: Músculos da mão
+
+        s73023:
+          title: Ligamentos e fáscias da mão
+
+        s73028:
+          title: Estrutura da mão, outra especificada
+
+        s73029:
+          title: Estrutura da mão, não especificada
+
+    s7308:
+      title: Estrutura da extremidade superior, outra especificada
+
+    s7309:
+      title: Estrutura da extremidade superior, não especificada
+
+s740:
+  title: Estrutura da região pélvica
+
+  groups:
+    s7400:
+      title: Ossos da região pélvica
+
+    s7401:
+      title: Articulações da região pélvica
+
+    s7402:
+      title: Músculos da região pélvica
+
+    s7403:
+      title: Ligamentos e fáscias da região pélvica
+
+    s7408:
+      title: Estrutura da região pélvica, outra especificada
+
+    s7409:
+      title: Estrutura da região pélvica, não especificada
+
+s750:
+  title: Estrutura da extremidade inferior
+
+  groups:
+    s7500:
+      title: Estrutura da coxa
+
+      groups:
+        s75000:
+          title: Ossos da coxa
+
+        s75001:
+          title: Articulação do quadril
+
+        s75002:
+          title: Músculos da coxa
+
+        s75003:
+          title: Ligamentos e fáscias da coxa
+
+        s75008:
+          title: Estrutura da coxa, outra especificada
+
+        s75009:
+          title: Estrutura da coxa, não especificada
+
+    s7501:
+      title: Estrutura da perna
+
+      groups:
+        s75010:
+          title: Ossos da perna
+
+        s75011:
+          title: Articulação do joelho
+
+        s75012:
+          title: Músculos da perna
+
+        s75013:
+          title: Ligamentos e fáscias da perna
+
+        s75018:
+          title: Estrutura da perna, outra especificada
+
+        s75019:
+          title: Estrutura da perna, não especificada
+
+    s7502:
+      title: Estrutura do tornozelo e pé
+
+      groups:
+        s75020:
+          title: Ossos do tornozelo e do pé
+
+        s75021:
+          title: Articulação do tornozelo e articulações do pé e dedos
+
+        s75022:
+          title: Músculos do tornozelo e do pé
+
+        s75023:
+          title: Ligamentos e fáscias do tornozelo e do pé
+
+        s75028:
+          title: Estrutura do tornozelo e do pé, outra especificada
+
+        s75029:
+          title: Estrutura do tornozelo e do pé, não especificada
+
+    s7508:
+      title: Estrutura da extremidade inferior, outra especificada
+
+    s7509:
+      title: Estrutura da extremidade inferior, não especificada
+
+s760:
+  title: Estrutura do tronco
+
+  groups:
+    s7600:
+      title: Estrutura da coluna vertebral
+
+      groups:
+        s76000:
+          title: Coluna vertebral cervical
+
+        s76001:
+          title: Coluna vertebral torácica
+
+        s76002:
+          title: Coluna vertebral lombar
+
+        s76003:
+          title: Coluna vertebral sacral
+
+        s76004:
+          title: Cóccix
+
+        s76008:
+          title: Estrutura da coluna vertebral, outra especificada
+
+        s76009:
+          title: Estrutura da coluna vertebral, não especificada
+
+    s7601:
+      title: Músculos do tronco
+
+    s7602:
+      title: Ligamentos e fáscias do tronco
+
+    s7608:
+      title: Estrutura do tronco, outra especificada
+
+    s7609:
+      title: Estrutura do tronco, não especificada
+
+s770:
+  title: Estruturas musculoesqueléticas adicionais relacionadas ao movimento
+
+  groups:
+    s7700:
+      title: Ossos
+
+    s7701:
+      title: Articulações
+
+    s7702:
+      title: Músculos
+
+    s7703:
+      title: Ligamentos extra-articulares, fáscias, aponeuroses extramusculares,
+             retináculo, septos, bolsas sinoviais, não especificados
+
+    s7708:
+      title: Estruturas musculoesqueléticas adicionais relacionadas ao
+             movimento, outras especificadas
+
+    s7709:
+      title: Estruturas musculoesqueléticas adicionais relacionadas ao
+             movimento, não especificadas
+
+s798:
+  title: Estruturas relacionadas ao movimento, outras especificadas
+
+s799:
+  title: Estruturas relacionadas ao movimento, não especificadas

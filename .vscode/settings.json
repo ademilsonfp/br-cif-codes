@@ -1,0 +1,11 @@
+{
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.rulers": [72, 80, 120],
+  "telemetry.telemetryLevel": "off",
+  "javascript.validate.enable": false,
+
+  "yaml.schemas": {
+    "./cif-schema.json": ["src/*.yml"]
+  }
+}

@@ -1,0 +1,212 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+d450:
+  title: Andar
+
+  description: >
+    Mover-se sobre uma superfície a pé, passo a passo, de maneira que um pé
+    esteja sempre no solo, como passear, caminhar lentamente, andar para a
+    frente, para trás ou para o lado.
+
+  includes: >
+    Inclui: andar distâncias curtas ou longas; andar sobre superfícies
+    diferentes; andar evitando os obstáculos.
+
+  excludes: >
+    Exclui: transferir a própria posição (d420); deslocar-se (d455).
+
+  groups:
+    d4500:
+      title: Andar distâncias curtas
+
+      description: >
+        Andar menos de 1 km, como andar em quartos e corredores, dentro de um
+        prédio ou distâncias curtas no exterior do prédio.
+
+    d4501:
+      title: Andar distâncias longas
+
+      description: >
+        Andar mais de 1 km, como através de uma vilarejo ou cidade, entre
+        cidades ou em espaços abertos.
+
+    d4502:
+      title: Andar sobre superfícies diferentes
+
+      description: >
+        Andar sobre superfícies inclinadas, irregular ou móvel, como sobre
+        grama, pedregulho, gelo ou neve, ou entrar em um navio, trem ou outro
+        veículo.
+
+    d4503:
+      title: Andar desviando-se de obstáculos
+
+      description: >
+        Andar da maneira necessária para evitar objetos móveis e fixos, pessoas,
+        animais e veículos, como andar em um supermercado ou loja, ao redor ou
+        através do tráfego ou em espaços com muita gente.
+
+    d4508:
+      title: Andar, outro especificado
+
+    d4509:
+      title: Andar, não especificado
+
+d455:
+  title: Deslocar-se
+
+  description: >
+    Mover todo o corpo de um lugar para outro por outros meios que não andando,
+    como escalar uma rocha ou correr por uma rua, saltar, correr em disparada,
+    pular, dar salto mortal ou correr evitando obstáculos.
+
+  includes: >
+    Inclui: engatinhar, subir, correr, pular e nadar.
+
+  excludes: >
+    Exclui: transferir a própria posição (d420); andar (d450).
+
+  groups:
+    d4550:
+      title: Engatinhar
+
+      description: >
+        Mover todo o corpo de bruços de um lugar para o outro utilizando as
+        mãos, ou mãos e braços, e os joelhos.
+
+    d4551:
+      title: Subir
+
+      description: >
+        Mover todo o corpo para cima ou para baixo sobre superfícies ou objetos,
+        como subir degraus, rochas, escadas móveis ou fixas, meio-fio ou outros
+        objetos.
+
+    d4552:
+      title: Correr
+
+      description: >
+        Mover-se com passos rápidos de maneira que os dois pés podem estar
+        simultaneamente fora do chão.
+
+    d4553:
+      title: Pular
+
+      description: >
+        Elevar-se do solo dobrando e estendendo as pernas, como pular sobre um
+        pé, saltitar, saltar e pular ou mergulhar na água.
+
+    d4554:
+      title: Nadar
+
+      description: >
+        Impulsionar todo o corpo através da água por meio de movimentos dos
+        membros das extremidades e de todo o corpo sem se apoiar no solo.
+
+    d4558:
+      title: Deslocar-se, outro especificado
+
+    d4559:
+      title: Deslocar-se, não especificado
+
+d460:
+  title: Deslocar-se por diferentes locais
+
+  description: >
+    Andar ou se movimentar por vários lugares e situações, como andar entre os
+    cômodos em uma casa, dentro de um prédio ou pela rua de uma cidade.
+
+  includes: >
+    Inclui: mover-se dentro de casa, engatinhar ou subir dentro da casa; andar
+    ou mover-se dentro de prédios que não a própria casa e fora de casa e em
+    outros prédios.
+
+  groups:
+    d4600:
+      title: Deslocar-se dentro de casa
+
+      description: >
+        Andar e mover-se dentro da própria casa, em um ambiente, entre os
+        cômodos e em toda a casa ou habitação.
+
+      includes: >
+        Inclui: deslocar-se de um andar para outro, em um terraço, quintal,
+        varanda ou jardim da casa.
+
+    d4601:
+      title: Deslocar-se dentro de outros edifícios que não a própria casa
+
+      description: >
+        Andar e deslocar-se em outros prédios que não a própria residência, como
+        deslocar-se na casa de outras pessoas, outros prédios residenciais,
+        prédios comunitários, privados ou públicos e áreas anexas.
+
+      includes: >
+        Inclui: deslocar-se por todas as partes dos prédios e áreas anexas,
+        entre os andares, dentro, fora e em volta dos prédios, tanto públicos
+        como residenciais.
+
+    d4602:
+      title: Deslocar-se fora de casa e de outros prédios
+
+      description: >
+        Andar e deslocar-se perto ou longe da própria casa e de outros prédios
+        sem a utilização de meio de transporte, público ou privado, como andar
+        distâncias curtas ou longas distâncias em um vilarejo ou cidade.
+
+      includes: >
+        Inclui: andar ou deslocar-se pela ruas da vizinhança, vilarejo ou
+        cidade; deslocar-se entre cidades e distâncias maiores, sem utilizar
+        transporte.
+
+    d4608:
+      title: Deslocar-se por diferentes locais, outro especificado
+
+    d4609:
+      title: Deslocar-se por diferentes locais, não especificado
+
+d465:
+  title:
+    Deslocar-se utilizando algum tipo de equipamento
+
+  description: >
+    Mover todo o corpo de um lugar para outro sobre qualquer superfície ou
+    espaço utilizando dispositivos específicos para facilitar a movimentação ou
+    criar outras maneiras de se mover com equipamentos como patins, esquis,
+    equipamento de mergulho, ou deslocar-se na rua com cadeira de rodas ou
+    andador.
+
+  excludes: >
+    Exclui: transferir a própria posição (d420); andar (d450); deslocar-se
+    (d455); utilização de transporte (d470); dirigir (d475).
+
+d469:
+  title: Andar e mover-se, outros especificados e não especificados

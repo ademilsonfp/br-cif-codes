@@ -1,0 +1,93 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+s510:
+  title: Estrutura das glândulas salivares
+
+s520:
+  title: Estrutura do esôfago
+
+s530:
+  title: Estrutura do estômago
+
+s540:
+  title: Estrutura do intestino
+
+  groups:
+    s5400:
+      title: Intestino delgado
+
+    s5401:
+      title: Intestino grosso
+
+    s5408:
+      title: Estrutura do intestino, outra especificada
+
+    s5409:
+      title: Estrutura do intestino, não especificada
+
+s550:
+  title: Estrutura do pâncreas
+
+s560:
+  title: Estrutura do fígado
+
+s570:
+  title: Estrutura da vesícula biliar e ducto cístico
+
+s580:
+  title: Estrutura das glândulas endócrinas
+
+  groups:
+    s5800:
+      title: Hipófise
+
+    s5801:
+      title: Glândula tireóide
+
+    s5802:
+      title: Glândulas paratireóides
+
+    s5803:
+      title: Glândula supra-renal
+
+    s5808:
+      title: Estrutura das glândulas endócrinas, outra especificada
+
+    s5809:
+      title: Estrutura das glândulas endócrinas, não especificada
+
+s598:
+  title: Estruturas relacionadas aos sistemas digestivo, metabólico e endócrino,
+         outras especificadas
+
+s599:
+  title: Estruturas relacionadas aos sistemas digestivo, metabólico e endócrino,
+         não especificadas

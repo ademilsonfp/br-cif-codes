@@ -1,0 +1,805 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+part1:
+  b:
+    means: body
+    title: Funções do Corpo
+
+    definitions:
+      - >
+        **Funções do corpo** são as funções fisiológicas dos sistemas corporais
+        (incluindo as funções psicológicas).
+
+      - >
+        **Deficiências** são problemas na função ou estrutura do corpo, tais
+        como um desvio ou uma perda significativa.
+
+    qualifiers:
+      - title: Primeiro qualificador
+
+        description: >
+          Qualificador comum com escala negativa utilizado para indicar a
+          extensão ou magnitude de uma deficiência.
+
+        negative:
+          '0':
+            title: NENHUMA deficiência
+            description: "(nenhuma, ausente, escassa\u2026)"
+            value: 0-4 %
+
+          '1':
+            title: Deficiência LEVE
+            description: "(leve, baixa\u2026)"
+            value: 5-24 %
+
+          '2':
+            title: Deficiência MODERADA
+            description: "(média, regular\u2026)"
+            value: 25-49 %
+
+          '3':
+            title: Deficiência GRAVE
+            description: "(elevada, extrema\u2026)"
+            value: 50-95 %
+
+          '4':
+            title: Deficiência COMPLETA
+            description: "(total\u2026)"
+            value: 96-100 %
+
+          '8':
+            title: não especificada
+
+          '9':
+            title: não aplicável
+
+    chapters:
+      b1:
+        title: Funções Mentais
+
+        description: >
+          Este capítulo trata das funções do cérebro, que incluem funções
+          mentais globais como consciência, energia e impulso, e funções mentais
+          específicas como memória, linguagem e cálculo.
+
+        groups:
+          b110-b139:
+            title: Funções mentais globais
+            groups: file://./cif-b110-b139.yml
+
+          b140-b189:
+            title: Funções mentais específicas
+            groups: file://./cif-b140-b189.yml
+
+          b198:
+            title: Funções mentais, outras especificadas
+
+          b199:
+            title: Funções mentais, não especificadas
+
+      b2:
+        title: Funções sensoriais e dor
+
+        description: >
+          Este capítulo se refere às funções dos sentidos como visão, audição,
+          paladar e outros, bem como à sensação de dor.
+
+        groups:
+          b210-b229:
+            title: Visão e funções relacionadas
+            groups: file://./cif-b210-b229.yml
+
+          b230-b249:
+            title: Funções auditivas e vestibulares
+            groups: file://./cif-b230-b249.yml
+
+          b250-b279:
+            title: Funções sensoriais adicionais
+            groups: file://./cif-b250-b279.yml
+
+          b280-b289:
+            title: Dor
+            groups: file://./cif-b280-b289.yml
+
+          b298:
+            title: Funções sensoriais e dor, outras especificadas
+
+          b299:
+            title: Funções sensoriais e dor, não especificadas
+
+      b3:
+        title: Funções da voz e da fala
+
+        description: >
+          Este capítulo trata das funções da produção de sons e da fala.
+
+        groups: file://./cif-b3.yml
+
+      b4:
+        title: Funções dos sistemas cardiovascular, hematológico, imunológico e
+               respiratório
+
+        description: >
+          Este capítulo trata das funções envolvidas no sistema cardiovascular
+          (funções do coração e dos vasos sangüíneos), nos sistemas hematológico
+          e imunológico (funções da produção de sangue e imunidade) e no sistema
+          respiratório (funções da respiração e tolerância a exercícios).
+
+        groups:
+          b410-b429:
+            title: Funções do sistema cardiovascular
+            groups: file://./cif-b410-b429.yml
+
+          b430-b439:
+            title: Funções dos sistemas hematológicos e imunológicos
+            groups: file://./cif-b430-b439.yml
+
+          b440-b449:
+            title: Funções do sistema respiratório
+            groups: file://./cif-b440-b449.yml
+
+          b450-b469:
+            title: Funções e sensações adicionais dos sistemas cardiovascular e
+                   respiratório
+
+            groups: file://./cif-b450-b469.yml
+
+          b498:
+            title: Funções dos sistemas cardiovascular, hematológico,
+                   imunológico e respiratório, outras especificadas
+
+          b499:
+            title: Funções dos sistemas cardiovascular, hematólogico,
+                   imunológico e respiratório, não especificadas
+
+      b5:
+        title: Funções dos sistemas digestivo, metabólico e endócrino
+
+        description: >
+          Este capítulo trata das funções de ingestão, digestão e eliminação,
+          bem como das funções envolvidas no metabolismo e as glândulas
+          endócrinas.
+
+        groups:
+          b510-b539:
+            title: Funções relacionadas ao sistema digestivo
+            groups: file://./cif-b510-b539.yml
+
+          b540-b559:
+            title: Funções relacionadas ao metabolismo e ao sistema endócrino
+            groups: file://./cif-b540-b559.yml
+
+          b598:
+            title: Funções dos sistemas digestivo, metabólico e endócrino,
+                   outras especificadas
+
+          b599:
+            title: Funções dos sistemas digestivo, metabólico e endócrino, não
+                   especificadas
+
+      b6:
+        title: Funções geniturinárias e reprodutivas
+
+        description: >
+          Este capítulo trata das funções urinárias e reprodutivas, incluindo
+          funções sexuais e de procriação.
+
+        groups:
+          b610-b639:
+            title: Funções urinárias
+            groups: file://./cif-b610-b639.yml
+
+          b640-b679:
+            title: Funções genitais e reprodutivas
+            groups: file://./cif-b640-b679.yml
+
+          b698:
+            title: Funções geniturinárias e reprodutivas, outras especificadas
+
+          b699:
+            title: Funções geniturinárias e reprodutivas, não especificadas
+
+      b7:
+        title: Funções neuromusculoesqueléticas e relacionadas ao movimento
+
+        description: >
+          Este capítulo trata das funções relacionadas ao movimento e à
+          mobilidade, incluindo funções das articulações, ossos, reflexos e
+          músculos.
+
+        groups:
+          b710-b729:
+            title: Funções das articulações e dos ossos
+            groups: file://./cif-b710-b729.yml
+
+          b730-b749:
+            title: Funções musculares
+            groups: file://./cif-b730-b749.yml
+
+          b750-b789:
+            title: Funções dos movimentos
+            groups: file://./cif-b750-b789.yml
+
+          b798:
+            title: Funções neuromusculoesqueléticas e relacionadas aos
+                   movimentos, outras especificadas
+
+          b799:
+            title: Funções neuromusculoesqueléticas e relacionadas aos
+                   movimentos, não especificadas
+
+      b8:
+        title: Funções da pele e estruturas relacionadas
+        description: Este capítulo trata das funções da pele, unhas e pelos.
+
+        groups:
+          b810-b849:
+            title: Funções da pele
+            groups: file://./cif-b810-b849.yml
+
+          b850-b869:
+            title: Funções dos pêlos e das unhas
+            groups: file://./cif-b850-b869.yml
+
+          b898:
+            title: Funções da pele e estruturas relacionadas, outras
+                   especificadas
+
+          b899:
+            title: Funções da pele e estruturas relacionadas, não especificadas
+
+  s:
+    means: structure
+    title: Estruturas do Corpo
+
+    definitions:
+      - >
+        As **estruturas corporais** são partes anatômicas do corpo, como os
+        órgãos, membros e seus componentes.
+
+      - >
+        As **deficiências** são problemas nas funções ou estruturas do corpo,
+        como um desvio ou perda significativa.
+
+    qualifiers:
+      - title: Primeiro qualificador
+
+        description: >
+          Qualificador comum com escala negativa, utilizado para indicar a
+          extensão ou magnitude de uma deficiência.
+
+        negative:
+          '0':
+            title: NENHUMA deficiência
+            description: "(nenhuma, ausente, escassa\u2026)"
+            value: 0-4 %
+
+          '1':
+            title: Deficiência LEVE
+            description: "(leve, baixa\u2026)"
+            value: 5-24 %
+
+          '2':
+            title: Deficiência MODERADA
+            description: "(média, regular\u2026)"
+            value: 25-49 %
+
+          '3':
+            title: Deficiência GRAVE
+            description: "(alta, extrema\u2026)"
+            value: 50-95 %
+
+          '4':
+            title: Deficiência COMPLETA
+            description: "(total\u2026)"
+            value: 96-100 %
+
+          '8':
+            title: não especificadas
+
+          '9':
+            title: não aplicável
+
+      - title: Segundo qualificador
+
+        description: >
+          Utilizado para indicar a natureza da mudança na estrutura corporal
+          correspondente.
+
+        nature:
+          '0': nenhuma mudança na estrutura
+          '1': ausência total
+          '2': ausência parcial
+          '3': parte adicional
+          '4': dimensões aberrantes
+          '5': descontinuidade
+          '6': posição desviada
+          '7': mudanças qualitativas na estrutura, incluindo acúmulo de fluido
+          '8': não especificada
+          '9': não aplicável
+
+      - title: Terceiro qualificador (sugerido)
+        description: A ser desenvolvido para indicar localização.
+
+        location:
+          '0': mais de uma região
+          '1': direita
+          '2': esquerda
+          '3': ambos os lados
+          '4': parte dianteira
+          '5': parte traseira
+          '6': proximal
+          '7': distal
+          '8': não especificada
+          '9': não aplicável
+
+    chapters:
+      s1:
+        title: Estruturas do sistema nervoso
+        groups: file://./cif-s1.yml
+
+      s2:
+        title: Olho, ouvido e estruturas relacionadas
+        groups: file://./cif-s2.yml
+
+      s3:
+        title: Estruturas relacionadas à voz e à fala
+        groups: file://./cif-s3.yml
+
+      s4:
+        title: Estruturas dos sistemas cardiovascular, imunológico e
+               respiratório
+
+        groups: file://./cif-s4.yml
+
+      s5:
+        title: Estruturas relacionadas aos sistemas digestório, metabólico e
+               endócrino
+
+        groups: file://./cif-s5.yml
+
+      s6:
+        title: Estruturas relacionadas aos sistemas geniturinário e reprodutivo
+        groups: file://./cif-s6.yml
+
+      s7:
+        title: Estruturas relacionadas ao movimento
+        groups: file://./cif-s7.yml
+
+      s8:
+        title: Pele e estruturas relacionadas
+        groups: file://./cif-s8.yml
+
+  d:
+    means: domain
+    title: Atividades e Participação
+
+    definitions:
+      - >
+        **Atividade** é a execução de uma tarefa ou ação por um indivíduo.
+
+      - >
+        **Participação** é o ato de se envolver em uma situação vital.
+
+      - >
+        **Limitações da atividade** são dificuldades que o indivíduo pode ter
+        para executar uma atividade.
+
+      - >
+        **Restrições de participação** são problemas que um indivíduo pode
+        enfrentar ao se envolver em situações vitais.
+
+    qualifiers:
+      - title: Desempenho e/ou Capacidade, com e/ou sem os dispositivos de ajuda
+               ou ajuda de terceiros.
+
+        description: >
+          O qualificador de Desempenho descreve o que um indivíduo faz em seu
+          ambiente habitual.
+
+          O qualificador de Capacidade descreve a capacidade de um indivíduo de
+          executar uma tarefa ou ação.
+
+          Tanto o qualificador de capacidade como o de desempenho podem ser
+          utilizados com e sem os dispositivos de ajuda ou ajuda de terceiros,
+          e de acordo com a escala.
+
+        negative:
+          '0':
+            title: NENHUMA dificuldade
+            description: "(nenhuma, ausente, escassa\u2026)"
+            value: 0-4 %
+
+          '1':
+            title: Dificuldade LEVE
+            description: "(ligeira, baixa\u2026)"
+            value: 5-24 %
+
+          '2':
+            title: Dificuldade MODERADA
+            description: "(média, regular\u2026)"
+            value: 25-49 %
+
+          '3':
+            title: Dificuldade GRAVE
+            description: "(alta, extrema\u2026)"
+            value: 50-95 %
+
+          '4':
+            title: Dificuldade COMPLETA
+            description: "(total\u2026)"
+            value: 96-100 %
+
+          '8':
+            title: não especificada
+
+          '9':
+            title: não aplicável
+
+    chapters:
+      d1:
+        title: Aprendizagem e aplicação de conhecimento
+
+        description: >
+          Este capítulo trata da capacidade de aprender, aplicar o conhecimento
+          aprendido, pensar, resolver problemas e tomar decisões.
+
+        groups:
+          d110-d129:
+            title: Experiências sensoriais intencionais
+            groups: file://./cif-d110-d129.yml
+
+          d130-d159:
+            title: Aprendizado básico
+            groups: file://./cif-d130-d159.yml
+
+          d160-d179:
+            title: Aplicação de conhecimento
+            groups: file://./cif-d160-d179.yml
+
+          d198:
+            title: Aprendizagem e aplicação de conhecimento, outros
+                   especificados
+
+          d199:
+            title: Aprendizagem e aplicação de conhecimento, não especificados
+
+      d2:
+        title: Tarefas e demandas gerais
+
+        description: >
+          Este capítulo trata dos aspectos gerais da execução de uma única ou de
+          várias tarefas, organização de rotinas e superação do estresse.
+
+        groups: file://./cif-d2.yml
+
+      d3:
+        title: Comunicação
+
+        description: >
+          Este capítulo trata das características gerais e específicas da
+          comunicação por meio da linguagem, sinais e símbolos, incluindo a
+          recepção e produção de mensagens, manutenção da conversação e
+          utilização de dispositivos e técnicas de comunicação.
+
+        groups:
+          d310-d329:
+            title: "Comunicação \u2014 recepção"
+            groups: file://./cif-d310-d329.yml
+
+          d330-d349:
+            title: "Comunicação \u2014 produção"
+            groups: file://./cif-d330-d349.yml
+
+          d350-d369:
+            title: Conversação e utilização dos dispositivos e técnicas de
+                   comunicação
+
+            groups: file://./cif-d350-d369.yml
+
+          d398:
+            title: Comunicação, outra especificada
+
+          d399:
+            title: Comunicação, não especificada
+
+      d4:
+        title: Mobilidade
+
+        description: >
+          Este capítulo trata do movimento ao mudar o corpo de posição ou de
+          lugar, carregar, mover ou manipular objetos, ao andar, correr ou
+          escalar e quando se utilizam várias formas de transporte.
+
+        groups:
+          d410-d429:
+            title: Mudança e manutenção da posição do corpo
+            groups: file://./cif-d410-d429.yml
+
+          d430-d449:
+            title: Carregar, mover e manusear objetos
+            groups: file://./cif-d430-d449.yml
+
+          d450-d469:
+            title: Andar e mover-se
+            groups: file://./cif-d450-d469.yml
+
+          d470-d489:
+            title: Deslocar-se utilizando transporte
+            groups: file://./cif-d470-d489.yml
+
+          d498:
+            title: Mobilidade, outra especificada
+
+          d499:
+            title: Mobilidade, não especificada
+
+      d5:
+        title: Cuidado pessoal
+
+        description: >
+          Este capítulo trata do cuidado pessoal como lavar-se e secar-se,
+          cuidar do próprio corpo e de partes do corpo, vestir-se, comer e beber
+          e cuidar da própria saúde.
+
+        groups: file://./cif-d5.yml
+
+      d6:
+        title: Vida doméstica
+
+        description: >
+          Este capítulo trata da realização das ações e tarefas domésticas e do
+          dia-a-dia. As áreas da vida doméstica incluem obter um lugar para
+          morar, alimento, vestuário e outras necessidades, limpeza e reparos
+          domésticos, cuidar de objetos pessoais e da casa e ajudar os outros.
+
+        groups:
+          d610-d629:
+            title: Aquisição do necessário para viver
+            groups: file://./cif-d610-d629.yml
+
+          d630-d649:
+            title: Tarefas domésticas
+            groups: file://./cif-d630-d649.yml
+
+          d650-d669:
+            title: Cuidar dos objetos da casa e ajudar os outros
+            groups: file://./cif-d650-d669.yml
+
+          d698:
+            title: Vida doméstica, outra especificada
+
+          d699:
+            title: Vida doméstica, não especificada
+
+      d7:
+        title: Relações e interações interpessoais
+
+        description: >
+          Este capítulo trata da realização de ações e condutas que são
+          necessárias para estabelecer, com outras pessoas (estranhos, amigos,
+          parentes, familiares e amantes), interações pessoais básicas e
+          complexas, de maneira contextual e socialmente adequada.
+
+        groups:
+          d710-d729:
+            title: Interações interpessoais gerais
+            groups: file://./cif-d710-d729.yml
+
+          d730-d779:
+            title: Relações interpessoais particulares
+            groups: file://./cif-d730-d779.yml
+
+          d798:
+            title: Relações e interações interpessoais, outras especificadas
+
+          d799:
+            title: Relações e interações interpessoais, não especificadas
+
+      d8:
+        title: Áreas principais da vida
+
+        description: >
+          Este capítulo trata da realização das tarefas e ações necessárias para
+          participar das atividades de educação, de trabalho, no emprego e nas
+          transações econômicas.
+
+        groups:
+          d810-d839:
+            title: Educação
+            groups: file://./cif-d810-d839.yml
+
+          d840-d859:
+            title: Trabalho e emprego
+            groups: file://./cif-d840-d859.yml
+
+          d860-d879:
+            title: Vida econômica
+            groups: file://./cif-d860-d879.yml
+
+          d898:
+            title: Áreas principais da vida, outras especificadas
+
+          d899:
+            title: Áreas principais da vida, não especificadas
+
+      d9:
+        title: Vida comunitária, social e cívica
+
+        description: >
+          Este capítulo trata das ações e tarefas necessárias para participar da
+          vida social organizada fora do âmbito familiar, em áreas da vida
+          comunitária, social e cívica.
+
+        groups: file://./cif-d9.yml
+
+part2:
+  e:
+    means: environment
+    title: Fatores Ambientais
+
+    definitions:
+      - Os **fatores ambientais** constituem o ambiente físico, social e de
+        atitudes * em que as pessoas vivem e conduzem sua vida.
+
+    qualifiers:
+      - title: 'Primeiro qualificador'
+
+        description: >
+          A seguir apresentamos a escala negativa e positiva que denota a
+          extensão na qual um fator ambiental atua como um obstáculo ou um
+          facilitador.
+
+        negative:
+          '0':
+            title: NENHUMA barreira
+            description: "(nenhuma, ausente, escassa\u2026)"
+            value: 0-4 %
+
+          '1':
+            title: Barreira LEVE
+            description: "(ligeira, baixa\u2026)"
+            value: 5-24 %
+
+          '2':
+            title: Barreira MODERADA
+            description: "(média, regular\u2026)"
+            value: 25-49 %
+
+          '3':
+            title: Barreira GRAVE
+            description: "(alta, extrema\u2026)"
+            value: 50-95 %
+
+          '4':
+            title: Barreira COMPLETA
+            description: "(total\u2026)"
+            value: 96-100 %
+
+          '8':
+            title: não especificada
+
+          '9':
+            title: não aplicável
+
+        positive:
+          '0':
+            title: NENHUM facilitador
+            description: "(nenhum, ausente, escasso\u2026)"
+            value: 0-4 %
+
+          '1':
+            title: Facilitador LEVE
+            description: "(leve, baixo\u2026)"
+            value: 5-24 %
+
+          '2':
+            title: Facilitador MODERADO
+            description: "(médio, regular\u2026)"
+            value: 25-49 %
+
+          '3':
+            title: Facilitador CONSIDERÁVEL
+            description: "(alto, extremo\u2026)"
+            value: 50-95 %
+
+          '4':
+            title: Facilitador COMPLETO
+            description: "(total\u2026)"
+            value: 96-100 %
+
+          '8':
+            title: não especificado
+
+    chapters:
+      e1:
+        title: Produtos e tecnologia
+
+        description: >
+          Este capítulo trata dos produtos naturais ou fabricados pelo homem ou
+          sistemas de produtos, equipamentos e tecnologia no ambiente imediato
+          do indivíduo que são reunidos, criados, produzidos ou manufaturados.
+
+        groups: file://./cif-e1.yml
+
+      e2:
+        title: Ambiente natural e mudanças ambientais feitas pelo ser humano
+
+        description: >
+          Este capítulo trata dos elementos animados e inanimados do ambiente
+          natural ou físico e dos componentes desse ambiente que foram
+          modificados pelas pessoas, bem como das características das populações
+          humanas desse ambiente.
+
+        groups: file://./cif-e2.yml
+
+      e3:
+        title: Apoio e relacionamentos
+
+        description: >
+          Este capítulo trata das pessoas ou animais que fornecem apoio físico
+          ou emocional prático, educação, proteção e assistência, e de
+          relacionamentos com outras pessoas, na casa, local de trabalho, escola
+          ou em brincadeiras ou em outros aspectos das suas atividades diárias.
+
+        groups: file://./cif-e3.yml
+
+      e4:
+        title: Atitudes
+
+        description: >
+          Este capítulo trata das atitudes que são as conseqüências observáveis
+          dos costumes, práticas, ideologias, valores, normas, crenças fatuais e
+          religiosas.
+
+        groups: file://./cif-e4.yml
+
+      e5:
+        title: Serviços, sistemas e políticas
+
+        description: >
+          Este capítulo trata de:
+
+          1. Serviços que representam a provisão de benefícios, programas
+          estruturados e operações, em vários setores da sociedade, desenhados
+          para satisfazer as necessidades dos indivíduos (incluindo as pessoas
+          que prestam esses serviços).
+
+          2. Sistemas que representam o controle administrativo e mecanismos de
+          organização e são estabelecidos por autoridades governamentais ou
+          outras reconhecidas, de nível local, regional, nacional e
+          internacional.
+
+          3. Políticas que representam as normas, regulamentos e convenções e
+          padrões estabelecidos por governos e outras autoridades reconhecidas,
+          de nível local, regional, nacional e internacional.
+
+        groups: file://./cif-e5.yml

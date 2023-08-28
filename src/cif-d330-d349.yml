@@ -1,0 +1,100 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+d330:
+  title: Fala
+
+  description: >
+    Produzir palavras, frases e passagens mais longas em mensagens faladas com
+    significado literal e implícito, como expressar um fato ou contar uma
+    história em linguagem oral.
+
+d335:
+  title: Produção de mensagens não verbais
+
+  description: >
+    Usar gestos, símbolos e desenhos para transmitir mensagens, como balançar a
+    cabeça para indicar desacordo ou fazer um desenho ou diagrama para
+    transmitir um fato ou uma idéia complexa.
+
+  includes: >
+    Inclui: produção de gestos corporais, sinais, símbolos, desenhos e
+    fotografias.
+
+  groups:
+    d3350:
+      title: Produção de linguagem corporal
+
+      description: >
+        Transmitir significado por meio de movimentos do corpo, como gestos
+        faciais (e.g., sorrir, franzir as sobrancelhas, estremecer), movimentos
+        do braço e da mão e posturas (e.g., abraçar para mostrar afeto).
+
+    d3351:
+      title: Produção de sinais e símbolos
+
+      description: >
+        Transmitir significado por meio da utilização de sinais e símbolos
+        (e.g., ícones, símbolos Bliss, símbolos científicos) e sistemas de
+        notação simbólica, como utilizar uma nota musical para transmitir uma
+        melodia.
+
+    d3352:
+      title: Produção de desenhos e fotografias
+
+      description: >
+        Transmitir mensagens por meio de desenhos, pinturas ou esboços e fazer
+        diagramas, reproduções ou fotografias, como desenhar um mapa para
+        indicar o caminho para um local.
+
+    d3358:
+      title: Produção de mensagens não verbais, outra especificada
+
+    d3359:
+      title: Produção de mensagens não verbais, não especificada
+
+d340:
+  title:
+    Produção de mensagens na linguagem formal dos sinais
+
+  description: >
+    Transmitir, com linguagem de sinais convencionais, significado literal e
+    implícito.
+
+d345:
+  title: Escrever mensagens
+
+  description: >
+    Produzir os significados literal e implícito de mensagens que são
+    transmitidas por meio da linguagem escrita, como escrever uma carta para um
+    amigo.
+
+d349:
+  title: "Comunicação \u2014 produção, outra especificada e não especificada"

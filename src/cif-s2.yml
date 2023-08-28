@@ -1,0 +1,132 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+s210:
+  title: Estrutura da cavidade ocular
+
+s220:
+  title: Estrutura do globo ocular
+
+  groups:
+    s2200:
+      title: Conjuntiva, esclera, corióide
+
+    s2201:
+      title: Córnea
+
+    s2202:
+      title: Íris
+
+    s2203:
+      title: Retina
+
+    s2204:
+      title: Lente
+
+    s2205:
+      title: Corpo vítreo
+
+    s2208:
+      title: Estrutura do globo ocular, outra especificada
+
+    s2209:
+      title: Estrutura do globo ocular, não especificada
+
+s230:
+  title: Estruturas ao redor do olho
+
+  groups:
+    s2300:
+      title: Glândula lacrimal e estruturas relacionadas
+
+    s2301:
+      title: Pálpebra
+
+    s2302:
+      title: Sobrancelha
+
+    s2303:
+      title: Músculos oculares externos
+
+    s2308:
+      title: Estruturas ao redor do olho, outra especificada
+
+    s2309:
+      title: Estrutura ao redor do olho, não especificada
+
+s240:
+  title: Estrutura do ouvido externo
+
+s250:
+  title: Estrutura do ouvido médio
+
+  groups:
+    s2500:
+      title: Membrana timpânica
+
+    s2501:
+      title: Tuba auditiva
+
+    s2502:
+      title: Ossículos da audição
+
+    s2508:
+      title: Estrutura do ouvido médio, outra especificada
+
+    s2509:
+      title: Estrutura do ouvido médio, não especificada
+
+s260:
+  title: Estrutura do ouvido interno
+
+  groups:
+    s2600:
+      title: Cóclea
+
+    s2601:
+      title: Labirinto vestibular
+
+    s2602:
+      title: Ductos semicirculares
+
+    s2603:
+      title: Ducto auditivo interno
+
+    s2608:
+      title: Estrutura do ouvido interno, outra especificada
+
+    s2609:
+      title: Estrutura do ouvido interno, não especificada
+
+s298:
+  title: Olho, ouvido e estruturas relacionadas, outras especificadas
+
+s299:
+  title: Olho, ouvido e estruturas relacionadas, não especificadas

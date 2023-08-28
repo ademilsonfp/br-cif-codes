@@ -1,0 +1,320 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+b510:
+  title: Funções de ingestão
+
+  description: >
+    Funções relacionadas à ingestão e manipulação de sólidos ou líquidos no
+    corpo através da boca.
+
+  includes: >
+    Inclui: funções de sugar, mastigar e morder, manipular alimento na boca,
+    salivar, engolir, arrotar, regurgitar, cuspir e vomitar; deficiências como
+    disfagia, aspiração de alimento, aerofagia, salivação excessiva, babar e
+    salivação insuficiente.
+
+  excludes: >
+    Exclui: sensações associadas ao sistema digestivo (b535).
+
+  groups:
+    b5100:
+      title: Sugar
+
+      description: >
+        Funções relacionadas com o ato de levar para dentro da boca, por meio de
+        força de sucção produzida por movimentos das bochechas, lábios e língua.
+
+    b5101:
+      title: Morder
+
+      description: >
+        Funções de cortar ou triturar alimentos com os dentes da frente.
+
+    b5102:
+      title: Mastigar
+
+      description: >
+        Funções de triturar, moer e mastigar alimentos com os dentes de trás
+        (e.g., molares).
+
+    b5103:
+      title: Manipulação dos alimentos na boca
+
+      description: >
+        Funções de mover a comida na boca com os dentes e a língua.
+
+    b5104:
+      title: Salivação
+
+      description: >
+        Função da produção de saliva na boca.
+
+    b5105:
+      title: Deglutição
+
+      description: >
+        Funções relacionadas à passagem de alimentos e de líquidos através da
+        cavidade oral, faringe e esôfago para o estômago em velocidade e
+        quantidade adequadas.
+
+      includes: >
+        Inclui: disfagia oral, faríngica ou esofágica; deficiências na passagem
+        do alimento pelo esôfago.
+
+      groups:
+        b51050:
+          title: Deglutição oral
+
+          description: >
+            Função relacionada à passagem de alimentos e de bebidas através da
+            cavidade oral em uma quantidade e velocidade apropriadas.
+
+        b51051:
+          title: Deglutição faríngea
+
+          description: >
+            Função relacionada à passagem de alimentos e de bebidas através da
+            faringe em uma quantidade e velocidade apropriadas.
+
+        b51052:
+          title: Deglutição esofágica
+
+          description: >
+            Função relacionada à passagem de alimentos e de bebidas através do
+            esôfago em uma quantidade e velocidade apropriadas.
+
+        b51058:
+          title: Deglutição, outra especificada
+
+        b51059:
+          title: Deglutição, não especificada
+
+    b5106:
+      title: Regurgitação e vômito
+
+      description: >
+        Funções relacionadas ao movimento de alimentos ou de líquidos na direção
+        contrária à da ingestão, do estômago para o esôfago para a boca e para
+        fora.
+
+    b5108:
+      title: Funções da ingestão, outras especificadas
+
+    b5109:
+      title: Funções da ingestão, não especificadas
+
+b515:
+  title: Funções digestivas
+
+  description: >
+    Funções de transporte de alimento através do trato gastrointestinal,
+    decomposição do alimento e absorção de nutrientes.
+
+  includes: >
+    Inclui: funções de transporte do alimento através do estômago,
+    peristaltismo; decomposição do alimento, produção de enzimas e suas ações no
+    estômago e intestinos; absorção de nutrientes e tolerância aos alimentos;
+    deficiências como hiperacidez do estômago, má absorção, intolerância aos
+    alimentos, hipermotilidade dos intestinos, paralisia intestinal, obstrução
+    intestinal e diminuição da produção de bile.
+
+  excludes: >
+    Exclui: funções de ingestão (b510); funções de assimilação (b520); funções
+    de defecação (b525); sensações associadas ao sistema digestivo (b535).
+
+  groups:
+    b5150:
+      title: Transporte de alimentos através do estômago e dos intestinos
+
+      description: >
+        Peristaltismo e funções relacionadas que movem os alimentos
+        mecanicamente através do estômago e intestinos.
+
+    b5151:
+      title: Degradação dos alimentos
+
+      description: >
+        Funções relacionadas à redução mecânica dos alimentos em partículas
+        menores no trato gastrointestinal.
+
+    b5152:
+      title: Absorção de nutrientes
+
+      description: >
+        Funções relacionadas à passagem dos nutrientes de alimentos e bebidas
+        para o fluxo sangüíneo do intestino.
+
+    b5153:
+      title: Tolerância aos alimentos
+
+      description: >
+        Funções relacionadas à aceitação de alimentos e de bebidas adequados
+        para digestão e à rejeição do que não é adequado.
+
+      includes: >
+        Inclui: deficiências como hipersensibilidades, intolerância a glúten.
+
+    b5158:
+      title: Funções digestivas, outras especificadas
+
+    b5159:
+      title: Funções digestivas, não especificadas
+
+b520:
+  title: Funções de assimilação
+
+  description: >
+    Funções por meio das quais os nutrientes são convertidos em componentes do
+    corpo.
+
+  includes: >
+    Inclui: funções de armazenamento de nutrientes no corpo.
+
+  excludes: >
+    Exclui: funções digestivas (b515); funções de defecação (b525); funções de
+    manutenção do peso (b530); funções metabólicas gerais (b540).
+
+b525:
+  title: Funções de defecação
+
+  description: >
+    Funções de eliminação de resíduos e alimentos não digeridos como fezes e
+    funções relacionadas.
+
+  includes: >
+    Inclui: funções de eliminação, consistência fecal, freqüência de defecação;
+    continência fecal, flatulência; deficiências como constipação, diarréia,
+    fezes líquidas e incompetência ou incontinência do esfíncter anal.
+
+  excludes: >
+    Exclui: funções digestivas (b515); funções de assimilação (b520); sensações
+    associadas ao sistema digestivo (b535).
+
+  groups:
+    b5250:
+      title: Eliminação de fezes
+
+      description: >
+        Funções da eliminação de resíduos do reto, incluindo as funções de
+        contração dos músculos abdominais no ato de eliminação de fezes.
+
+    b5251:
+      title: Consistência fecal
+
+      description: >
+        Consistência das fezes, que podem ser duras, firmes, moles ou líquidas.
+
+    b5252:
+      title: Freqüência de defecação
+
+      description: >
+        Funções envolvidas na freqüência de defecação.
+
+    b5253:
+      title: Continência fecal
+
+      description:
+        Funções envolvidas no controle voluntário sobre a função de eliminação.
+
+    b5254:
+      title: Flatulência
+
+      description:
+        Funções envolvidas na expulsão de quantidades excessivas de ar ou gases
+        dos intestinos.
+
+    b5258:
+      title: Funções de defecação, outras especificadas
+
+    b5259:
+      title: Funções de defecação, não especificadas
+
+b530:
+  title: Funções de manutenção do peso
+
+  description: >
+    Funções de manutenção de peso apropriado do corpo, incluindo ganho de peso
+    durante o período de desenvolvimento.
+
+  includes: >
+    Inclui: funções de manutenção do Índice de Massa Corporal (IMC) aceitável;
+    deficiências como baixo peso, caquexia, debilidade, excesso de peso,
+    emaciação e obesidade primária e secundária.
+
+  excludes: >
+    Exclui: funções de assimilação (b520); funções metabólicas gerais (b540);
+    funções das glândulas endócrinas (b555).
+
+b535:
+  title: Sensações associadas ao sistema digestivo
+
+  description: >
+    Sensações decorrentes da ingestão de alimentos, de líquidos e funções
+    digestivas relacionadas.
+
+  includes: >
+    Inclui: sensação de náusea, sensação de empachamento, e sensação de cólica
+    abdominal; sensação de estômago cheio, sensação de bolo na garganta, espasmo
+    estomacal, gás no estômago e acidez e queimação gástricas.
+
+  excludes: >
+    Exclui: sensação de dor (b280); funções de ingestão (b510); funções
+    digestivas (b515); funções de defecação (b525).
+
+  groups:
+    b5350:
+      title: Sensação de náusea
+
+      description: >
+        Sensação relacionada à necessidade de vomitar.
+
+    b5351:
+      title: Sensação de inchaço
+
+      description: >
+        Sensação de distensão do estômago ou abdome.
+
+    b5352:
+      title: Sensação de cólica abdominal
+
+      description: >
+        Sensação de contração espasmódica ou dolorosa dos músculos lisos do
+        trato gastrointestinal.
+
+    b5358:
+      title: Sensações associadas ao sistema digestivo, outras especificadas
+
+    b5359:
+      title: Sensações associadas ao sistema digestivo, não especificadas
+
+b539:
+  title: Funções relacionadas ao sistema digestivo, outras especificadas e não
+         especificadas

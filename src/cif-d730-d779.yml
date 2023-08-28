@@ -1,0 +1,222 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+d730:
+  title: Relações com estranhos
+
+  description: >
+    Estabelecer contatos e ligações temporárias com estranhos para fins
+    específicos, como perguntar um caminho ou fazer uma compra.
+
+d740:
+  title: Relações formais
+
+  description: >
+    Criar e manter relações específicas em ambientes formais, como com
+    funcionários, profissionais ou prestadores de serviços.
+
+  includes: >
+    Inclui: relações com autoridades, subordinados e pares.
+
+  groups:
+    d7400:
+      title: Relações com autoridades
+
+      description: >
+        Criar e manter relações formais com pessoas em posições de poder, de um
+        escalão mais alto ou de mais prestígio em relação à sua posição social,
+        como com um empregador.
+
+    d7401:
+      title: Relações com subordinados
+
+      description: >
+        Criar e manter relações formais com pessoas em posição de escalão mais
+        baixo ou de menor prestígio em relação à sua posição social como um
+        funcionário ou empregado.
+
+    d7402:
+      title: Relações com pares
+
+      description: >
+        Criar e manter relações formais com pessoas na mesma posição de
+        autoridade, escalão ou prestígio em relação à sua posição social.
+
+    d7408:
+      title: Relações formais, outras especificadas
+
+    d7409:
+      title: Relações formais, não especificadas
+
+d750:
+  title: Relações sociais informais
+
+  description: >
+    Iniciar relações com outros, como relações casuais com pessoas que vivem na
+    mesma comunidade ou residência, ou com colaboradores, estudantes,
+    companheiros de lazer ou pessoas com formação ou profissão similares à sua.
+
+  includes: >
+    Inclui: relações informais com amigos, vizinhos, conhecidos, companheiros de
+    moradia e pares.
+
+  groups:
+    d7500:
+      title: Relações informais com amigos
+
+      description: >
+        Criar e manter relações de amizade caracterizadas pela estima mútua e
+        interesses comuns.
+
+    d7501:
+      title: Relações informais com vizinhos
+
+      description: >
+        Criar e manter relações informais com pessoas que vivem na vizinhança ou
+        na habitação.
+
+    d7502:
+      title: Relações informais com conhecidos
+
+      description: >
+        Criar e manter relações informais com pessoas conhecidas que não são
+        amigos íntimos.
+
+    d7503:
+      title: Relações informais com colegas de habitação
+
+      description: >
+        Criar e manter relações informais com pessoas que moram na mesma casa ou
+        habitação, administrada privada ou publicamente, para qualquer fim.
+
+    d7504:
+      title: Relações informais com pares
+
+      description: >
+        Criar e manter relações informais com pessoas que têm a mesma idade,
+        interesse ou outra característica em comum.
+
+    d7508:
+      title: Relações sociais informais, outras especificadas
+
+    d7509:
+      title: Relações sociais informais, não especificadas
+
+d760:
+  title: Relações familiares
+
+  description: >
+    Criar e manter relações de parentesco, como com membros do núcleo familiar,
+    parentes, família adotiva e de criação e parentes não cosangüíneos, relações
+    mais distantes como primos de segundo grau ou tutores legais.
+
+  includes: >
+    Inclui: relações entre pais e filhos e filhos e pais, entre irmãos e com
+    outros membros familiares.
+
+  groups:
+    d7600:
+      title: Relações pai-filho
+
+      description: >
+        Tornar-se e ser pai, natural ou adotivo, como ter um filho e
+        relacionar-se com ele como pai ou criar e manter um relacionamento
+        paternal com um filho adotivo e garantir a formação física, intelectual
+        e emocional do filho natural ou adotivo.
+
+    d7601:
+      title: Relações filho-pai
+
+      description: >
+        Criar e manter relações com os pais, como uma criança pequena obedecer o
+        pai ou a mãe ou um filho adulto tomar conta de seu(s) pai(s) idoso(s).
+
+    d7602:
+      title: Relações entre irmãos
+
+      description: >
+        Criar e manter uma relação fraternal com uma pessoa que compartilha um
+        ou ambos os pais por nascimento, adoção ou casamento.
+
+    d7603:
+      title: Relações com outros parentes
+
+      description: >
+        Criar e manter um relacionamento familiar com outros membros da família,
+        como primos, tias e tios e avós.
+
+    d7608:
+      title: Relações familiares, outras especificadas
+
+    d7609:
+      title: Relações familiares, não especificadas
+
+d770:
+  title: Relações íntimas
+
+  description: >
+    Criar e manter relações românticas ou íntimas entre indivíduos, como marido
+    e mulher, amantes ou parceiros sexuais.
+
+  includes: >
+    Inclui: relações românticas, conjugais e sexuais.
+
+  groups:
+    d7700:
+      title: Relações românticas
+
+      description: >
+        Criar e manter uma relação baseada na atração emocional e física, que
+        leva potencialmente a relacionamentos íntimos de longo prazo.
+
+    d7701:
+      title: Relações maritais
+
+      description: >
+        Criar e manter uma relação íntima de natureza legal com outra pessoa,
+        como no casamento legal, incluindo tornar-se ou ser uma esposa ou marido
+        legalmente casado ou um cônjuge não casado.
+
+    d7702:
+      title: Relações sexuais
+
+      description: >
+        Criar e manter uma relação de natureza sexual, com um cônjuge ou outro
+        parceiro.
+
+    d7708:
+      title: Relações íntimas, outras especificadas
+
+    d7709:
+      title: Relações íntimas, não especificadas
+
+d779:
+  title: Relações interpessoais particulares, outras especificadas e não
+         especificadas

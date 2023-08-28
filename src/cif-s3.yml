@@ -1,0 +1,122 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+s310:
+  title: Estrutura do nariz
+
+  groups:
+    s3100:
+      title: Nariz externo
+
+    s3101:
+      title: Septo nasal
+
+    s3102:
+      title: Cavidade nasal
+
+    s3108:
+      title: Estrutura do nariz, outra especificada
+
+    s3109:
+      title: Estrutura do nariz, não especificada
+
+s320:
+  title: Estrutura da boca
+
+  groups:
+    s3200:
+      title: Dentes
+
+    s3201:
+      title: Gengivas
+
+    s3202:
+      title: Estrutura do palato
+
+      groups:
+        s32020:
+          title: Palato duro
+
+        s32021:
+          title: Palato mole
+
+    s3203:
+      title: Língua
+
+    s3204:
+      title: Estrutura do lábio
+
+      groups:
+        s32040:
+          title: Lábio superior
+
+        s32041:
+          title: Lábio inferior
+
+    s3208:
+      title: Estrutura da boca, outra especificada
+
+    s3209:
+      title: Estrutura da boca, não especificada
+
+s330:
+  title: Estrutura da faringe
+
+  groups:
+    s3300:
+      title: Faringe nasal
+
+    s3301:
+      title: Faringe oral
+
+    s3308:
+      title: Estrutura da faringe, outra especificada
+
+    s3309:
+      title: Estrutura da faringe, não especificada
+
+s340:
+  title: Estrutura da laringe
+
+  groups:
+    s3400:
+      title: Pregas vocais
+
+    s3408:
+      title: Estrutura da laringe, outra especificada
+
+    s3409:
+      title: Estrutura da laringe, não especificada
+
+s398:
+  title: Estruturas relacionadas à voz e à fala, outras especificadas
+
+s399:
+  title: Estruturas relacionas à voz e à fala, não especificadas

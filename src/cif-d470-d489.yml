@@ -1,0 +1,132 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+d470:
+  title: Utilização de transporte
+
+  description: >
+    Utilizar transporte para se deslocar como passageiro, como ser levado em um
+    automóvel ou em um ônibus, carroça, lotação, veículo puxado por tração
+    animal, táxi público ou privado, ônibus, trem, bonde, metrô, barco ou
+    aeronave.
+
+  includes: >
+    Inclui: usar transporte movido por pessoas; usar transporte motorizado ou
+    público.
+
+  excludes: >
+    Exclui: deslocar-se utilizando algum tipo de equipamento (d465); dirigir
+    (d475).
+
+  groups:
+    d4700:
+      title: Utilização de transporte com tração humana
+
+      description: >
+        Ser transportado como passageiro por um meio de transporte impulsionado
+        por uma ou mais pessoas, como um barco a remo ou um riquixá.
+
+    d4701:
+      title: Utilização de transporte motorizado privado
+
+      description: >
+        Ser transportado como passageiro por veículo motorizado privado por
+        terra, mar e ar, como em um taxi ou aeronave ou barco particular.
+
+    d4702:
+      title: Utilização de transporte público
+
+      description: >
+        Ser transportado como passageiro por um veículo motorizado por terra,
+        mar ou ar projetado para o transporte público, como ser passageiro em um
+        ônibus, trem, metrô ou aeronave.
+
+    d4708:
+      title: Utilização de transporte, outro especificado
+
+    d4709:
+      title: Utilização de transporte, não especificado
+
+d475:
+  title: Dirigir
+
+  description: >
+    Controlar e movimentar um veículo ou o animal que o puxa, movendose sob a
+    própria direção ou tendo a sua disposição qualquer forma de transporte como
+    um carro, bicicleta, barco ou animal.
+
+  includes: >
+    Inclui: dirigir transporte com tração humana, veículos motorizados, veículos
+    com tração anima, montar animais.
+
+  excludes: >
+    Exclui: deslocar-se utilizando algum tipo de equipamento (d465); utilização
+    de transporte (d470).
+
+  groups:
+    d4750:
+      title: Dirigir transporte com tração humana
+
+      description: >
+        Dirigir um veículo de tração humana, como bicicleta, triciclo ou barco a
+        remo.
+
+    d4751:
+      title: Dirigir veículos motorizados
+
+      description: >
+        Dirigir um veículo a motor, como automóvel, motocicleta, barco a motor
+        ou aeronave.
+
+    d4752:
+      title: Dirigir veículos com tração animal
+
+      description: >
+        Dirigir um veículo com tração animal, como carroça ou carruagem puxada
+        por cavalo.
+
+    d4758:
+      title: Dirigir, outro especificado
+
+    d4759:
+      title: Dirigir, não especificado
+
+d480:
+  title: Montar animais para transporte
+
+  description: >
+    Deslocar-se no lombo de um animal, como cavalo, boi, camelo ou elefante.
+
+  excludes: >
+    Exclui: dirigir (d475); recreação e lazer (d920)
+
+d489:
+  title: Deslocar-se utilizando transporte, outros especificados e não
+         especificados

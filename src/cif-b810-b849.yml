@@ -1,0 +1,90 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+b810:
+  title: Outras funções da pele
+
+  description: >
+    Funções da pele que não as de proteção e reparação, como resfriamento e
+    sudorese.
+
+  includes: >
+    Inclui: funções de transpiração, funções glandulares da pele e odor
+    corporal.
+
+  excludes: >
+    Exclui: funções protetoras da pele (b810); funções reparadoras da pele
+    (b820).
+
+b820:
+  title: Funções reparadoras da pele
+
+  description: >
+    Funções da pele para a reparação de soluções de continuidade, ferimentos e
+    de outros danos à pele.
+
+  includes: >
+    Inclui: funções da formação de crostas, cicatrização; contusão e formação de
+    quelóides.
+
+  excludes: >
+    Exclui: funções protetoras da pele (b810); outras funções da pele (b830).
+
+b830:
+  title: Outras funções da pele
+
+  description: >
+    Funções da pele que não as de proteção e reparação, como resfriamento e
+    sudorese.
+
+  includes: >
+    Inclui: funções de transpiração, funções glandulares da pele e odor
+    corporal.
+
+  excludes: >
+    Exclui: funções protetoras da pele (b810); funções reparadoras da pele
+    (b820).
+
+b840:
+  title: Sensação relacionada à pele
+
+  description: >
+    Sensações relacionadas à pele como coceira, ardor, sensação de queimação ou
+    de formigamento.
+
+  includes: >
+    Inclui: deficiências como sensação de alfinetes e agulhas na pele e sensação
+    de formigamento
+
+  excludes: >
+    Exclui: sensação de dor (b280).
+
+b849:
+  title: Funções da pele, outras especificadas e não especificadas

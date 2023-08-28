@@ -1,0 +1,278 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+b730:
+  title: Funções relacionadas à força muscular
+
+  description: >
+    Funções relacionadas à força gerada pela contração de um músculo ou grupos
+    de músculos.
+
+  includes: >
+    Inclui: funções associadas com a força de músculos específicos e grupos de
+    músculos, músculos de um membro, de um lado do corpo, da parte inferior do
+    corpo, de todos os membros, do peito e do corpo como um todo; deficiências
+    como fraqueza dos pequenos músculos dos pés e das mãos, paresia muscular,
+    paralisia muscular, monoplegia, hemiplegia, paraplegia, tetraplegia e
+    mutismo acinético.
+
+  excludes: >
+    Exclui: funções relacionadas ao tônus muscular (b735); funções de
+    resistência muscular (b740); funções das estruturas adjacentes ao olho
+    (b215).
+
+  groups:
+    b7300:
+      title: Força de músculos isolados e de grupos de músculos
+
+      description: >
+        Funções relacionadas à força gerada pela contração de músculos
+        específicos e isolados e grupos de músculos.
+
+      includes: >
+        Inclui: deficiências como fraqueza dos pequenos músculos dos pés ou das
+        mãos.
+
+    b7301:
+      title: Força dos músculos de um membro
+
+      description: >
+        Funções relacionadas à força gerada pela contração dos músculos e grupo
+        de músculos de um braço ou perna.
+
+      includes: >
+        Inclui: deficiências como monoparesia e monoplegia.
+
+    b7302:
+      title: Força dos músculos de um lado do corpo
+
+      description: >
+        Funções relacionadas à força gerada pela contração dos músculos e grupos
+        de músculos no lado esquerdo ou direito do corpo.
+
+      includes: >
+        Inclui: deficiências como hemiparesia e hemiplegia.
+
+    b7303:
+      title: Força dos músculos da metade inferior do corpo
+
+      description: >
+        Funções relacionadas à força gerada pela contração dos músculos e grupos
+        de músculos da metade inferior do corpo.
+
+      includes: >
+        Inclui: deficiências como paraparesia e paraplegia.
+
+    b7304:
+      title: Força dos músculos de todos os membros
+
+      description: >
+        Funções relacionadas à força gerada pela contração dos músculos e grupos
+        de músculos de todos os quatro membros.
+
+      includes: >
+        Inclui: deficiências como tetraparesia e tetraplegia.
+
+    b7305:
+      title: Força dos músculos do tronco
+
+      description: >
+        Funções relacionadas à força gerada pela contração dos músculos e grupos
+        de músculos do tronco.
+
+    b7306:
+      title: Força de todos os músculos do corpo
+
+      description: >
+        Funções relacionadas à força gerada pela contração de todos os músculos
+        e grupos de músculos do corpo.
+
+      includes: >
+        Inclui: deficiências como mutismo acinético.
+
+    b7308:
+      title: Funções relacionadas à força muscular, outras especificadas
+
+    b7309:
+      title: Funções relacionadas à força muscular, não especificadas
+
+b735:
+  title: Funções relacionadas ao tônus muscular
+
+  description: >
+    Funções relacionadas à tensão presente nos músculos em repouso e à
+    resistência oferecida quando se tenta mover os músculos passivamente.
+
+  includes: >
+    Inclui: funções associadas à tensão de músculos isolados e grupos de
+    músculos, músculos de um membro, de um lado do corpo e da metade inferior do
+    corpo, músculos de todos os membros, músculos do tronco, e todos os músculos
+    do corpo; deficiências como hipotonia, hipertonia e espasticidade muscular.
+
+  excludes: >
+    Exclui: funções relacionadas à força muscular (b730); funções de resistência
+    muscular (b740).
+
+  groups:
+    b7350:
+      title: Tônus de músculos isolados e grupos de músculos
+
+      description: >
+        Funções relacionadas à tensão presente nos músculos isolados e grupos de
+        músculos em repouso e à resistência oferecida quando se tenta mover
+        esses músculos passivamente.
+
+      includes: >
+        Inclui: deficiências como distonias focais , e.g., torcicolo.
+
+    b7351:
+      title: Tônus dos músculos de um membro
+
+      description: >
+        Funções relacionadas à tensão presente nos músculos e grupos de músculos
+        em descanso de um braço ou de uma perna e à resistência oferecida quando
+        se tenta mover esses músculos passivamente.
+
+      includes: >
+        Inclui: deficiências como monoparesia e monoplegia.
+
+    b7352:
+      title: Tônus dos músculos de um lado do corpo
+
+      description: >
+        Funções relacionadas à tensão presente nos músculos e grupos de músculos
+        em repouso, do lado direito ou esquerdo do corpo, e à resistência
+        oferecida quando se tenta mover esses músculos passivamente.
+
+      includes: >
+        Inclui: deficiências como hemiparesia e hemiplegia.
+
+    b7353:
+      title: Tônus dos músculos da metade inferior do corpo
+
+      description: >
+        Funções relacionadas à tensão presente nos músculos e grupos de músculos
+        em repouso, da metade inferior do corpo, e à resistência oferecida
+        quando se tenta mover esses músculos passivamente.
+
+      includes: >
+        Inclui: deficiências como paraparesia e paraplegia.
+
+    b7354:
+      title: Tônus dos músculos de todos os membros
+
+      description: >
+        Funções relacionadas à tensão presente nos músculos e grupos de músculos
+        em repouso, de todos os quatro membros, e à resistência oferecida quando
+        se tenta mover esses músculos passivamente.
+
+      includes: >
+        Inclui: deficiências como tetraparesia e tetraplegia.
+
+    b7355:
+      title: Tônus dos músculos do tronco
+
+      description: >
+        Funções relacionadas à tensão presente nos músculos e grupos de músculos
+        em repouso do tronco e à resistência oferecida quando se tenta mover
+        esses músculos passivamente.
+
+    b7356:
+      title: Tônus de todos os músculos do corpo
+
+      description: >
+        Funções relacionadas à tensão presente nos músculos e grupos de músculos
+        em repouso de todo o corpo e à resistência oferecida quando se tenta
+        mover esses músculos passivamente.
+
+      includes: >
+        Inclui: deficiências como distonias generalizadas e Mal de Parkinson, ou
+        paresia e paralisia geral.
+
+    b7358:
+      title: Funções relacionadas ao tônus muscular, outras especificadas
+
+    b7359:
+      title: Funções relacionadas ao tônus muscular, não especificadas
+
+b740:
+  title: Funções de resistência muscular
+
+  description: >
+    Funções relacionadas à sustentação da contração do músculo pelo período de
+    tempo necessário.
+
+  includes: >
+    Inclui: funções associadas à sustentação da contração de músculos isolados,
+    de grupos de músculos e todos os músculos do corpo; deficiências como
+    miastenia grave.
+
+  excludes: >
+    Exclui: funções de tolerância a exercícios (b455); funções relacionadas à
+    força muscular (b730); funções relacionadas ao tônus muscular (b735).
+
+  groups:
+    b7400:
+      title: Resistência de músculos isolados
+
+      description: >
+        Funções relacionadas à sustentação da contração muscular de músculos
+        isolados pelo período de tempo necessário.
+
+    b7401:
+      title: Resistência de grupos de músculos
+
+      description: >
+        Funções relacionadas à sustentação da contração muscular de grupos
+        isolados de músculos pelo período de tempo necessário.
+
+      includes: >
+        Inclui: deficiências associadas com monoparesia, monoplegia, hemiparesia
+        e hemiplegia, paraparesia e paraplegia.
+
+    b7402:
+      title: Resistência de todos os músculos do corpo
+
+      description: >
+        Funções relacionadas à sustentação da contração muscular de todos os
+        músculos do corpo pelo período de tempo necessário.
+
+      includes: >
+        Inclui: deficiências associadas com tetraparesia, tetraplegia, paresia e
+        paralisia geral.
+
+    b7408:
+      title: Funções de resistência muscular, outras especificadas
+
+    b7409:
+      title: Funções de resistência muscular, não especificadas
+
+b749:
+  title: Funções musculares, outras especificadas e não especificadas

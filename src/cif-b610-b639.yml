@@ -1,0 +1,126 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+b610:
+  title: Funções relacionadas à excreção urinária
+
+  description: >
+    Funções de filtragem e coleta de urina.
+
+  includes: >
+    Inclui: funções de filtragem de urina, coleta de urina; deficiências como
+    insuficiência renal, anúria, oligúria, hidronefrose, bexiga urinária
+    hipotônica e obstrução do ureter.
+
+  excludes: >
+    Exclui: funções urinárias (b620).
+
+  groups:
+    b6100:
+      title: Filtragem da urina
+
+      description: >
+        Funções de filtragem da urina pelos rins.
+
+    b6101:
+      title: Coleta da urina
+
+      description: >
+        Funções de coleta e armazenamento da urina pelos ureteres e bexiga.
+
+    b6108:
+      title: Funções relacionadas à excreção urinária, outras especificadas
+
+    b6109:
+      title: Funções relacionadas à excreção urinária, não especificadas
+
+b620:
+  title: Funções urinárias
+
+  description: >
+    Funções de eliminação da urina da bexiga urinária.
+
+  includes: >
+    Inclui: funções urinárias, freqüência de micção, continência urinária;
+    deficiências como em situação de estresse ou tensão, urgência, reflexo,
+    fluxo excessivo, incontinência contínua, gotejamento, bexiga automática,
+    poliúria, retenção urinária e urgência urinária.
+
+  excludes: >
+    Exclui: funções relacionadas à excreção urinária (b610); sensações
+    associadas às funções urinárias (b630).
+
+  groups:
+    b6200:
+      title: Micção
+
+      description: >
+        Funções de esvaziamento da bexiga urinária.
+
+      includes: >
+        Inclui: deficiências como retenção de urina.
+
+    b6201:
+      title: Freqüência de micção
+
+      description: >
+        Funções relativas ao número de vezes em que ocorre a micção.
+
+    b6202:
+      title: Continência urinária
+
+      description: >
+        Funções de controle sobre a micção.
+
+      includes: >
+        Inclui: deficiências como incontinência de estresse, de urgência,
+        incontinência reflexa, contínua e mista.
+
+    b6208:
+      title: Funções urinárias, outras especificadas
+
+    b6209:
+      title: Funções urinárias, não especificadas
+
+b630:
+  title: 0 Sensações associadas às funções urinárias
+
+  description: >
+    Sensações como ardência durante a micção e funções urinárias relacionadas.
+
+  includes: >
+    Inclui: sensação de esvaziamento incompleto da urina, sensação de bexiga
+    cheia.
+
+  excludes: >
+    Exclui: sensação de dor (b280); funções urinárias (b620).
+
+b639:
+  title: Funções urinárias, outras especificadas e não especificadas

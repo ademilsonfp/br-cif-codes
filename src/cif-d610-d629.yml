@@ -1,0 +1,118 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+d610:
+  title: Aquisição de um lugar para morar
+
+  description: >
+    Comprar, alugar, mobiliar e arrumar uma casa, apartamento ou outra
+    habitação.
+
+  includes: >
+    Inclui: comprar ou alugar um lugar para morar e mobiliar um lugar para
+    morar.
+
+  excludes: >
+    Exclui: aquisição de bens e serviços (d620); cuidar dos objetos da casa
+    (d650).
+
+  groups:
+    d6100:
+      title: Comprar um lugar para morar
+
+      description: >
+        Adquirir a propriedade de uma casa, apartamento ou outra habitação.
+
+    d6101:
+      title: Alugar um lugar para morar
+
+      description: >
+        Adquirir o uso de uma casa, apartamento ou outra habitação pertencente a
+        outro em troca de pagamento.
+
+    d6102:
+      title: Mobiliar um lugar para morar
+
+      description: >
+        Equipar e organizar a habitação com móveis, acessórios e outras peças e
+        decorar os ambientes.
+
+    d6108:
+      title: Aquisição de um lugar para morar, outra especificada
+
+    d6109:
+      title: Aquisição de um lugar para morar, não especificada
+
+d620:
+  title: Aquisição de bens e serviços
+
+  description: >
+    Selecionar, comprar e transportar todos os bens e serviços necessários para
+    a vida diária, como selecionar, comprar, transportar e armazenar alimentos,
+    bebidas, roupas, materiais de limpeza, combustível, artigos para a casa,
+    utensílios, panelas, aparelhos domésticos e ferramentas; adquirir serviços
+    públicos e outros serviços domésticos.
+
+  includes: >
+    Inclui: comprar e armazenar as necessidades diárias.
+
+  excludes: >
+    Exclui: aquisição de um lugar para morar (d610).
+
+  groups:
+    d6200:
+      title: Comprar
+
+      description: >
+        Obter, em troca de dinheiro, bens e serviços necessários para a vida
+        diária (incluindo instruir e supervisionar as compras feitas por um
+        intermediário), como selecionar alimento, bebida, materiais de limpeza,
+        artigos domésticos ou roupas em uma loja ou mercado; comparar a
+        qualidade e o preço dos itens necessários, negociar e pagar pelos bens e
+        serviços escolhidos e transportar mercadorias.
+
+    d6201:
+      title: Obtenção das necessidades diárias
+
+      description: >
+        Obter, em troca de dinheiro, bens e serviços necessários para a vida
+        diária (incluindo instruir e supervisionar um intermediário para obter
+        as necessidades diárias), como colher vegetais e frutas e obter água e
+        combustível.
+
+    d6208:
+      title: Aquisição de bens e serviços, outro especificado
+
+    d6209:
+      title: Aquisição de bens e serviços, não especificado
+
+d629:
+  title: Aquisição do necessário para viver, outro especificado e não
+         especificado

@@ -1,0 +1,965 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+e510:
+  title: Serviços, sistemas e políticas para a produção de bens de consumo
+
+  description: >
+    Serviços, sistemas e políticas que regem e fornecem a produção de objetos e
+    produtos consumidos ou utilizados pelas pessoas.
+
+  groups:
+    e5100:
+      title: Serviços para a produção de bens de consumo
+
+      description: >
+        Serviços e programas para a coleta, criação, produção e fabricação de
+        bens e produtos de consumo, como produtos e tecnologia utilizados para
+        mobilidade, comunicação, educação, transporte, emprego e trabalho
+        doméstico, incluindo aqueles que prestam esses serviços.
+
+      excludes: >
+        Exclui: serviços de comunicação (e5350); serviços de educação e
+        treinamento (e5850); Capítulo 1 -- Produtos e tecnologia.
+
+    e5101:
+      title: Sistemas para a produção de bens de consumo
+
+      description: >
+        Controle administrativo e mecanismos de supervisão, como organizações
+        regionais, nacionais ou internacionais que estabelecem normas (e.g.,
+        Organização Internacional de Padronização) e associações de consumidores
+        que regem a coleta, criação, produção e fabricação de bens e produtos de
+        consumo.
+
+    e5102:
+      title: Políticas para a produção de bens de consumo
+
+      description: >
+        Legislação, regulação e normas sobre coleta, criação, produção e
+        fabricação de bens e produtos de consumo, como quais normas devem ser
+        adotadas.
+
+    e5108:
+      title: Serviços, sistemas e políticas para a produção de bens de consumo,
+             outros especificados
+
+    e5109:
+      title: Serviços, sistemas e políticas para a produção de bens de consumo,
+             não especificados
+
+e515:
+  title: Serviços, sistemas e políticas de arquitetura e construção
+
+  description: >
+    Serviços, sistemas e políticas para o projeto e construção de edifícios,
+    públicos e privados.
+
+  excludes: >
+    Exclui: serviços, sistemas e políticas de planejamento de espaços abertos
+    (e520).
+
+  groups:
+    e5150:
+      title: Serviços de arquitetura e construção
+
+      description: >
+        Serviços e programas para projeto, construção e manutenção de edifícios
+        residenciais, comerciais, industriais ou públicos, como edifícios, a
+        operacionalização dos princípios do projeto, códigos de edificação,
+        regulamentações e padrões, incluindo aqueles que prestam esses serviços.
+
+    e5151:
+      title: Sistemas de arquitetura e construção
+
+      description: >
+        Controle administrativo e mecanismos de monitoramento que regem o
+        planejamento, projeto, construção e manutenção de edifícios
+        residenciais, comerciais, industriais e públicos, como a implementação e
+        monitoramento de códigos de edificação, normas de edificação e normas de
+        segurança contra incêndio e proteção à vida.
+
+    e5152:
+      title: Políticas de arquitetura e construção
+
+      description: >
+        Legislação, regulamentos e normas que regem o planejamento, projeto,
+        construção e manutenção de edifícios residenciais, comerciais,
+        industriais e públicos, como políticas sobre códigos de construção,
+        normas de construção e normas contra incêndios e de proteção à vida.
+
+    e5158:
+      title: Serviços, sistemas e políticas de arquitetura e construção, outros
+             especificados
+
+    e5159:
+      title: Serviços, sistemas e políticas de arquitetura e construção, não
+             especificados
+
+e520:
+  title: Serviços, sistemas e políticas de planejamento de espaços abertos
+
+  description: >
+    Serviços, sistemas e políticas para o planejamento, projeto, desenvolvimento
+    e manutenção de áreas públicas (e.g., parques, florestas, litorais,
+    pântanos) e áreas privadas nas zonas rurais, suburbanas e urbanas.
+
+  excludes: >
+    Exclui: serviços, sistemas e políticas de arquitetura e construção (e515).
+
+  groups:
+    e5200:
+      title: Serviços de planejamento de espaços abertos
+
+      description: >
+        Serviços e programas voltados para o planejamento, criação e manutenção
+        de espaços abertos urbanos, suburbanos, rurais, recreativos e de
+        conservação do meio ambiente, espaços abertos comerciais e para
+        congregação de pessoas (praças, mercados ao ar livre) e rotas de
+        transporte para pedestres e veículos, incluindo aqueles que prestam
+        esses serviços.
+
+      excludes: >
+        Exclui: produtos e tecnologia usados em projeto, arquitetura e
+        construção de edifícios para uso público (e150) e privado (e155);
+        produtos e tecnologia relacionados ao uso e à exploração do solo (e160).
+
+    e5201:
+      title: Sistemas de planejamento de espaços abertos
+
+      description: >
+        Mecanismos de controle administrativo e monitoramento, como na
+        implementação de leis de planejamento, códigos de projeto, políticas de
+        conservação ou de herança e política de planejamento ambiental em nível
+        local, regional ou nacional, que regem o planejamento, o projeto, o
+        desenvolvimento e a manutenção dos espaços abertos, inclusive zonas
+        rurais, residenciais e urbanas, parques, áreas de proteção e reservas
+        naturais.
+
+    e5202:
+      title: Políticas de planejamento de espaços abertos
+
+      description: >
+        Legislação, regulamentos e normas que regem o planejamento, projeto,
+        desenvolvimento e manutenção de espaços abertos, incluindo zonas rurais,
+        suburbanas, urbanas, parques, áreas de proteção e reservas naturais,
+        como leis de planejamento, códigos de projeto, políticas de conservação
+        ou herança locais, regionais ou nacionais e políticas de planejamento
+        ambiental.
+
+    e5208:
+      title: Serviços, sistemas e políticas de planejamento de espaços abertos,
+             outros especificados
+
+    e5209:
+      title: Serviços, sistemas e políticas de planejamento de espaços abertos,
+             não especificados
+
+e525:
+  title: Serviços, sistemas e políticas de habitação
+
+  description: >
+    Serviços, sistemas e políticas para o fornecimento de abrigos, habitação e
+    alojamento para as pessoas.
+
+  groups:
+    e5250:
+      title: Serviços de habitação
+
+      description: >
+        Serviços e programas voltados para a localização, fornecimento e
+        manutenção de casas ou abrigos para as pessoas, como órgãos de
+        patrimônio imobiliário, organizações habitacionais, albergues para
+        desabrigados, incluindo aqueles que prestam esses serviços.
+
+    e5251:
+      title: Sistemas de habitação
+
+      description: >
+        Controle administrativo e mecanismo de monitoramento que regem a
+        política de habitação ou alojamento de pessoas na sociedade, como
+        sistemas para a implementação e supervisão das políticas de habitação.
+
+    e5252:
+      title: Políticas de habitação
+
+      description: >
+        Legislação, regulamentos e normas que regem o processo de criação e
+        manutenção da habitação ou abrigo de pessoas na sociedade, como leis e
+        políticas para determinar direito a um alojamento ou habitação,
+        políticas relacionadas ao envolvimento do governo no desenvolvimento e
+        manutenção de habitação e políticas relativas à forma e ao local onde a
+        habitação é desenvolvida.
+
+    e5258:
+      title: Serviços, sistemas e políticas de habitação, outros especificados
+
+    e5259:
+      title: Serviços, sistemas e políticas de habitação, não especificados
+
+e530:
+  title: Serviços, sistemas e políticas dos serviços públicos
+
+  description: >
+    Serviços, sistemas e políticas dos serviços públicos, como abastecimento de
+    água, combustível, energia elétrica, saneamento, transporte público e
+    serviços essenciais.
+
+  excludes: >
+    Exclui: serviços, sistemas e políticas de proteção civil (e545).
+
+  groups:
+    e5300:
+      title: Serviços prestados pelo serviços público
+
+      description: >
+        Serviços e programas que fornecem à população com um todo energia
+        essencial (e.g., combustível e energia elétrica), saneamento, água e
+        outros serviços essenciais (e.g., serviços de reparos de emergência)
+        para consumidores residenciais e comerciais, incluindo aqueles que
+        prestam esses serviços.
+
+    e5301:
+      title: Sistemas dos serviços públicos
+
+      description: >
+        Controle administrativo e mecanismos de monitoramento que regem o
+        fornecimento de serviços públicos, como conselhos de saúde e segurança,
+        e associação de consumidores.
+
+    e5302:
+      title: Políticas de serviços públicos
+
+      description: >
+        Legislação, regulamentos e normas que regem o fornecimento dos serviços
+        públicos, como normas de saúde e seguranças que regem o fornecimento e
+        abastecimento de água e combustível, práticas de saneamento nas
+        comunidades, políticas para outros serviços essenciais e fornecimento
+        durante períodos de escassez ou desastres naturais.
+
+    e5308:
+      title: Serviços, sistemas e políticas de serviços públicos, outros
+             especificados
+
+    e5309:
+      title: Serviços, sistemas e políticas de serviços públicos, não
+             especificados
+
+e535:
+  title: Serviços, sistemas e políticas de comunicação
+
+  description: >
+    Serviços, sistemas e políticas para a transmissão e intercâmbio de
+    informações.
+
+  groups:
+    e5350:
+      title: Serviços de comunicação
+
+      description: >
+        Serviços e programas voltados para a transmissão de informações por meio
+        de vários métodos que incluem telefone, fax, correio por via aérea ou
+        terrestre, correio eletrônico e outros sistemas computadorizados (e.g.,
+        serviços de telefonia, serviços de teletipos, serviços de teletexto e
+        provedores de Internet), incluindo aqueles que prestam esses serviços.
+
+      excludes: >
+        Exclui: serviços dos meios de comunicação (e5600).
+
+    e5351:
+      title: Sistemas de comunicação
+
+      description: >
+        Controle administrativo e mecanismos de monitoramento, como órgãos de
+        regulamentação das telecomunicações ou outros órgãos similares, que
+        regem a transmissão das informações por meio de vários métodos,
+        incluindo telefone, fax, agência de correio, correio eletrônico e
+        sistemas computadorizados.
+
+    e5352:
+      title: Políticas de comunicação
+
+      description: >
+        Legislação, regulamentos e normas que regem a transmissão de informações
+        por meio de vários métodos incluindo telefone, fax, agência de correio,
+        correio eletrônico e sistemas computadorizados, como a elegibilidade ao
+        acesso aos serviços de comunicação, exigências para endereço postal e
+        normas para o fornecimento de telecomunicações.
+
+    e5358:
+      title: Serviços, sistemas e políticas de comunicações, outros
+             especificados
+
+    e5359:
+      title: Serviços, sistemas e políticas de comunicação, não especificados
+
+e540:
+  title: Serviços, sistemas e políticas de transporte
+
+  description: >
+    Serviços, sistemas e políticas que possibilitam o deslocamento de pessoas de
+    um local para outro.
+
+  groups:
+    e5400:
+      title: Serviços de transporte
+
+      description: >
+        Serviços e programas voltados para o deslocamento de pessoas ou
+        mercadorias por estradas, caminhos, ferrovias, ar ou água, por meio de
+        transporte público ou privado, incluindo aqueles que prestam esses
+        serviços.
+
+      excludes: >
+        Exclui: produtos e tecnologia para uso pessoal na vida diária (e115).
+
+    e5401:
+      title: Sistemas de transporte
+
+      description: >
+        Controle administrativo e mecanismos de monitoramento que regem o
+        transporte de pessoas ou mercadorias por estradas, caminho, ferrovias,
+        ar ou água, como sistemas para regular a permissão para conduzir
+        veículos, implementação e supervisão de padrões de saúde e de segurança
+        relacionados à utilização de diferentes tipos de transporte.
+
+      excludes: >
+        Exclui: serviços, sistemas e políticas de Previdência Social (e570).
+
+    e5402:
+      title: Políticas de transporte
+
+      description: >
+        Legislação, regulamentos e normas que regem o transporte de pessoas ou
+        mercadorias por rodovias, caminhos, ferrovias, ar ou água, como leis de
+        planejamento e políticas de transporte, políticas para o fornecimento e
+        acesso ao transporte público.
+
+    e5408:
+      title: Serviços, sistemas e políticas de transporte, outros especificados
+
+    e5409:
+      title: Serviços, sistemas e políticas de transporte, não especificados
+
+e545:
+  title: Serviços, sistemas e políticas de proteção civil
+
+  description: >
+    Serviços, sistemas e políticas voltadas para a segurança das pessoas e da
+    propriedade.
+
+  excludes: >
+    Exclui: serviços, sistemas e políticas dos serviços públicos (e530).
+
+  groups:
+    e5450:
+      title: Serviços de proteção civil
+
+      description: >
+        Serviços e programas organizados pela comunidade e voltados para a
+        segurança das pessoas e propriedade, como bombeiros, polícia, serviços
+        de emergência e de ambulância, incluindo aqueles que prestam esses
+        serviços.
+
+    e5451:
+      title: Sistemas de proteção civil
+
+      description: >
+        Controle administrativo e mecanismos de monitoramento que regem a
+        proteção das pessoas e da propriedade, como sistemas de organização do
+        fornecimento de polícia, bombeiros e serviços de emergência e de
+        ambulâncias.
+
+    e5452:
+      title: Políticas de proteção civil
+
+      description: >
+        Legislação, regulamentos e normas que regem a segurança das pessoas e da
+        propriedade, como políticas que regem o fornecimento de polícia,
+        bombeiros, serviços de emergência e de ambulância.
+
+    e5458:
+      title: Serviços, sistemas e políticas de proteção civil, outros
+             especificados
+
+    e5459:
+      title: Serviços, sistemas e políticas de proteção civil, não especificados
+
+e550:
+  title: Serviços, sistemas e políticas legais
+
+  description: >
+    Serviços, sistemas e políticas relacionados à legislação de um país.
+
+  groups:
+    e5500:
+      title: Serviços legais
+
+      description: >
+        Serviços e programas destinados a aplicar a autoridade do Estado como
+        definido em lei, como cortes, tribunais e outros organismos para
+        resolver litígios e julgamentos criminais, representação legal, serviços
+        de cartórios, mediação, arbitragem e instalações corretivas ou penais,
+        incluindo aqueles que prestam esses serviços.
+
+    e5501:
+      title: Sistemas legais
+
+      description: >
+        Controle administrativo e mecanismo de monitoramento que regem a
+        administração da justiça, como sistemas para a implementação e
+        monitoramento de regras formais (e.g., leis, regulamentações, leis
+        gerais, leis religiosas, leis e convenções internacionais).
+
+    e5502:
+      title: Políticas legais
+
+      description: >
+        Legislação, regulamentos e normas, como leis, leis gerais, leis
+        religiosas, leis e convenções internacionais, que regem a administração
+        da justiça.
+
+    e5508:
+      title: Serviços, sistemas e políticas legais, outros especificados
+
+    e5509:
+      title: Serviços, sistemas e políticas legais, não especificados
+
+e555:
+  title: Serviços, sistemas e políticas de associações e organizações
+
+  description: >
+    Serviços, sistemas e políticas relacionadas a grupos de pessoas que se
+    organizaram em busca de interesses comuns e não comerciais, com freqüência
+    em uma estrutura de associação dos membros.
+
+  groups:
+    e5550:
+      title: Serviços prestados por associações e organizações
+
+      description: >
+        Serviços e programas fornecidos por pessoas organizadas em busca de
+        interesses comuns e sem fins lucrativos, em que o fornecimento desses
+        serviços pode estar ligado a uma filiação, como associações e
+        organizações que provêem recreação e lazer, esportes, serviços
+        culturais, religiosos e de ajuda mútua.
+
+    e5551:
+      title: Sistemas de associações e organizações
+
+      description: >
+        Controle administrativo e mecanismos de monitoramento que regem as
+        relações e atividades de pessoas que se organizam com interesses comuns
+        e não comerciais e o estabelecimento e condução de associações e
+        organizações, como organizações de ajuda mútua, organizações de
+        recreação e lazer, associações culturais e religiosas e organizações sem
+        fins lucrativos.
+
+    e5552:
+      title: Políticas de associações e organizações
+
+      description: >
+        Legislação, regulamentos e normas que regem as relações e atividades de
+        pessoas organizadas por interesses comuns e sem fins lucrativos, como
+        políticas que regem o estabelecimento e a condução de associações e
+        organizações, incluindo organizações de ajuda mútua, organizações de
+        recreação e lazer, associações culturais e religiosas e organizações sem
+        fins lucrativos.
+
+    e5558:
+      title: Serviços, sistemas e políticas de associações e organizações,
+             outros especificados
+
+    e5559:
+      title: Serviços, sistemas e políticas de associações e organizações,
+             não especificados
+
+e560:
+  title: Serviços, sistemas e políticas dos meios de comunicação
+
+  description: >
+    Serviços, sistemas e políticas para o fornecimento de comunicação em massa
+    por meio de rádio, televisão, jornais e internet.
+
+  groups:
+    e5600:
+      title: Serviços dos meios de comunicação
+
+      description: >
+        Serviços e programas voltados para o fornecimento de comunicação em
+        massa, como rádio, televisão, serviços de closed caption, serviços de
+        imprensa, jornais, serviços em Braille e comunicação em massa via
+        computador (e.g., páginas ou portais da web, internet), incluindo
+        aqueles que prestam esses serviços.
+
+      excludes: >
+        Exclui: serviços de comunicação (e5350).
+
+    e5601:
+      title: Sistemas dos meios de comunicação
+
+      description: >
+        Controle administrativo e mecanismos de monitoramento que regem o
+        fornecimento de notícias e informações ao público em geral, como normas
+        que regem o conteúdo, distribuição, divulgação, acesso a métodos de
+        comunicação através do rádio, televisão, serviços de imprensa, jornais e
+        comunicação em massa via computador (páginas e portais da web,
+        internet).
+
+      includes: >
+        Controle administrativo e mecanismos de monitoramento que regem o
+        fornecimento de notícias e informações ao público em geral, como normas
+        que regem o conteúdo, distribuição, divulgação, acesso a métodos de
+        comunicação através do rádio, televisão, serviços de imprensa, jornais e
+        comunicação em massa via computador (páginas e portais da web,
+        internet).
+
+      excludes: >
+        Exclui: sistemas de comunicação (e5351).
+
+    e5602:
+      title: Políticas dos meios de comunicação
+
+      description: >
+        Legislação, regulamentos e normas que regem o fornecimento de notícias e
+        informações ao público em geral, como políticas que regem o conteúdo,
+        distribuição, divulgação, acesso a métodos de comunicação por meio de
+        rádio, televisão, serviços de imprensa, jornais e comunicação em massa
+        via computador (e.g., páginas e portais da web, internet).
+
+      excludes: >
+        Exclui: políticas de comunicação (e5352).
+
+    e5608:
+      title: Serviços, sistemas e políticas dos meios de comunicação, outros
+             especificados
+
+    e5609:
+      title: Serviços, sistemas e políticas dos meios de comunicação, não
+             especificados
+
+e565:
+  title: Serviços, sistemas e políticas econômicas
+
+  description: >
+    Serviços, sistemas e políticas relacionados ao sistema geral de produção,
+    distribuição, consumo e utilização de bens e serviços.
+
+  excludes: >
+    Exclui: serviços, sistemas e políticas da Previdência Social (e570).
+
+  groups:
+    e5650:
+      title: Serviços econômicos
+
+      description: >
+        Serviços e programas voltados para a produção, distribuição, consumo e
+        utilização geral de bens e serviços, como o setor comercial privado
+        (e.g., negócios, empresas, empreendimentos privados com fins
+        lucrativos), setor público (e.g., serviços comerciais públicos como
+        cooperativas e empresas), organizações financeiras (e.g., bancos e
+        companhias de seguro), incluindo aqueles que prestam esses serviços.
+
+      excludes: >
+        Exclui: serviços de utilidade pública (e5300); serviços de trabalho e de
+        emprego (e5900).
+
+    e5651:
+      title: Sistemas econômicos
+
+      description: >
+        Controle administrativo e mecanismos de monitoramento que regem a
+        produção, distribuição, consumo e utilização de bens e serviços como
+        sistemas para a implementação e monitoramento de políticas econômicas.
+
+      excludes: >
+        Exclui: sistemas dos serviços públicos (e5301); sistemas de trabalho e
+        emprego (e5901).
+
+    e5652:
+      title: Políticas econômicas
+
+      description: >
+        Legislação, regulamentos e normas que regem a produção, distribuição,
+        consumo e utilização de bens e serviços, como doutrinas econômicas
+        adotadas e implementadas pelos governos.
+
+      excludes: >
+        Exclui: políticas de serviços públicos (e5302); políticas de trabalho e
+        emprego (e5902).
+
+    e5658:
+      title: Serviços, sistemas e políticas econômicas, outros especificados
+
+    e5659:
+      title: Serviços, sistemas e políticas econômicas, não especificados
+
+e570:
+  title: Serviços, sistemas e políticas da previdência social
+
+  description: >
+    Serviços, sistemas e políticas voltadas para o fornecimento do suporte
+    econômico às pessoas que, devido à idade, pobreza, desemprego, condição de
+    saúde ou incapacidade, precisam de assistência pública financiada pela
+    receita tributária ou por esquemas de contribuição.
+
+  excludes: >
+    Exclui: serviços, sistemas e políticas econômicas (e565).
+
+  groups:
+    e5700:
+      title: Serviços da previdência social
+
+      description: >
+        Serviços e programas voltados para o fornecimento de suporte econômico
+        para pessoas que, devido à idade, pobreza, desemprego, condições de
+        saúde ou incapacidade, requerem assistência pública financiada pelas
+        receitas tributárias ou esquemas de contribuição, como serviços para a
+        determinação da elegibilidade, entrega ou distribuição de pagamentos de
+        assistência para os seguintes tipos de programas: programas de
+        assistência social (e.g., bem-estar não contributivo, pobreza e outras
+        compensações baseadas na necessidade), programas de seguro social (e.g.,
+        seguro contributivo contra acidente ou de desemprego), e esquemas de
+        aposentadorias por incapacidade ou esquema de pensão relacionada (e.g.,
+        substituição da renda), incluindo aqueles que prestam esses serviços.
+
+      excludes: >
+        Exclui: serviços de saúde (e5800).
+
+    e5701:
+      title: Sistemas de previdência social
+
+      description: >
+        Controle administrativo e mecanismos de monitoramento que regem os
+        programas e esquemas de fornecimento de suporte econômico para pessoas
+        que, devido à idade, pobreza, desemprego, condição de saúde ou
+        incapacidade, requerem assistência pública, como sistemas para
+        implementação de normas e regulamentos que regem o direito à assistência
+        social, bem-estar, pagamentos de seguro-desemprego, benefícios e
+        aposentadorias por incapacidade.
+
+    e5702:
+      title: Políticas de previdência social
+
+      description: >
+        Legislação, regulamentos e normas que regem os programas e esquemas que
+        fornecem suporte econômico às pessoas que, devido à idade, pobreza,
+        desemprego, condição de saúde ou incapacidade requerem assistência
+        pública, como leis e regulamentações que regem o direito à assistência
+        social, bem-estar, pagamento de seguro-desemprego, aposentadorias por
+        incapacidade e relacionadas e benefícios por incapacidade.
+
+    e5708:
+      title: Serviços, sistemas e políticas da Previdência Social, outros
+             especificados
+
+    e5709:
+      title: Serviços, sistemas e políticas da Previdência Social, não
+             especificados
+
+e575:
+  title: Serviços, sistemas e políticas de suporte social geral
+
+  description: >
+    Serviços, sistemas e políticas voltadas para o fornecimento de suporte para
+    aqueles que necessitam de ajuda em áreas como compras, trabalho doméstico,
+    transporte, cuidado pessoal e cuidado dos outros, para poder funcionar
+    melhor na sociedade.
+
+  excludes: >
+    Exclui: serviços, sistemas e políticas da Previdência Social (e570);
+    cuidadores e assistentes pessoais (e340); serviços, sistemas e políticas de
+    saúde (e580).
+
+  groups:
+    e5750:
+      title: Serviços de suporte social geral
+
+      description: >
+        Serviços e programas voltados para o fornecimento de suporte social para
+        pessoas que, devido à idade, pobreza, desemprego, condição de saúde ou
+        incapacidade, requerem assistência pública nas áreas relacionadas a
+        compras, trabalho doméstico, transporte, cuidado pessoal e de outros,
+        para participar plenamente na sociedade.
+
+    e5751:
+      title: Sistemas de suporte social geral
+
+      description: >
+        Controle administrativo e mecanismos de monitoramento que regem os
+        programas e projetos que fornecem suporte social às pessoas que, devido
+        à idade, pobreza, desemprego, condição de saúde ou incapacidade,
+        requerem esse apoio, incluindo sistemas para a implementação de regras e
+        regulamentos que regem o direito a serviços de suporte social e o
+        fornecimento desses serviços.
+
+    e5752:
+      title: Políticas de suporte social gerais
+
+      description: >
+        Legislação, regulamentos e normas que regem os programas que fornecem
+        suporte social às pessoas que, devido à idade, pobreza, desemprego,
+        condição de saúde ou incapacidade, requerem esse apoio, incluindo leis e
+        regulamentações que governam o direito a suporte social.
+
+    e5758:
+      title: Serviços, sistemas e políticas de suporte social geral, outros
+             especificados
+
+    e5759:
+      title: Serviços, sistemas e políticas de suporte social geral, não
+             especificados
+
+e580:
+  title: Serviços, sistemas e políticas de saúde
+
+  description: >
+    Serviços, sistemas e políticas de prevenção e tratamento de problemas de
+    saúde, fornecimento de reabilitação médica e promoção de um estilo de vida
+    saudável.
+
+  excludes: >
+    Exclui: serviços, sistemas e políticas de suporte social geral (e575).
+
+  groups:
+    e5800:
+      title: Serviços de saúde
+
+      description: >
+        Serviços e programas em nível local, comunitário, regional, estadual ou
+        nacional, destinados ao fornecimento de intervenções para os indivíduos
+        para seu bem-estar físico, psicológico e social, como serviços de
+        promoção de saúde e de prevenção de doenças, serviços de assistência
+        primária, serviços de atendimento de urgência, serviços de reabilitação
+        e cuidados de longo prazo; serviços que são financiados com recursos
+        públicos ou privados, prestados por curto, longo prazo, periódicos ou
+        numa única intervenção, numa variedade de ambientes de serviço, como
+        comunidade, residências, escola e trabalho, hospitais gerais, hospitais
+        especializados, clínicas e instalações de cuidados médicos residenciais
+        e não residenciais, incluindo aqueles que prestam esses serviços.
+
+    e5801:
+      title: Sistemas de saúde
+
+      description: >
+        Controle administrativo e mecanismos de monitoramento que regem o
+        conjunto de serviços fornecidos aos indivíduos para seu bem-estar
+        físico, psicológico e social em uma variedade de ambientes, incluindo
+        comunidade, residências, escola e trabalho, hospitais gerais, hospitais
+        especializados, clínicas e instalações de cuidados residenciais e não
+        residenciais, como sistemas para a implementação de regulamentações e
+        normas que determinam o direito aos serviços, fornecimento de
+        dispositivos, tecnologia de assistência ou outros equipamentos
+        adaptados, e legislação, como leis de saúde, que regem as
+        características do sistema de saúde, como acessibilidade,
+        universalidade, portabilidade, financiamento público e cobertura.
+
+    e5802:
+      title: Políticas de saúde
+
+      description: >
+        Legislação, regulamentos e normas que regem o conjunto de serviços
+        fornecidos para os indivíduos para seu bem-estar físico, psicológico e
+        social em uma variedade de ambientes, incluindo comunidade, residências,
+        escola e trabalho, hospitais gerais, hospitais especializados, clínicas,
+        instalações de cuidado residenciais e não residenciais, como políticas e
+        normas para a determinação da elegibilidade para os serviços,
+        fornecimentos de dispositivos, tecnologia de assistência e outros
+        equipamentos adaptados, e legislação, como leis de saúde que regem as
+        características do sistema de saúde, como acessibilidade,
+        universalidade, portabilidade, financiamento público e cobertura.
+
+    e5808:
+      title: Serviços, sistemas e políticas de saúde, outros especificados
+
+    e5809:
+      title: Serviços, sistemas e políticas de saúde, não especificados
+
+e585:
+  title: Serviços, sistemas e políticas de educação e treinamento
+
+  description: >
+    Serviços, sistemas e políticas para a aquisição, manutenção e
+    aperfeiçoamento do conhecimento, experiências e habilidades vocacionais ou
+    artísticas [V. *Norma Internacional de Classificação da Educação da Unesco*
+    (*Isced*-1997)].
+
+  groups:
+    e5850:
+      title: Serviços de educação e treinamento
+
+      description: >
+        Serviços e programas voltados para a educação e aquisição, manutenção e
+        aperfeiçoamento de conhecimentos, experiências e habilidades vocacionais
+        ou artísticas, como aqueles fornecidos para diferentes níveis
+        educacionais (e.g., pré-escola, escola primária, escola secundária,
+        instituições pós-secundárias, programas profissionais, programas de
+        treinamento e de capacitação, estágios e educação contínua), incluindo
+        aqueles que fornecem esses serviços.
+
+    e5851:
+      title: Sistemas de educação e treinamento
+
+      description: >
+        Controle administrativo e mecanismos de monitoramento que regem o
+        fornecimento de programas educativos, como sistemas para a implementação
+        de políticas e padrões que determinam o direito à educação pública ou
+        privada e programas de educação especial; conselhos de educação locais,
+        regionais ou nacionais ou outras autoridades que regem as
+        características dos sistemas educacionais, incluindo currículo, o número
+        de alunos por classe, número de escolas em uma região, mensalidades e
+        subsídios, programas especiais de merenda e serviços de cuidados
+        extra-escolares.
+
+    e5852:
+      title: Políticas de educação e treinamento
+
+      description: >
+        Legislação, regulamentos e normas que regem o desenvolvimento de
+        programas educativos, como políticas e normas que determinam, o direito
+        à educação pública ou privada e programa de educação especial e que
+        determinam a estrutura dos conselhos de educação local, regional ou
+        nacional ou outras autoridades que regem as características do sistema
+        educacional, incluindo o currículo, o número de alunos por classe,
+        número de escolas em uma região, mensalidades e subsídios, programas
+        especiais de merenda e serviços de cuidados extra-escolares.
+
+    e5858:
+      title: Serviços, sistemas e políticas de educação e treinamento, outros
+             especificados
+
+    e5859:
+      title: Serviços, sistemas e políticas de educação e treinamento, não
+             especificados
+
+e590:
+  title: Serviços, sistemas e políticas de trabalho e emprego
+
+  description: >
+    Serviços, sistemas e políticas relacionadas a encontrar um trabalho adequado
+    para as pessoas que estão desempregadas ou em busca de um trabalho
+    diferente, ou para dar suporte a indivíduos já empregados que buscam uma
+    promoção.
+
+  excludes: >
+    Exclui: serviços, sistemas e políticas econômicas (e565).
+
+  groups:
+    e5900:
+      title: Serviços de trabalho e de emprego
+
+      description: >
+        Serviços e programas fornecidos por governos locais, regionais ou
+        nacionais ou organizações privadas para encontrar trabalho adequado para
+        pessoas que estão desempregadas ou que procuram um trabalho diferente,
+        ou para dar suporte a indivíduos já empregados, como serviços de busca
+        de emprego e preparação, recolocação, colocação de emprego, mudança de
+        emprego, acompanhamento vocacional, serviços de saúde e segurança
+        ocupacional, e serviços do ambiente de trabalho (e.g., ergonomia,
+        serviços de recursos humanos e administração de pessoal, serviços de
+        relações do trabalho, serviços de associação profissional), incluindo
+        aqueles que prestam esses serviços.
+
+    e5901:
+      title: Sistemas de trabalho e de emprego
+
+      description: >
+        Controle administrativo e mecanismos de monitoramento que regem a
+        distribuição das ocupações e outras formas de trabalho remunerado na
+        economia, como sistemas para a implementação de políticas e normas para
+        criação de emprego, segurança no emprego, emprego designado e
+        competitivo, leis e normar do trabalho e sindicatos.
+
+    e5902:
+      title: Políticas de trabalho e de emprego
+
+      description: >
+        Legislação, regulamentos e normas que regem a distribuição de ocupação e
+        outras formas de trabalho remunerado na economia, como padrões e
+        políticas para criação de emprego, segurança do emprego, emprego
+        designado e competitivo, leis e normas do trabalho, e sindicatos.
+
+    e5908:
+      title: Serviços, sistemas e políticas de trabalho e de emprego, outros
+             especificados
+
+    e5909:
+      title: Serviços, sistemas e políticas de trabalho e de emprego, não
+             especificados
+
+e595:
+  title: Serviços, sistemas e políticas do sistema político
+
+  description: >
+    Serviços, sistemas e políticas relacionados com votação, eleições e governo
+    de países, regiões e comunidades, bem como de organizações internacionais.
+
+  groups:
+    e5950:
+      title: Serviços políticos
+
+      description: >
+        Serviços e estruturas, como governos locais, regionais e nacionais,
+        organizações, e as pessoas eleitas ou nomeadas para posições nessas
+        estruturas, como a Organização das Nações Unidas, União Européia,
+        governos, autoridades regionais, autoridades de distrito e líderes
+        tradicionais.
+
+    e5951:
+      title: Sistemas políticos
+
+      description: >
+        Estruturas e operações relacionadas que organizam o poder político e
+        econômico em uma sociedade, como o poder executivo e legislativo do
+        governo, e as doutrinas constitucionais ou outras fontes legais das
+        quais derivam sua autoridade, como doutrina organizacional política,
+        constituições, órgãos dos poderes executivo e legislativo do governo e
+        exército.
+
+    e5952:
+      title: Política do sistema político
+
+      description: >
+        Legislação e políticas formuladas e executadas por meio de sistemas
+        políticos, como políticas que regem as campanhas de eleição, registro de
+        partidos políticos e votação, políticas para a criação de lei e
+        regulamentações.
+
+    e5958:
+      title: Políticas, sistemas e serviços políticos, outros especificados
+
+    e5959:
+      title: Políticas, sistemas e serviços políticos, não especificados
+
+e598:
+  title: Serviços, sistemas e políticas, outros especificados
+
+e599:
+  title: Serviços, sistemas e políticas, não especificados

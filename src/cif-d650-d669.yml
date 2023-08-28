@@ -1,0 +1,187 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+d650:
+  title: Cuidar dos objetos da casa
+
+  description: >
+    Manter e consertar a casa e outros objetos pessoais, incluindo a casa e seu
+    conteúdo, roupas, veículos e dispositivos auxiliares, e cuidar de plantas e
+    animais, como pintar ou colocar papel de parede nos quartos, consertar
+    móveis, encanamento, garantir o funcionamento adequado de veículos, aguar as
+    plantas, tratar e alimentar animais de estimação ou domésticos.
+
+  includes: >
+    Inclui: fazer ou consertar roupas; manter a habitação, móveis e aparelhos
+    domésticos; manter veículos; manter dispositivos de auxílio; cuidar das
+    plantas (internas e externas) e animais.
+
+  excludes: >
+    Exclui: aquisição de um lugar para morar (d610); aquisição de bens e
+    serviços (d620); realização das tarefas domésticas (d640); ajudar os outros
+    (d660); trabalho remunerado (d850).
+
+  groups:
+    d6500:
+      title: Fazer e consertar roupas
+
+      description: >
+        Fazer e consertar roupas, como costurar, produzir ou remendar roupas;
+        costurar botões e fechos; passar roupas, consertar e engraxar sapatos.
+
+      excludes: >
+        Exclui: utilizar aparelhos domésticos (d6403).
+
+    d6501:
+      title: Manter a habitação e os móveis
+
+      description: >
+        Consertar e cuidar da casa, seu exterior, interior e conteúdo, como
+        pintar, consertar artigos e móveis, e utilizar as ferramentas
+        necessárias para o trabalho de conserto.
+
+    d6502:
+      title: Manutenção dos aparelhos domésticos
+
+      description: >
+        Consertar e cuidar de todos os aparelhos domésticos para cozinhar,
+        limpar e consertar, como lubrificar e consertar ferramentas e manter a
+        máquina de lavar.
+
+    d6503:
+      title: Manutenção de veículos
+
+      description: >
+        Consertar e cuidar de veículos motorizados e não motorizados de uso
+        pessoal, incluindo bicicletas, carrinhos de mão, automóveis e barcos.
+
+    d6504:
+      title: Manutenção dos dispositivos de auxílio
+
+      description: >
+        Consertar e cuidar dos dispositivos de auxílio, como próteses, ortoses e
+        ferramentas de auxílios especializadas para a manutenção doméstica e
+        cuidado pessoal; manter e consertar equipamentos auxiliares como
+        bengalas, andadores, cadeira de rodas e ciclomotores; e manter
+        equipamentos de auxílio para comunicação e recreação.
+
+    d6505:
+      title: Cuidar de plantas internas e externas
+
+      description: >
+        Cuidar das plantas dentro e fora da casa, como plantar, aguar e
+        fertilizar as plantas; fazer jardinagem e cultivar alimentos para
+        consumo pessoal.
+
+    d6506:
+      title: Cuidar de animais
+
+      description: >
+        Cuidar de animais domésticos e de estimação, como alimentar, limpar,
+        tratar e exercitar animais de estimação; cuidar da saúde do animal;
+        planejar o cuidado do animal na ausência da pessoa.
+
+    d6508:
+      title: Cuidado dos objetos domésticos, especificado
+
+    d6509:
+      title: Cuidado dos objetos domésticos, não especificado
+
+d660:
+  title: Ajudar os outros
+
+  description: >
+    Auxiliar os membros da casa e outros no seu aprendizado, comunicação,
+    cuidado pessoal, movimento, dentro ou fora da casa; preocupar-se com o
+    bem-estar dos membros da casa e outros.
+
+  includes: >
+    Inclui: ajudar os outros no cuidado pessoal, movimento, comunicação,
+    relações interpessoais, nutrição e manutenção da saúde.
+
+  excludes: >
+    Exclui: trabalho remunerado (d850).
+
+  groups:
+    d6600:
+      title: Ajudar os outros no cuidado pessoal
+
+      description: >
+        Ajudar os membros da casa a realizar os cuidados pessoais, incluindo
+        ajudá-los a comer, tomar banho e se vestir; tomar conta de crianças ou
+        membros da casa que estão doentes ou que têm dificuldades com o cuidado
+        pessoal básico; ajudar os outros nas atividades relacionadas à excreção.
+
+    d6601:
+      title: Ajudar os outros a se mover
+
+      description: >
+        Ajudar os membros da casa e outros a se mover dentro e fora de casa,
+        como na vizinhança ou cidade, para e do colégio, local de trabalho ou
+        outro destino.
+
+    d6602:
+      title: Ajudar os outros a se comunicar
+
+      description: >
+        Ajudar os membros da casa e outros a se comunicar, como ajudá-los a
+        falar, escrever ou ler.
+
+    d6603:
+      title: Ajudar os outros nas relações interpessoais
+
+      description: >
+        Ajudar os membros da casa e outros nas suas interações interpessoais,
+        como ajudá-los a iniciar, manter ou terminar relacionamentos.
+
+    d6604:
+      title: Ajudar os outros na nutrição
+
+      description: >
+        Ajudar os membros da casa e outros com sua nutrição, como ajudá-los a
+        preparar e a comer as refeições.
+
+    d6605:
+      title: Ajudar os outros a manter a saúde
+
+      description: >
+        Ajudar os membros da casa e outros com cuidados de saúde informais e
+        formais, como garantir que uma criança vá a médico regularmente ou que
+        um parente idoso tome o remédio necessário.
+
+    d6608:
+      title: Ajudar os outros, outra especificada
+
+    d6609:
+      title: Ajudar os outros, não especificada
+
+d669:
+  title: Cuidar dos objetos domésticos e ajudar os outros, outros especificados
+         e não especificados

@@ -1,0 +1,236 @@
+# ## Direitos de cópia da CIF
+# 
+# Copyright © 2001 by Organização Mundial da Saúde, Genebra, Suíça
+# 
+# Título do original em inglês:
+# 
+# *ICF: International Classification of Functioning, Disability and Health*
+# 
+# Direitos em língua portuguesa reservados ao Centro Colaborador da OMS para a
+# Família de Classificações Internacionais em Português (Centro Brasileiro de
+# Classificação de Doenças) – Faculdade de Saúde Pública da Universidade de São
+# Paulo/Organização Mundial da Saúde/Organização Pan-americana da Saúde.
+# 
+# ## Licença
+# 
+# Este arquivo é parte do programa BR-CIF-Codes
+# 
+# BR-CIF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+b640:
+  title: Funções sexuais
+
+  description: >
+    Funções mentais e físicas relacionadas ao ato sexual, incluindo as fases de
+    excitação, preparatória, orgásmica e de resolução.
+
+  includes: >
+    Inclui: funções das fases sexuais de excitação, preparação, orgásmica e de
+    resolução; funções relacionadas ao interesse sexual, desempenho, ereção
+    peniana, ereção clitoriana, lubrificação vaginal, ejaculação, orgasmo;
+    deficiências como impotência, frigidez, vaginismo, ejaculação precoce,
+    priapismo e ejaculação retardada.
+
+  excludes: >
+    Exclui: funções de procriação (b660); sensações associadas às funções
+    genitais e reprodutivas (b670).
+
+  groups:
+    b6400:
+      title: Funções da fase de excitação sexual
+
+      description: >
+        Funções da excitação e do interesse sexual.
+
+    b6401:
+      title: Funções da fase sexual preparatória
+
+      description: >
+        Funções relacionadas ao início da relação sexual.
+
+    b6402:
+      title: Funções da fase orgásmica
+
+      description: >
+        Funções relacionadas com atingir o orgasmo.
+
+    b6403:
+      title: Funções da fase de resolução sexual
+
+      description: >
+        Funções de satisfação e relaxamento após o orgasmo.
+
+      includes: >
+        Inclui: deficiências como falta de satisfação com orgasmo.
+
+    b6408:
+      title: Funções sexuais, outras especificadas
+
+    b6409:
+      title: Funções sexuais, não especificadas
+
+b650:
+  title: Funções da menstruação
+
+  description: >
+    Funções associadas ao ciclo menstrual, incluindo regularidade da menstruação
+    e secreção de fluidos menstruais.
+
+  includes: >
+    Inclui: funções da regularidade e intervalo entre as menstruações, volume do
+    sangramento menstrual, menarca, menopausa; deficiências como tensão
+    pré-menstrual, amenorréia primária e secundária, menorragia, polimenorragia
+    e menstruação retrógrada.
+
+  excludes: >
+    Exclui: funções sexuais (b640); funções de procriação (b660); sensações
+    associadas às funções genitais e reprodutivas (b670); sensação de dor
+    (b280).
+
+  groups:
+    b6500:
+      title: Regularidade do ciclo menstrual
+
+      description: >
+        Funções envolvidas na regularidade do ciclo menstrual.
+
+      includes: >
+        Inclui: menstruação muito freqüente ou pouco freqüente.
+
+    b6501:
+      title: Intervalo entre menstruações
+
+      description: >
+        Funções que regulam o período de tempo entre dois ciclos menstruais.
+
+    b6502:
+      title: Volume do sangramento menstrual
+
+      description: >
+        Funções que determinam a quantidade do fluxo menstrual.
+
+      includes: >
+        Inclui: pouco fluxo menstrual (hipomenorréia); grande fluxo menstrual
+        (menorragia, hipermenorréia).
+
+    b6508:
+      title: Funções da menstruação, outras especificadas
+
+    b6509:
+      title: Funções da menstruação, não especificadas
+
+b660:
+  title: Funções de procriação
+
+  description: >
+    Funções associadas à fertilidade, gravidez, parto e lactação
+
+  includes: >
+    Inclui: funções de fertilidade masculina e feminina, gravidez, parto e
+    lactação; deficiências como azoospermia, oligozoospermia, agalactia,
+    galactorréia, alactasia como em subfertilidade, esterilidade, abortos
+    espontâneos, gravidez ectópica, gestação que não chega ao término, aborto,
+    feto pequeno, hidrâmnios e parto prematuro, parto tardio.
+
+  excludes: >
+    Exclui: funções sexuais (b640); funções da menstruação (b650).
+
+  groups:
+    b6600:
+      title: Funções relacionadas à fertilidade
+
+      description: >
+        Funções relacionadas à capacidade de produzir gametas para procriação.
+
+      includes: >
+        Inclui: deficiências como subfertilidade e esterilidade.
+
+      excludes: >
+        Exclui: funções sexuais (b640).
+
+    b6601:
+      title: Funções relacionadas à gravidez
+
+      description: >
+        Funções relacionadas a engravidar e a manter a gestação.
+
+    b6602:
+      title: Funções relacionadas ao parto
+
+      description: >
+        Funções envolvidas durante o parto.
+
+    b6603:
+      title: Lactação
+
+      description: >
+        Funções envolvidas na produção e secreção do leite.
+
+    b6608:
+      title: Funções de procriação, outras especificadas
+
+    b6609:
+      title: Funções de procriação, não especificadas
+
+b670:
+  title: Sensações associadas às funções genitais e reprodutivas
+
+  description: >
+    Sensações que surgem da excitação sexual, durante a relação sexual e durante
+    o ciclo menstrual e as relacionadas às funções genitais e reprodutivas.
+
+  includes: >
+    Inclui: sensações de dispareunia, dismenorréia, sensações de calor durante a
+    menopausa e suores noturnos durante a menopausa.
+
+  excludes: >
+    Exclui: sensação de dor (b280); sensações associadas às funções urinárias
+    (b630); funções sexuais (b640); funções da menstruação (b650); funções de
+    procriação (b660).
+
+  groups:
+    b6700:
+      title: Desconforto associado à relação sexual
+
+      description: >
+        Sensações relacionada à excitação, preparação, intercurso, orgasmo e
+        resolução sexual.
+
+    b6701:
+      title: Desconforto associado ao ciclo menstrual
+
+      description: >
+        Sensações relacionadas com a menstruação, incluindo fase pré e
+        pós-menstruais.
+
+    b6702:
+      title: Desconforto associado à menopausa
+
+      description: >
+        Sensações relacionadas à cessação do ciclo menstrual.
+
+      includes: >
+        Inclui: ondas de calor e suores noturnos durante a menopausa
+
+    b6708:
+      title: Sensações associadas às funções genitais e reprodutivas, outras
+             especificadas
+
+    b6709:
+      title: Sensações associadas às funções genitais e reprodutivas, não
+             especificadas
+
+b679:
+  title: Funções genitais e reprodutivas, outras especificadas e não
+         especificadas
